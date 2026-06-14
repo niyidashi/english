@@ -9,37 +9,31 @@ var fcBrowseOnly = false;
 function buildFlashcardPool() {
   fcBrowseOnly = false;
   var progress = loadProgress();
-  var today = new Date().toISOString().split('T')[0];
   var daily = getDailyStats();
 
-  // Source: words from today's learning mode (known + unknown IDs)
-  var learnedIds = (daily.learningKnownIds || []).concat(daily.learningUnknownIds || []);
+  var knownIds = daily.learningKnownIds || [];
+  var unknownIds = daily.learningUnknownIds || [];
 
-  if (learnedIds.length === 0) {
+  if (knownIds.length === 0 && unknownIds.length === 0) {
     fcWords = [];
     fcPoolReady = true;
     fcIndex = 0;
     return;
   }
 
-  var learnedWords = WORDS.filter(function(w) { return learnedIds.indexOf(w.id) !== -1; });
+  var knownWords = getWordsByIds(knownIds);
+  var unknownWords = getWordsByIds(unknownIds);
 
-  var dueWords = [];
-  var newWords = [];
-  var queuedWords = [];
-
-  learnedWords.forEach(function(w) {
-    var d = getWordData(w.id);
-    if (d.status === 'known' || d.status === 'mastered') {
-      if (!d.nextReview || d.nextReview <= today) dueWords.push(w);
-      else queuedWords.push(w);
-    } else {
-      if (!d.nextReview || d.nextReview <= today) newWords.push(w);
-      else queuedWords.push(w);
-    }
+  // Build pool: known once + unknown twice, randomly interspersed
+  var pool = knownWords.slice();
+  unknownWords.forEach(function(w) {
+    var pos1 = Math.floor(Math.random() * (pool.length + 1));
+    pool.splice(pos1, 0, w);
+    var pos2 = Math.floor(Math.random() * (pool.length + 1));
+    pool.splice(pos2, 0, w);
   });
 
-  fcWords = dueWords.concat(newWords).concat(queuedWords);
+  fcWords = pool;
   fcPoolReady = true;
 
   fcIndex = progress.flashcardIndex || 0;
