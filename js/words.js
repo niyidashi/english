@@ -4056,7 +4056,7 @@ const WORDS = [
     "pos": "v.；n.",
     "unit": 3,
     "id": 451,
-    "zh": "抓，刮；划痕",
+    "zh": "抓；刮；擦伤",
     "example": "The cat will scratch the furniture if you do not provide it with a scratching post.",
     "exampleZh": "如果你不给猫提供抓板，它就会抓家具。"
   },
@@ -4173,7 +4173,7 @@ const WORDS = [
     "pos": "adj.；v.",
     "unit": 3,
     "id": 464,
-    "zh": "安全的；获得，系牢",
+    "zh": "安全的；保护",
     "example": "Please make sure to secure all the doors and windows before you leave the house.",
     "exampleZh": "离开房子之前，请确保关好所有的门窗。"
   },
@@ -4209,7 +4209,7 @@ const WORDS = [
     "pos": "n.；v.",
     "unit": 3,
     "id": 468,
-    "zh": "陷阱；使陷于",
+    "zh": "陷阱；诱捕",
     "example": "The hunter set a trap deep in the woods to catch wild animals for research purposes.",
     "exampleZh": "猎人在森林深处设下陷阱，为研究目的捕捉野生动物。"
   },
@@ -4218,7 +4218,7 @@ const WORDS = [
     "pos": "n.；v.",
     "unit": 3,
     "id": 469,
-    "zh": "带子；用带子捆扎",
+    "zh": "带子；用带捆扎",
     "example": "Make sure to strap your luggage securely to the roof rack before starting the trip.",
     "exampleZh": "出发前一定要把行李牢固地绑在车顶行李架上。"
   },
@@ -4308,7 +4308,7 @@ const WORDS = [
     "pos": "n.；v.",
     "unit": 3,
     "id": 479,
-    "zh": "高兴；使快乐",
+    "zh": "高兴；使高兴",
     "example": "To the children's great delight, the circus came to their small town for the first time.",
     "exampleZh": "让孩子们大为高兴的是，马戏团第一次来到他们的小镇。"
   },
@@ -4326,7 +4326,7 @@ const WORDS = [
     "pos": "n.；v.",
     "unit": 3,
     "id": 481,
-    "zh": "枯萎病；损害",
+    "zh": "枯萎病；破坏",
     "example": "The potato blight destroyed the entire crop, leading to widespread famine in the region.",
     "exampleZh": "马铃薯枯萎病摧毁了全部庄稼，导致该地区出现大范围饥荒。"
   },
@@ -4335,7 +4335,7 @@ const WORDS = [
     "pos": "v.；adj.",
     "unit": 3,
     "id": 482,
-    "zh": "下来，降落；燃烧着的",
+    "zh": "降落；点燃的",
     "example": "The passengers were asked to alight from the bus as it had developed a mechanical fault.",
     "exampleZh": "乘客被要求下车，因为巴士出现了机械故障。"
   },
@@ -4353,7 +4353,7 @@ const WORDS = [
     "pos": "v.；n.",
     "unit": 3,
     "id": 484,
-    "zh": "突出，强调；亮点",
+    "zh": "强调；亮点",
     "example": "The report aims to highlight the most critical challenges facing the education system today.",
     "exampleZh": "该报告旨在突出当今教育系统面临的最关键的挑战。"
   },
@@ -4389,7 +4389,7 @@ const WORDS = [
     "pos": "v.；n.",
     "unit": 3,
     "id": 488,
-    "zh": "撤退；隐居处",
+    "zh": "撤退；退却",
     "example": "The soldiers were ordered to retreat after realizing the enemy forces were far too strong.",
     "exampleZh": "意识到敌军兵力过于强大后，士兵们奉命撤退。"
   },
@@ -6757,8 +6757,8 @@ const WORDS = [
     "unit": 5,
     "id": 751,
     "zh": "神秘；谜",
-    "example": "",
-    "exampleZh": ""
+    "example": "The disappearance of the ancient civilization remains an unsolved mystery to this day.",
+    "exampleZh": "这个古代文明的消失至今仍是一个未解之谜。"
   },
   {
     "en": "manner",
@@ -6766,8 +6766,8 @@ const WORDS = [
     "unit": 5,
     "id": 752,
     "zh": "方式；举止；礼貌",
-    "example": "",
-    "exampleZh": ""
+    "example": "She always speaks in a calm and respectful manner even during heated arguments.",
+    "exampleZh": "即使在激烈争论中，她也总是以冷静和尊重的方式说话。"
   },
   {
     "en": "border",
@@ -6775,8 +6775,8 @@ const WORDS = [
     "unit": 5,
     "id": 753,
     "zh": "边界；边境",
-    "example": "",
-    "exampleZh": ""
+    "example": "Guards patrol the border twenty-four hours a day to prevent illegal crossings.",
+    "exampleZh": "警卫每天二十四小时巡逻边境以防止非法越境。"
   },
   {
     "en": "margin",
@@ -6784,8 +6784,8 @@ const WORDS = [
     "unit": 5,
     "id": 754,
     "zh": "边缘；利润空间；余地",
-    "example": "",
-    "exampleZh": ""
+    "example": "The company's profit margin increased significantly after implementing cost-cutting measures.",
+    "exampleZh": "在实施削减成本措施后，公司的利润率显著提高。"
   },
   {
     "en": "recreation",
@@ -6793,8 +6793,8 @@ const WORDS = [
     "unit": 5,
     "id": 755,
     "zh": "娱乐；消遣",
-    "example": "",
-    "exampleZh": ""
+    "example": "The park offers a variety of recreation facilities including tennis courts and swimming pools.",
+    "exampleZh": "公园提供各种娱乐设施，包括网球场和游泳池。"
   },
   {
     "en": "leisure",
@@ -6802,8 +6802,8 @@ const WORDS = [
     "unit": 5,
     "id": 756,
     "zh": "休闲；空闲",
-    "example": "",
-    "exampleZh": ""
+    "example": "Reading novels is one of her favorite leisure activities on a quiet Sunday afternoon.",
+    "exampleZh": "读小说是她在安静的周日下午最喜欢的休闲活动之一。"
   },
   {
     "en": "retire",
@@ -6811,8 +6811,8 @@ const WORDS = [
     "unit": 5,
     "id": 757,
     "zh": "退休；撤退",
-    "example": "",
-    "exampleZh": ""
+    "example": "After working for forty years, he plans to retire and travel around the world.",
+    "exampleZh": "工作四十年后，他计划退休并环游世界。"
   },
   {
     "en": "entire",
@@ -6820,8 +6820,8 @@ const WORDS = [
     "unit": 5,
     "id": 758,
     "zh": "整个的；全部的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The entire team celebrated together after winning the national championship title.",
+    "exampleZh": "赢得全国冠军后，整个团队一起庆祝。"
   },
   {
     "en": "frontier",
@@ -6829,8 +6829,8 @@ const WORDS = [
     "unit": 5,
     "id": 759,
     "zh": "边境；前沿",
-    "example": "",
-    "exampleZh": ""
+    "example": "Space exploration represents the final frontier of human scientific discovery and ambition.",
+    "exampleZh": "太空探索代表了人类科学发现和雄心的最后前沿。"
   },
   {
     "en": "random",
@@ -6838,8 +6838,8 @@ const WORDS = [
     "unit": 5,
     "id": 760,
     "zh": "随机的；任意的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The researchers selected a random sample of one thousand participants for the study.",
+    "exampleZh": "研究人员随机抽取了一千名参与者作为研究样本。"
   },
   {
     "en": "boundary",
@@ -6847,8 +6847,8 @@ const WORDS = [
     "unit": 5,
     "id": 761,
     "zh": "边界；界限",
-    "example": "",
-    "exampleZh": ""
+    "example": "The river serves as a natural boundary between the two neighboring countries.",
+    "exampleZh": "这条河流是两国之间的天然边界。"
   },
   {
     "en": "fare",
@@ -6856,8 +6856,8 @@ const WORDS = [
     "unit": 5,
     "id": 762,
     "zh": "票价；车费",
-    "example": "",
-    "exampleZh": ""
+    "example": "The bus fare in the city has increased by fifteen percent over the past two years.",
+    "exampleZh": "过去两年里，这座城市的公交车票价上涨了百分之十五。"
   },
   {
     "en": "farewell",
@@ -6865,8 +6865,8 @@ const WORDS = [
     "unit": 5,
     "id": 763,
     "zh": "告别；欢送会",
-    "example": "",
-    "exampleZh": ""
+    "example": "The colleagues organized a farewell party for the retiring manager on Friday evening.",
+    "exampleZh": "同事们周五晚上为退休的经理组织了一场欢送会。"
   },
   {
     "en": "welfare",
@@ -6874,8 +6874,8 @@ const WORDS = [
     "unit": 5,
     "id": 764,
     "zh": "福利；幸福",
-    "example": "",
-    "exampleZh": ""
+    "example": "The government has increased spending on social welfare programs for the elderly.",
+    "exampleZh": "政府增加了对老年人社会福利项目的支出。"
   },
   {
     "en": "obscure",
@@ -6883,8 +6883,8 @@ const WORDS = [
     "unit": 5,
     "id": 765,
     "zh": "模糊的；晦涩的",
-    "example": "",
-    "exampleZh": ""
+    "example": "He enjoys collecting obscure folk songs that most people have never heard of.",
+    "exampleZh": "他喜欢收集大多数人从未听说过的鲜为人知的民歌。"
   },
   {
     "en": "vague",
@@ -6892,8 +6892,8 @@ const WORDS = [
     "unit": 5,
     "id": 766,
     "zh": "模糊的；含糊的",
-    "example": "",
-    "exampleZh": ""
+    "example": "Her directions were too vague and we ended up getting lost in the countryside.",
+    "exampleZh": "她的指引太模糊了，我们最终在乡村迷了路。"
   },
   {
     "en": "blur",
@@ -6901,8 +6901,8 @@ const WORDS = [
     "unit": 5,
     "id": 767,
     "zh": "使模糊；变模糊",
-    "example": "",
-    "exampleZh": ""
+    "example": "Tears blurred her vision as she watched him walk away from the train platform.",
+    "exampleZh": "当她看着他从火车站台走开时，泪水模糊了她的视线。"
   },
   {
     "en": "readily",
@@ -6910,8 +6910,8 @@ const WORDS = [
     "unit": 5,
     "id": 768,
     "zh": "容易地；乐意地",
-    "example": "",
-    "exampleZh": ""
+    "example": "He readily agreed to help his neighbor carry the heavy furniture up the stairs.",
+    "exampleZh": "他乐意地同意帮邻居把沉重的家具搬上楼。"
   },
   {
     "en": "manage",
@@ -6919,8 +6919,8 @@ const WORDS = [
     "unit": 5,
     "id": 769,
     "zh": "管理；设法做到",
-    "example": "",
-    "exampleZh": ""
+    "example": "She manages a team of twenty engineers across three different time zones.",
+    "exampleZh": "她管理着一个横跨三个不同时区的二十名工程师团队。"
   },
   {
     "en": "federal",
@@ -6928,8 +6928,8 @@ const WORDS = [
     "unit": 5,
     "id": 770,
     "zh": "联邦的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The federal government has announced new regulations to protect consumer data privacy.",
+    "exampleZh": "联邦政府宣布了保护消费者数据隐私的新法规。"
   },
   {
     "en": "function",
@@ -6937,8 +6937,8 @@ const WORDS = [
     "unit": 5,
     "id": 771,
     "zh": "功能；函数；典礼",
-    "example": "",
-    "exampleZh": ""
+    "example": "The main function of the liver is to filter toxins from the bloodstream.",
+    "exampleZh": "肝脏的主要功能是过滤血液中的毒素。"
   },
   {
     "en": "fashion",
@@ -6946,8 +6946,8 @@ const WORDS = [
     "unit": 6,
     "id": 772,
     "zh": "时尚；流行款式",
-    "example": "",
-    "exampleZh": ""
+    "example": "The fashion industry has a significant impact on global environmental sustainability.",
+    "exampleZh": "时尚产业对全球环境可持续性有重大影响。"
   },
   {
     "en": "style",
@@ -6955,8 +6955,8 @@ const WORDS = [
     "unit": 6,
     "id": 773,
     "zh": "风格；款式",
-    "example": "",
-    "exampleZh": ""
+    "example": "Each architect has a unique style that defines their approach to building design.",
+    "exampleZh": "每位建筑师都有独特的风格，这定义了他们的建筑设计方法。"
   },
   {
     "en": "union",
@@ -6964,8 +6964,8 @@ const WORDS = [
     "unit": 6,
     "id": 774,
     "zh": "联盟；工会；联合",
-    "example": "",
-    "exampleZh": ""
+    "example": "The labor union negotiated better working conditions and higher wages for its members.",
+    "exampleZh": "工会为其成员谈判了更好的工作条件和更高的工资。"
   },
   {
     "en": "unity",
@@ -6973,8 +6973,8 @@ const WORDS = [
     "unit": 6,
     "id": 775,
     "zh": "团结；统一",
-    "example": "",
-    "exampleZh": ""
+    "example": "The speech called for national unity during a time of great political division and uncertainty.",
+    "exampleZh": "这篇演讲呼吁在政治分裂和不确定性的时期实现国家团结。"
   },
   {
     "en": "attack",
@@ -6982,8 +6982,8 @@ const WORDS = [
     "unit": 6,
     "id": 776,
     "zh": "攻击；袭击",
-    "example": "",
-    "exampleZh": ""
+    "example": "The immune system attacks harmful bacteria and viruses that enter the human body.",
+    "exampleZh": "免疫系统攻击进入人体的有害细菌和病毒。"
   },
   {
     "en": "rage",
@@ -6991,8 +6991,8 @@ const WORDS = [
     "unit": 6,
     "id": 777,
     "zh": "愤怒；狂怒",
-    "example": "",
-    "exampleZh": ""
+    "example": "His face turned red with rage when he discovered the damage to his car.",
+    "exampleZh": "当他发现他的车被损坏时，脸气得通红。"
   },
   {
     "en": "genre",
@@ -7000,8 +7000,8 @@ const WORDS = [
     "unit": 6,
     "id": 778,
     "zh": "体裁；类型",
-    "example": "",
-    "exampleZh": ""
+    "example": "Science fiction is a popular genre that explores the impact of technology on society.",
+    "exampleZh": "科幻是一种探索技术对社会影响的流行文学体裁。"
   },
   {
     "en": "unify",
@@ -7009,8 +7009,8 @@ const WORDS = [
     "unit": 6,
     "id": 779,
     "zh": "统一；使一致",
-    "example": "",
-    "exampleZh": ""
+    "example": "The new leader's vision was to unify the divided nation under a common purpose.",
+    "exampleZh": "新领导人的愿景是在共同目标下统一分裂的国家。"
   },
   {
     "en": "indignant",
@@ -7018,8 +7018,8 @@ const WORDS = [
     "unit": 6,
     "id": 780,
     "zh": "愤怒的；愤慨的",
-    "example": "",
-    "exampleZh": ""
+    "example": "She was indignant at the unfair treatment she received from the company's management.",
+    "exampleZh": "她对公司管理层的不公平待遇感到愤慨。"
   },
   {
     "en": "hospitable",
@@ -7027,8 +7027,8 @@ const WORDS = [
     "unit": 6,
     "id": 781,
     "zh": "好客的；热情友好的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The locals were incredibly hospitable and invited us to share their traditional meal.",
+    "exampleZh": "当地人非常好客，邀请我们分享他们的传统美食。"
   },
   {
     "en": "frame",
@@ -7036,8 +7036,8 @@ const WORDS = [
     "unit": 6,
     "id": 782,
     "zh": "框架；结构",
-    "example": "",
-    "exampleZh": ""
+    "example": "She placed the family photograph in a beautiful wooden frame on her desk.",
+    "exampleZh": "她把家庭照片放在桌子上一个漂亮的木框里。"
   },
   {
     "en": "sparkle",
@@ -7045,8 +7045,8 @@ const WORDS = [
     "unit": 6,
     "id": 783,
     "zh": "闪烁；闪耀",
-    "example": "",
-    "exampleZh": ""
+    "example": "The stars sparkled brilliantly in the clear night sky above the quiet mountain village.",
+    "exampleZh": "星星在宁静山村上空清澈的夜空中灿烂地闪烁。"
   },
   {
     "en": "junction",
@@ -7054,8 +7054,8 @@ const WORDS = [
     "unit": 6,
     "id": 784,
     "zh": "连接点；交叉口",
-    "example": "",
-    "exampleZh": ""
+    "example": "Turn left at the junction of Main Street and Oak Avenue to reach the library.",
+    "exampleZh": "在主街和橡树大道的交叉口左转即可到达图书馆。"
   },
   {
     "en": "fragment",
@@ -7063,8 +7063,8 @@ const WORDS = [
     "unit": 6,
     "id": 785,
     "zh": "碎片；片段",
-    "example": "",
-    "exampleZh": ""
+    "example": "Archaeologists carefully pieced together fragments of the ancient pottery from the dig site.",
+    "exampleZh": "考古学家小心翼翼地拼凑起来自挖掘现场的古代陶器碎片。"
   },
   {
     "en": "fragile",
@@ -7072,8 +7072,8 @@ const WORDS = [
     "unit": 6,
     "id": 786,
     "zh": "易碎的；脆弱的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The package contained fragile glass items and needed to be handled with extreme care.",
+    "exampleZh": "包裹里装有易碎的玻璃物品，需要极其小心地处理。"
   },
   {
     "en": "vulnerable",
@@ -7081,8 +7081,8 @@ const WORDS = [
     "unit": 6,
     "id": 787,
     "zh": "脆弱的；易受伤的",
-    "example": "",
-    "exampleZh": ""
+    "example": "Young children are particularly vulnerable to flu during the cold winter months.",
+    "exampleZh": "年幼的儿童在寒冷的冬季特别容易感染流感。"
   },
   {
     "en": "feeble",
@@ -7090,8 +7090,8 @@ const WORDS = [
     "unit": 6,
     "id": 788,
     "zh": "虚弱的；无力的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The old man spoke in a feeble voice that was barely audible in the noisy room.",
+    "exampleZh": "老人用微弱的声音说话，在嘈杂的房间里几乎听不见。"
   },
   {
     "en": "execute",
@@ -7099,8 +7099,8 @@ const WORDS = [
     "unit": 6,
     "id": 789,
     "zh": "执行；处死",
-    "example": "",
-    "exampleZh": ""
+    "example": "The project manager was chosen to execute the company's ambitious expansion plan.",
+    "exampleZh": "项目经理被选中执行公司雄心勃勃的扩张计划。"
   },
   {
     "en": "exquisite",
@@ -7108,8 +7108,8 @@ const WORDS = [
     "unit": 6,
     "id": 790,
     "zh": "精美的；精致的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The museum displayed an exquisite collection of jade carvings from the Ming Dynasty.",
+    "exampleZh": "博物馆展出了一系列精美的明代玉雕作品。"
   },
   {
     "en": "manipulate",
@@ -7117,8 +7117,8 @@ const WORDS = [
     "unit": 6,
     "id": 791,
     "zh": "操纵；操控",
-    "example": "",
-    "exampleZh": ""
+    "example": "A skilled artist can manipulate clay into beautiful and intricate sculptures.",
+    "exampleZh": "熟练的艺术家可以把粘土塑造成美丽而精致的雕塑。"
   },
   {
     "en": "handy",
@@ -7126,8 +7126,8 @@ const WORDS = [
     "unit": 6,
     "id": 792,
     "zh": "方便的；手边的",
-    "example": "",
-    "exampleZh": ""
+    "example": "Having a screwdriver handy saved us a lot of time during the furniture assembly.",
+    "exampleZh": "手边有一把螺丝刀在家具组装时为我们节省了很多时间。"
   },
   {
     "en": "honor",
@@ -7135,8 +7135,8 @@ const WORDS = [
     "unit": 6,
     "id": 793,
     "zh": "荣誉；尊敬",
-    "example": "",
-    "exampleZh": ""
+    "example": "It is a great honor to represent your country at the international Olympic Games.",
+    "exampleZh": "在国际奥运会上代表你的国家是一种极大的荣誉。"
   },
   {
     "en": "fantasy",
@@ -7144,8 +7144,8 @@ const WORDS = [
     "unit": 6,
     "id": 794,
     "zh": "幻想；想象",
-    "example": "",
-    "exampleZh": ""
+    "example": "The novel creates a rich fantasy world filled with magical creatures and ancient legends.",
+    "exampleZh": "小说创造了一个充满魔法生物和古老传说的丰富幻想世界。"
   },
   {
     "en": "illusion",
@@ -7153,8 +7153,8 @@ const WORDS = [
     "unit": 6,
     "id": 795,
     "zh": "幻觉；幻想",
-    "example": "",
-    "exampleZh": ""
+    "example": "The mirror creates the illusion of a much larger space in the small living room.",
+    "exampleZh": "镜子在小小的客厅里创造了更大空间的错觉。"
   },
   {
     "en": "illuminate",
@@ -7162,8 +7162,8 @@ const WORDS = [
     "unit": 6,
     "id": 796,
     "zh": "照亮；阐明",
-    "example": "",
-    "exampleZh": ""
+    "example": "Street lamps illuminate the path along the river for pedestrians walking at night.",
+    "exampleZh": "路灯照亮了河边的小路，方便夜间步行的行人。"
   },
   {
     "en": "fancy",
@@ -7171,8 +7171,8 @@ const WORDS = [
     "unit": 6,
     "id": 797,
     "zh": "想象；爱好",
-    "example": "",
-    "exampleZh": ""
+    "example": "She took a fancy to the antique vase and decided to buy it immediately.",
+    "exampleZh": "她喜欢上了那个古董花瓶，决定立刻买下来。"
   },
   {
     "en": "practically",
@@ -7180,8 +7180,8 @@ const WORDS = [
     "unit": 6,
     "id": 798,
     "zh": "几乎；实际上",
-    "example": "",
-    "exampleZh": ""
+    "example": "The new policy has practically eliminated the problem of illegal parking in the area.",
+    "exampleZh": "新政策几乎消除了该地区非法停车的问题。"
   },
   {
     "en": "virtual",
@@ -7189,8 +7189,8 @@ const WORDS = [
     "unit": 6,
     "id": 799,
     "zh": "虚拟的；实质上的",
-    "example": "",
-    "exampleZh": ""
+    "example": "Virtual reality technology is transforming the way we learn and experience new things.",
+    "exampleZh": "虚拟现实技术正在改变我们学习和体验新事物的方式。"
   },
   {
     "en": "ascertain",
@@ -7198,8 +7198,8 @@ const WORDS = [
     "unit": 6,
     "id": 800,
     "zh": "确定；查明",
-    "example": "",
-    "exampleZh": ""
+    "example": "The police are trying to ascertain the exact sequence of events on the night of the crime.",
+    "exampleZh": "警方正在试图查明犯罪当晚事件的确切顺序。"
   },
   {
     "en": "certify",
@@ -7207,8 +7207,8 @@ const WORDS = [
     "unit": 6,
     "id": 801,
     "zh": "证明；认证",
-    "example": "",
-    "exampleZh": ""
+    "example": "The laboratory must certify that the product meets all relevant safety standards.",
+    "exampleZh": "实验室必须认证该产品符合所有相关安全标准。"
   },
   {
     "en": "diplomat",
@@ -7216,8 +7216,8 @@ const WORDS = [
     "unit": 6,
     "id": 802,
     "zh": "外交官",
-    "example": "",
-    "exampleZh": ""
+    "example": "A skilled diplomat can resolve conflicts between nations through patient dialogue and compromise.",
+    "exampleZh": "熟练的外交官可以通过耐心的对话和妥协来解决国家之间的冲突。"
   },
   {
     "en": "complex",
@@ -7225,8 +7225,8 @@ const WORDS = [
     "unit": 6,
     "id": 803,
     "zh": "复杂的；综合的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The human brain is the most complex organ known to science and medicine.",
+    "exampleZh": "人类大脑是科学和医学已知的最复杂的器官。"
   },
   {
     "en": "dubious",
@@ -7234,8 +7234,8 @@ const WORDS = [
     "unit": 6,
     "id": 804,
     "zh": "可疑的；不确定的",
-    "example": "",
-    "exampleZh": ""
+    "example": "She was dubious about the investment opportunity because it sounded too good to be true.",
+    "exampleZh": "她对投资机会持怀疑态度，因为它听起来好得不像是真的。"
   },
   {
     "en": "literal",
@@ -7243,8 +7243,8 @@ const WORDS = [
     "unit": 6,
     "id": 805,
     "zh": "字面的；逐字的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The literal meaning of the phrase is different from what it actually implies in context.",
+    "exampleZh": "这个短语的字面意思与它在上下文中的实际含义不同。"
   },
   {
     "en": "contemporary",
@@ -7252,8 +7252,8 @@ const WORDS = [
     "unit": 6,
     "id": 806,
     "zh": "当代的；同时代的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The gallery showcases contemporary art from young artists around the world.",
+    "exampleZh": "画廊展示了来自世界各地年轻艺术家的当代艺术作品。"
   },
   {
     "en": "worthy",
@@ -7261,8 +7261,8 @@ const WORDS = [
     "unit": 6,
     "id": 807,
     "zh": "值得的；有价值的",
-    "example": "",
-    "exampleZh": ""
+    "example": "This book is worthy of your time and attention if you are interested in ancient history.",
+    "exampleZh": "如果你对古代历史感兴趣，这本书值得你花时间和精力。"
   },
   {
     "en": "contest",
@@ -7270,8 +7270,8 @@ const WORDS = [
     "unit": 6,
     "id": 808,
     "zh": "比赛；竞赛",
-    "example": "",
-    "exampleZh": ""
+    "example": "She won first prize in the national poetry contest for her moving composition.",
+    "exampleZh": "她以感人至深的作品在全国诗歌比赛中获得了一等奖。"
   },
   {
     "en": "detest",
@@ -7279,8 +7279,8 @@ const WORDS = [
     "unit": 6,
     "id": 809,
     "zh": "厌恶；憎恨",
-    "example": "",
-    "exampleZh": ""
+    "example": "I detest dishonesty in any form and value transparency above all other qualities.",
+    "exampleZh": "我痛恨任何形式的不诚实，重视透明度胜过所有其他品质。"
   },
   {
     "en": "reform",
@@ -7288,8 +7288,8 @@ const WORDS = [
     "unit": 6,
     "id": 810,
     "zh": "改革；改良",
-    "example": "",
-    "exampleZh": ""
+    "example": "The education reform aims to provide equal learning opportunities for all students.",
+    "exampleZh": "教育改革旨在为所有学生提供平等的学习机会。"
   },
   {
     "en": "uniform",
@@ -7297,8 +7297,8 @@ const WORDS = [
     "unit": 6,
     "id": 811,
     "zh": "制服",
-    "example": "",
-    "exampleZh": ""
+    "example": "All students are required to wear the school uniform during class hours on weekdays.",
+    "exampleZh": "所有学生在上课日上课时间必须穿校服。"
   },
   {
     "en": "formulate",
@@ -7306,8 +7306,8 @@ const WORDS = [
     "unit": 6,
     "id": 812,
     "zh": "制定；规划；确切表达",
-    "example": "",
-    "exampleZh": ""
+    "example": "The committee spent several months formulating a comprehensive strategy for urban development.",
+    "exampleZh": "委员会花了几个月时间制定全面的城市发展战略。"
   },
   {
     "en": "confirm",
@@ -7315,8 +7315,8 @@ const WORDS = [
     "unit": 6,
     "id": 813,
     "zh": "确认；证实",
-    "example": "",
-    "exampleZh": ""
+    "example": "Please call the hotel to confirm your reservation at least two days before arrival.",
+    "exampleZh": "请在抵达前至少两天致电酒店确认您的预订。"
   },
   {
     "en": "architect",
@@ -7324,8 +7324,8 @@ const WORDS = [
     "unit": 6,
     "id": 814,
     "zh": "建筑师；设计师",
-    "example": "",
-    "exampleZh": ""
+    "example": "The architect designed a stunning building that blends modern and traditional elements perfectly.",
+    "exampleZh": "建筑师设计了一座完美融合现代与传统元素的了不起的建筑。"
   },
   {
     "en": "architecture",
@@ -7333,8 +7333,8 @@ const WORDS = [
     "unit": 6,
     "id": 815,
     "zh": "建筑学；建筑风格",
-    "example": "",
-    "exampleZh": ""
+    "example": "Gothic architecture is characterized by pointed arches, ribbed vaults, and flying buttresses.",
+    "exampleZh": "哥特式建筑的特点是尖拱、肋形拱顶和飞扶壁。"
   },
   {
     "en": "ingredient",
@@ -7342,8 +7342,8 @@ const WORDS = [
     "unit": 6,
     "id": 816,
     "zh": "成分；原料",
-    "example": "",
-    "exampleZh": ""
+    "example": "The key ingredient in this recipe is fresh basil picked straight from the garden.",
+    "exampleZh": "这个食谱的关键原料是从花园里直接采摘的新鲜罗勒。"
   },
   {
     "en": "fiction",
@@ -7351,8 +7351,8 @@ const WORDS = [
     "unit": 6,
     "id": 817,
     "zh": "小说；虚构",
-    "example": "",
-    "exampleZh": ""
+    "example": "She enjoys reading historical fiction that brings past eras vividly to life.",
+    "exampleZh": "她喜欢读将过去时代生动呈现的历史小说。"
   },
   {
     "en": "tangible",
@@ -7360,8 +7360,8 @@ const WORDS = [
     "unit": 6,
     "id": 818,
     "zh": "有形的；可触摸的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The company achieved tangible results from the new marketing strategy within just three months.",
+    "exampleZh": "公司在短短三个月内就从新的营销策略中取得了切实成果。"
   },
   {
     "en": "relate",
@@ -7369,8 +7369,8 @@ const WORDS = [
     "unit": 6,
     "id": 819,
     "zh": "联系；叙述",
-    "example": "",
-    "exampleZh": ""
+    "example": "It is difficult to relate the two events because they happened so far apart in time.",
+    "exampleZh": "很难将这两件事联系起来，因为它们发生的时间相隔太远。"
   },
   {
     "en": "correlate",
@@ -7378,8 +7378,8 @@ const WORDS = [
     "unit": 6,
     "id": 820,
     "zh": "关联；相互联系",
-    "example": "",
-    "exampleZh": ""
+    "example": "Studies show that regular exercise correlates with improved mental health and cognitive function.",
+    "exampleZh": "研究表明，经常锻炼与改善心理健康和认知功能相关。"
   },
   {
     "en": "radiate",
@@ -7387,8 +7387,8 @@ const WORDS = [
     "unit": 6,
     "id": 821,
     "zh": "辐射；散发",
-    "example": "",
-    "exampleZh": ""
+    "example": "Her face radiates joy and confidence whenever she walks onto the stage for a performance.",
+    "exampleZh": "每当她走上舞台表演时，她的脸上都流露出喜悦和自信。"
   },
   {
     "en": "fraction",
@@ -7396,8 +7396,8 @@ const WORDS = [
     "unit": 6,
     "id": 822,
     "zh": "小部分；分数",
-    "example": "",
-    "exampleZh": ""
+    "example": "Only a small fraction of the population can afford to buy a luxury car in this economy.",
+    "exampleZh": "在这种经济形势下，只有一小部分人能买得起豪车。"
   },
   {
     "en": "perplex",
@@ -7405,8 +7405,8 @@ const WORDS = [
     "unit": 6,
     "id": 823,
     "zh": "使困惑；使复杂化",
-    "example": "",
-    "exampleZh": ""
+    "example": "The sudden disappearance of the plane continues to perplex aviation experts worldwide.",
+    "exampleZh": "飞机突然失踪至今仍让全世界的航空专家困惑不解。"
   },
   {
     "en": "literary",
@@ -7414,8 +7414,8 @@ const WORDS = [
     "unit": 6,
     "id": 824,
     "zh": "文学的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The professor has published several literary essays on modern poetry and its cultural impact.",
+    "exampleZh": "教授发表了几篇关于现代诗歌及其文化影响的文学论文。"
   },
   {
     "en": "volunteer",
@@ -7423,8 +7423,8 @@ const WORDS = [
     "unit": 6,
     "id": 825,
     "zh": "志愿者；自愿者",
-    "example": "",
-    "exampleZh": ""
+    "example": "Many volunteers came to help distribute food and water to the flood victims.",
+    "exampleZh": "许多志愿者前来帮助向洪水灾民分发食物和水。"
   },
   {
     "en": "treaty",
@@ -7432,8 +7432,8 @@ const WORDS = [
     "unit": 6,
     "id": 826,
     "zh": "条约；协定",
-    "example": "",
-    "exampleZh": ""
+    "example": "The two nations signed a peace treaty ending decades of conflict and hostility.",
+    "exampleZh": "两国签署了和平条约，结束了数十年的冲突和敌对状态。"
   },
   {
     "en": "defend",
@@ -7441,8 +7441,8 @@ const WORDS = [
     "unit": 6,
     "id": 827,
     "zh": "保卫；辩护",
-    "example": "",
-    "exampleZh": ""
+    "example": "Every citizen has the right to defend themselves and their family from harm at home.",
+    "exampleZh": "每个公民都有权在家中保护自己和家人免受伤害。"
   },
   {
     "en": "dignity",
@@ -7450,8 +7450,8 @@ const WORDS = [
     "unit": 6,
     "id": 828,
     "zh": "尊严；高贵",
-    "example": "",
-    "exampleZh": ""
+    "example": "All human beings deserve to be treated with respect and dignity regardless of their background.",
+    "exampleZh": "所有人都应该受到尊重和尊严的对待，无论其背景如何。"
   },
   {
     "en": "horizon",
@@ -7459,8 +7459,8 @@ const WORDS = [
     "unit": 6,
     "id": 829,
     "zh": "地平线；视野",
-    "example": "",
-    "exampleZh": ""
+    "example": "Traveling to different countries broadens your horizon and enriches your perspective on life.",
+    "exampleZh": "到不同国家旅行能拓宽你的视野，丰富你的人生观。"
   },
   {
     "en": "flash",
@@ -7468,8 +7468,8 @@ const WORDS = [
     "unit": 6,
     "id": 830,
     "zh": "闪光；闪现",
-    "example": "",
-    "exampleZh": ""
+    "example": "Lightning flashed across the dark sky just seconds before the thunder roared.",
+    "exampleZh": "就在雷声轰鸣前几秒，闪电划过黑暗的天空。"
   },
   {
     "en": "friction",
@@ -7477,8 +7477,8 @@ const WORDS = [
     "unit": 6,
     "id": 831,
     "zh": "摩擦；冲突",
-    "example": "",
-    "exampleZh": ""
+    "example": "Friction between the two departments has affected the overall productivity of the company.",
+    "exampleZh": "两个部门之间的摩擦影响了公司的整体生产力。"
   },
   {
     "en": "regular",
@@ -7486,8 +7486,8 @@ const WORDS = [
     "unit": 6,
     "id": 832,
     "zh": "定期的；规则的；常规的",
-    "example": "",
-    "exampleZh": ""
+    "example": "Regular medical checkups can help detect potential health problems at an early stage.",
+    "exampleZh": "定期体检可以帮助在早期发现潜在的健康问题。"
   },
   {
     "en": "conform",
@@ -7495,8 +7495,8 @@ const WORDS = [
     "unit": 6,
     "id": 833,
     "zh": "符合；遵守；一致",
-    "example": "",
-    "exampleZh": ""
+    "example": "All new products must conform to the strict safety standards set by the industry regulator.",
+    "exampleZh": "所有新产品必须符合行业监管机构制定的严格安全标准。"
   },
   {
     "en": "offend",
@@ -7504,8 +7504,8 @@ const WORDS = [
     "unit": 6,
     "id": 834,
     "zh": "冒犯；触怒",
-    "example": "",
-    "exampleZh": ""
+    "example": "He did not intend to offend anyone with his blunt remarks about the proposal.",
+    "exampleZh": "他对提案的直言不讳并非有意冒犯任何人。"
   },
   {
     "en": "outrage",
@@ -7513,8 +7513,8 @@ const WORDS = [
     "unit": 6,
     "id": 835,
     "zh": "愤怒；暴行",
-    "example": "",
-    "exampleZh": ""
+    "example": "The public expressed outrage over the government's decision to cut healthcare funding.",
+    "exampleZh": "公众对政府削减医疗资金的决定表示愤怒。"
   },
   {
     "en": "orient",
@@ -7522,8 +7522,8 @@ const WORDS = [
     "unit": 6,
     "id": 836,
     "zh": "使适应；定向",
-    "example": "",
-    "exampleZh": ""
+    "example": "The training program helps new employees orient themselves to the company's work culture.",
+    "exampleZh": "培训项目帮助新员工适应公司的工作文化。"
   },
   {
     "en": "flame",
@@ -7531,8 +7531,8 @@ const WORDS = [
     "unit": 6,
     "id": 837,
     "zh": "火焰；激情",
-    "example": "",
-    "exampleZh": ""
+    "example": "The campfire flame flickered in the gentle breeze on that peaceful summer evening.",
+    "exampleZh": "在那个宁静的夏夜，篝火的火焰在微风中闪烁。"
   },
   {
     "en": "flare",
@@ -7540,8 +7540,8 @@ const WORDS = [
     "unit": 6,
     "id": 838,
     "zh": "突然燃烧；爆发",
-    "example": "",
-    "exampleZh": ""
+    "example": "Tempers flared during the heated discussion about the controversial new policy.",
+    "exampleZh": "在关于有争议的新政策的激烈讨论中，怒火突然爆发。"
   },
   {
     "en": "novel",
@@ -7549,8 +7549,8 @@ const WORDS = [
     "unit": 6,
     "id": 839,
     "zh": "小说",
-    "example": "",
-    "exampleZh": ""
+    "example": "Her latest novel spent over thirty weeks on the national bestseller list.",
+    "exampleZh": "她的最新小说在全国畅销书排行榜上停留了三十多周。"
   },
   {
     "en": "bubble",
@@ -7558,8 +7558,8 @@ const WORDS = [
     "unit": 6,
     "id": 840,
     "zh": "气泡；泡沫",
-    "example": "",
-    "exampleZh": ""
+    "example": "Children love to blow soap bubbles and watch them float gently through the air.",
+    "exampleZh": "孩子们喜欢吹肥皂泡，看着它们在空气中轻轻飘浮。"
   },
   {
     "en": "tremble",
@@ -7567,8 +7567,8 @@ const WORDS = [
     "unit": 6,
     "id": 841,
     "zh": "颤抖；战栗",
-    "example": "",
-    "exampleZh": ""
+    "example": "Her hands began to tremble with nervousness as she opened the examination results.",
+    "exampleZh": "当她打开考试结果时，她的手因紧张开始颤抖。"
   },
   {
     "en": "amiable",
@@ -7576,8 +7576,8 @@ const WORDS = [
     "unit": 6,
     "id": 842,
     "zh": "和蔼可亲的；友好的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The amiable old shopkeeper greeted every customer with a warm and genuine smile.",
+    "exampleZh": "这位和蔼可亲的老店主用温暖真诚的微笑迎接每一位顾客。"
   },
   {
     "en": "theory",
@@ -7585,8 +7585,8 @@ const WORDS = [
     "unit": 6,
     "id": 843,
     "zh": "理论；学说",
-    "example": "",
-    "exampleZh": ""
+    "example": "Einstein's theory of relativity fundamentally changed our understanding of space and time.",
+    "exampleZh": "爱因斯坦的相对论从根本上改变了我们对空间和时间的理解。"
   },
   {
     "en": "license/-ence",
@@ -7594,8 +7594,8 @@ const WORDS = [
     "unit": 6,
     "id": 844,
     "zh": "许可证；执照",
-    "example": "",
-    "exampleZh": ""
+    "example": "You need a valid driver's license to rent a car in this country.",
+    "exampleZh": "你需要有效的驾驶执照才能在这个国家租车。"
   },
   {
     "en": "certificate",
@@ -7603,8 +7603,8 @@ const WORDS = [
     "unit": 6,
     "id": 845,
     "zh": "证书；证明",
-    "example": "",
-    "exampleZh": ""
+    "example": "After completing the course she received a certificate in digital marketing.",
+    "exampleZh": "完成课程后，她获得了数字营销证书。"
   },
   {
     "en": "diploma",
@@ -7612,8 +7612,8 @@ const WORDS = [
     "unit": 6,
     "id": 846,
     "zh": "文凭；毕业证书",
-    "example": "",
-    "exampleZh": ""
+    "example": "He proudly displayed his university diploma on the wall of his new office.",
+    "exampleZh": "他自豪地把大学文凭挂在新办公室的墙上。"
   },
   {
     "en": "skeptical",
@@ -7621,8 +7621,8 @@ const WORDS = [
     "unit": 6,
     "id": 847,
     "zh": "怀疑的；持怀疑态度的",
-    "example": "",
-    "exampleZh": ""
+    "example": "Many scientists were initially skeptical about the bold claims made by the research team.",
+    "exampleZh": "许多科学家最初对研究团队的大胆说法持怀疑态度。"
   },
   {
     "en": "literacy",
@@ -7630,8 +7630,8 @@ const WORDS = [
     "unit": 6,
     "id": 848,
     "zh": "识字；读写能力",
-    "example": "",
-    "exampleZh": ""
+    "example": "The government has invested heavily in programs to improve digital literacy among the elderly.",
+    "exampleZh": "政府在提高老年人数字素养的项目上投入了大量资金。"
   },
   {
     "en": "temporary",
@@ -7639,8 +7639,8 @@ const WORDS = [
     "unit": 6,
     "id": 849,
     "zh": "临时的；暂时的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The company hired temporary workers to handle the increased workload during the holiday season.",
+    "exampleZh": "公司在假日季节雇用了临时工来应对增加的工作量。"
   },
   {
     "en": "regulate",
@@ -7648,8 +7648,8 @@ const WORDS = [
     "unit": 6,
     "id": 850,
     "zh": "调节；管理；控制",
-    "example": "",
-    "exampleZh": ""
+    "example": "The body uses sweat to regulate its internal temperature during physical exercise.",
+    "exampleZh": "身体在体育锻炼期间利用汗液来调节内部温度。"
   },
   {
     "en": "protest",
@@ -7657,8 +7657,8 @@ const WORDS = [
     "unit": 6,
     "id": 851,
     "zh": "抗议；反对",
-    "example": "",
-    "exampleZh": ""
+    "example": "Thousands of citizens took to the streets in protest against the new environmental regulations.",
+    "exampleZh": "数千名公民走上街头抗议新的环境法规。"
   },
   {
     "en": "formal",
@@ -7666,8 +7666,8 @@ const WORDS = [
     "unit": 6,
     "id": 852,
     "zh": "正式的；形式上的",
-    "example": "",
-    "exampleZh": ""
+    "example": "A formal dinner will be held to welcome the visiting dignitaries from various countries.",
+    "exampleZh": "将举行正式晚宴欢迎来自各国的尊贵来宾。"
   },
   {
     "en": "transform",
@@ -7675,8 +7675,8 @@ const WORDS = [
     "unit": 6,
     "id": 853,
     "zh": "转变；改造",
-    "example": "",
-    "exampleZh": ""
+    "example": "Technology has the power to transform the way people communicate and interact with each other.",
+    "exampleZh": "技术有能力改变人们彼此交流和互动的方式。"
   },
   {
     "en": "inform",
@@ -7684,8 +7684,8 @@ const WORDS = [
     "unit": 6,
     "id": 854,
     "zh": "通知；告知",
-    "example": "",
-    "exampleZh": ""
+    "example": "The school will inform parents about any schedule changes through an official mobile app.",
+    "exampleZh": "学校将通过官方手机应用通知家长任何日程变更。"
   },
   {
     "en": "debate",
@@ -7693,8 +7693,8 @@ const WORDS = [
     "unit": 6,
     "id": 855,
     "zh": "辩论；讨论",
-    "example": "",
-    "exampleZh": ""
+    "example": "There is an ongoing debate about the best methods to address climate change effectively.",
+    "exampleZh": "关于有效应对气候变化的最佳方法一直存在辩论。"
   },
   {
     "en": "battle",
@@ -7702,8 +7702,8 @@ const WORDS = [
     "unit": 6,
     "id": 856,
     "zh": "战斗；战役",
-    "example": "",
-    "exampleZh": ""
+    "example": "The battle against cancer requires both physical strength and incredible mental courage.",
+    "exampleZh": "与癌症的斗争需要身体力量和无与伦比的精神勇气。"
   },
   {
     "en": "prestige",
@@ -7711,8 +7711,8 @@ const WORDS = [
     "unit": 6,
     "id": 857,
     "zh": "声望；威望",
-    "example": "",
-    "exampleZh": ""
+    "example": "Harvard University has maintained its prestige as one of the top institutions in the world.",
+    "exampleZh": "哈佛大学一直保持着作为世界顶尖学府之一的声望。"
   },
   {
     "en": "esteem",
@@ -7720,8 +7720,8 @@ const WORDS = [
     "unit": 6,
     "id": 858,
     "zh": "尊敬；尊重",
-    "example": "",
-    "exampleZh": ""
+    "example": "The professor is held in high esteem by both his colleagues and his students alike.",
+    "exampleZh": "教授受到同事和学生的高度尊敬。"
   },
   {
     "en": "sacred",
@@ -7729,8 +7729,8 @@ const WORDS = [
     "unit": 6,
     "id": 859,
     "zh": "神圣的；宗教的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The temple is considered a sacred place where visitors must remain completely silent.",
+    "exampleZh": "寺庙被认为是神圣之地，游客必须保持完全安静。"
   },
   {
     "en": "code",
@@ -7738,8 +7738,8 @@ const WORDS = [
     "unit": 6,
     "id": 860,
     "zh": "代码；密码；准则",
-    "example": "",
-    "exampleZh": ""
+    "example": "The programmer spent hours debugging the complex code to find the hidden error.",
+    "exampleZh": "程序员花了数小时调试复杂的代码以找到隐藏的错误。"
   },
   {
     "en": "instrument",
@@ -7747,8 +7747,8 @@ const WORDS = [
     "unit": 6,
     "id": 861,
     "zh": "仪器；工具；乐器",
-    "example": "",
-    "exampleZh": ""
+    "example": "She learned to play five different musical instruments by the time she was sixteen years old.",
+    "exampleZh": "她到十六岁时已经学会了演奏五种不同的乐器。"
   },
   {
     "en": "perfect",
@@ -7756,8 +7756,8 @@ const WORDS = [
     "unit": 6,
     "id": 862,
     "zh": "完美的；理想的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The weather was perfect for a picnic in the park with family and friends.",
+    "exampleZh": "天气非常适合与家人和朋友在公园野餐。"
   },
   {
     "en": "mess",
@@ -7765,8 +7765,8 @@ const WORDS = [
     "unit": 6,
     "id": 863,
     "zh": "混乱；肮脏",
-    "example": "",
-    "exampleZh": ""
+    "example": "The children left a terrible mess in the kitchen after baking cookies all morning.",
+    "exampleZh": "孩子们在烤了一上午饼干后，把厨房弄得一团糟。"
   },
   {
     "en": "equip",
@@ -7774,8 +7774,8 @@ const WORDS = [
     "unit": 6,
     "id": 864,
     "zh": "装备；配备",
-    "example": "",
-    "exampleZh": ""
+    "example": "Every firefighter is fully equipped with protective gear before entering a burning building.",
+    "exampleZh": "每个消防员在进入燃烧的建筑物前都配齐防护装备。"
   },
   {
     "en": "defect",
@@ -7783,8 +7783,8 @@ const WORDS = [
     "unit": 6,
     "id": 865,
     "zh": "缺点；缺陷",
-    "example": "",
-    "exampleZh": ""
+    "example": "The manufacturer recalled the product due to a defect in the electrical wiring system.",
+    "exampleZh": "制造商因电线系统存在缺陷而召回了该产品。"
   },
   {
     "en": "infect",
@@ -7792,8 +7792,8 @@ const WORDS = [
     "unit": 6,
     "id": 866,
     "zh": "感染；传染",
-    "example": "",
-    "exampleZh": ""
+    "example": "The virus can infect a healthy person through direct contact with bodily fluids.",
+    "exampleZh": "病毒可以通过直接接触体液感染健康人。"
   },
   {
     "en": "advantage",
@@ -7801,8 +7801,8 @@ const WORDS = [
     "unit": 6,
     "id": 867,
     "zh": "优势；有利条件",
-    "example": "",
-    "exampleZh": ""
+    "example": "Speaking multiple languages gives you a clear advantage in the international job market.",
+    "exampleZh": "会说多种语言在国际就业市场上给你明显的优势。"
   },
   {
     "en": "shortcoming",
@@ -7810,8 +7810,8 @@ const WORDS = [
     "unit": 6,
     "id": 868,
     "zh": "缺点；短处",
-    "example": "",
-    "exampleZh": ""
+    "example": "Being honest about your shortcomings is the first step toward personal growth and improvement.",
+    "exampleZh": "坦诚面对自己的缺点是个人成长和改进的第一步。"
   },
   {
     "en": "surge",
@@ -7819,8 +7819,8 @@ const WORDS = [
     "unit": 6,
     "id": 869,
     "zh": "激增；汹涌",
-    "example": "",
-    "exampleZh": ""
+    "example": "There has been a sudden surge in demand for electric vehicles in the past two years.",
+    "exampleZh": "过去两年里，电动汽车的需求突然激增。"
   },
   {
     "en": "crisis",
@@ -7828,8 +7828,8 @@ const WORDS = [
     "unit": 6,
     "id": 870,
     "zh": "危机；紧要关头",
-    "example": "",
-    "exampleZh": ""
+    "example": "The financial crisis of two thousand eight had a profound impact on the global economy.",
+    "exampleZh": "2008年的金融危机对全球经济产生了深远影响。"
   },
   {
     "en": "crime",
@@ -7837,8 +7837,8 @@ const WORDS = [
     "unit": 6,
     "id": 871,
     "zh": "罪行；犯罪",
-    "example": "",
-    "exampleZh": ""
+    "example": "The police are working around the clock to solve the crime and bring the culprit to justice.",
+    "exampleZh": "警方正在夜以继日地破案并将罪犯绳之以法。"
   },
   {
     "en": "parallel",
@@ -7846,8 +7846,8 @@ const WORDS = [
     "unit": 6,
     "id": 872,
     "zh": "平行的；类似的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The two roads run parallel to each other for nearly fifty miles through the desert.",
+    "exampleZh": "这两条路彼此平行地在沙漠中延伸了近五十英里。"
   },
   {
     "en": "screen",
@@ -7855,8 +7855,8 @@ const WORDS = [
     "unit": 6,
     "id": 873,
     "zh": "屏幕；屏风",
-    "example": "",
-    "exampleZh": ""
+    "example": "Staring at a computer screen for too long can cause eye strain and headaches.",
+    "exampleZh": "长时间盯着电脑屏幕会导致眼睛疲劳和头痛。"
   },
   {
     "en": "chaos",
@@ -7864,8 +7864,8 @@ const WORDS = [
     "unit": 6,
     "id": 874,
     "zh": "混乱；混沌",
-    "example": "",
-    "exampleZh": ""
+    "example": "The sudden power outage caused chaos throughout the city during the rush hour.",
+    "exampleZh": "突然停电在高峰时段造成了整个城市的混乱。"
   },
   {
     "en": "effect",
@@ -7873,8 +7873,8 @@ const WORDS = [
     "unit": 6,
     "id": 875,
     "zh": "效果；影响",
-    "example": "",
-    "exampleZh": ""
+    "example": "The new law had an immediate positive effect on reducing air pollution in the city.",
+    "exampleZh": "新法律对减少城市空气污染产生了立竿见影的积极效果。"
   },
   {
     "en": "drawback",
@@ -7882,8 +7882,8 @@ const WORDS = [
     "unit": 6,
     "id": 876,
     "zh": "缺点；不利条件",
-    "example": "",
-    "exampleZh": ""
+    "example": "The main drawback of living in the countryside is the lack of reliable public transportation.",
+    "exampleZh": "住在乡下的主要缺点是缺乏可靠的公共交通。"
   },
   {
     "en": "evoke",
@@ -7891,8 +7891,8 @@ const WORDS = [
     "unit": 6,
     "id": 877,
     "zh": "唤起；引起",
-    "example": "",
-    "exampleZh": ""
+    "example": "The old photograph evoked a flood of happy memories from her childhood years.",
+    "exampleZh": "这张老照片唤起了她童年时代大量快乐的回忆。"
   },
   {
     "en": "emerge",
@@ -7900,8 +7900,8 @@ const WORDS = [
     "unit": 6,
     "id": 878,
     "zh": "出现；浮现",
-    "example": "",
-    "exampleZh": ""
+    "example": "New details about the incident continued to emerge as the investigation progressed.",
+    "exampleZh": "随着调查的进行，关于该事件的新细节不断浮现。"
   },
   {
     "en": "finance",
@@ -7909,8 +7909,8 @@ const WORDS = [
     "unit": 6,
     "id": 879,
     "zh": "金融；财政",
-    "example": "",
-    "exampleZh": ""
+    "example": "She works in the finance department and manages the company's investment portfolio.",
+    "exampleZh": "她在财务部门工作，管理公司的投资组合。"
   },
   {
     "en": "victim",
@@ -7918,8 +7918,8 @@ const WORDS = [
     "unit": 6,
     "id": 880,
     "zh": "受害者；牺牲品",
-    "example": "",
-    "exampleZh": ""
+    "example": "The victim of the car accident was rushed to the nearest hospital for emergency treatment.",
+    "exampleZh": "车祸受害者被紧急送往最近的医院接受急救治疗。"
   },
   {
     "en": "veil",
@@ -7927,8 +7927,8 @@ const WORDS = [
     "unit": 6,
     "id": 881,
     "zh": "面纱；遮盖物",
-    "example": "",
-    "exampleZh": ""
+    "example": "A thin veil of mist hung over the lake in the early hours of the morning.",
+    "exampleZh": "清晨时分，一层薄雾笼罩着湖面。"
   },
   {
     "en": "negotiate",
@@ -7936,8 +7936,8 @@ const WORDS = [
     "unit": 6,
     "id": 882,
     "zh": "谈判；协商",
-    "example": "",
-    "exampleZh": ""
+    "example": "The workers union is prepared to negotiate with management for better working conditions.",
+    "exampleZh": "工会准备与管理层就更好的工作条件进行谈判。"
   },
   {
     "en": "combat",
@@ -7945,8 +7945,8 @@ const WORDS = [
     "unit": 6,
     "id": 883,
     "zh": "战斗；斗争",
-    "example": "",
-    "exampleZh": ""
+    "example": "The soldier showed extraordinary courage during combat and received a medal of honor.",
+    "exampleZh": "这名士兵在战斗中表现出非凡的勇气，获得了一枚荣誉勋章。"
   },
   {
     "en": "notorious",
@@ -7954,8 +7954,8 @@ const WORDS = [
     "unit": 6,
     "id": 884,
     "zh": "臭名昭著的",
-    "example": "",
-    "exampleZh": ""
+    "example": "The city was once notorious for its high crime rate before the new mayor took office.",
+    "exampleZh": "在新市长上任之前，这座城市曾因高犯罪率而臭名昭著。"
   },
   {
     "en": "disorder",
@@ -7963,8 +7963,8 @@ const WORDS = [
     "unit": 6,
     "id": 885,
     "zh": "混乱；失调",
-    "example": "",
-    "exampleZh": ""
+    "example": "Post-traumatic stress disorder can affect anyone who has experienced severe trauma.",
+    "exampleZh": "创伤后应激障碍可以影响任何经历过严重创伤的人。"
   },
   {
     "en": "affect",
@@ -7972,8 +7972,8 @@ const WORDS = [
     "unit": 6,
     "id": 886,
     "zh": "影响；打动",
-    "example": "",
-    "exampleZh": ""
+    "example": "Climate change will affect every aspect of our lives including food and water security.",
+    "exampleZh": "气候变化将影响我们生活的方方面面，包括食物和水安全。"
   },
   {
     "en": "utilize",
@@ -7981,8 +7981,8 @@ const WORDS = [
     "unit": 6,
     "id": 887,
     "zh": "利用；使用",
-    "example": "",
-    "exampleZh": ""
+    "example": "Scientists are finding new ways to utilize solar energy more efficiently and affordably.",
+    "exampleZh": "科学家正在寻找新的方法来更高效、更经济地利用太阳能。"
   },
   {
     "en": "handicap",
@@ -7990,8 +7990,8 @@ const WORDS = [
     "unit": 6,
     "id": 888,
     "zh": "障碍；残疾",
-    "example": "",
-    "exampleZh": ""
+    "example": "Despite her physical handicap she became one of the most successful athletes in history.",
+    "exampleZh": "尽管身体有障碍，她仍成为历史上最成功的运动员之一。"
   },
   {
     "en": "stir",
@@ -7999,8 +7999,8 @@ const WORDS = [
     "unit": 6,
     "id": 889,
     "zh": "搅拌；煽动；激发",
-    "example": "",
-    "exampleZh": ""
+    "example": "The motivational speech stirred a deep sense of purpose and determination in the audience.",
+    "exampleZh": "这场激励人心的演讲激起了听众内心深处的使命感和决心。"
   },
   {
     "en": "submerge",
@@ -8008,8 +8008,8 @@ const WORDS = [
     "unit": 6,
     "id": 890,
     "zh": "淹没；潜入水中",
-    "example": "",
-    "exampleZh": ""
+    "example": "Heavy rains caused the river to overflow and submerge the surrounding farmland completely.",
+    "exampleZh": "暴雨导致河水泛滥，完全淹没了周围的农田。"
   },
   {
     "en": "deficit",
@@ -8017,8 +8017,8 @@ const WORDS = [
     "unit": 6,
     "id": 891,
     "zh": "赤字；不足",
-    "example": "",
-    "exampleZh": ""
+    "example": "The country's budget deficit has grown significantly due to increased military spending.",
+    "exampleZh": "由于军费开支增加，该国的预算赤字显著增长。"
   },
   {
     "en": "discriminate",
@@ -8026,8 +8026,8 @@ const WORDS = [
     "unit": 6,
     "id": 892,
     "zh": "歧视；区分",
-    "example": "",
-    "exampleZh": ""
+    "example": "It is illegal to discriminate against employees based on their age, gender, or religion.",
+    "exampleZh": "基于年龄、性别或宗教歧视员工是违法的。"
   },
   {
     "en": "fabricate",
@@ -8035,8 +8035,8 @@ const WORDS = [
     "unit": 6,
     "id": 893,
     "zh": "制造；捏造",
-    "example": "",
-    "exampleZh": ""
+    "example": "The journalist was fired for attempting to fabricate evidence to support his story.",
+    "exampleZh": "该记者因试图捏造证据来支持其报道而被解雇。"
   },
   {
     "en": "articulate",
@@ -8044,8 +8044,8 @@ const WORDS = [
     "unit": 6,
     "id": 894,
     "zh": "清楚表达；清晰发音",
-    "example": "",
-    "exampleZh": ""
+    "example": "She has a remarkable ability to articulate complex philosophical ideas in simple terms.",
+    "exampleZh": "她有一种将复杂哲学思想用简单语言表达出来的非凡能力。"
   },
   {
     "en": "reputation",
@@ -8053,8 +8053,8 @@ const WORDS = [
     "unit": 6,
     "id": 895,
     "zh": "声誉；名声",
-    "example": "",
-    "exampleZh": ""
+    "example": "The restaurant has built an excellent reputation for serving fresh and delicious seafood.",
+    "exampleZh": "这家餐厅因供应新鲜美味的海鲜而建立了极好的声誉。"
   },
   {
     "en": "publicity",
@@ -8062,8 +8062,8 @@ const WORDS = [
     "unit": 6,
     "id": 896,
     "zh": "宣传；公众关注",
-    "example": "",
-    "exampleZh": ""
+    "example": "The movie gained widespread publicity after the lead actor appeared on national television.",
+    "exampleZh": "在男主角出现在全国电视节目上之后，这部电影获得了广泛的宣传。"
   },
   {
     "en": "massive",
@@ -8071,8 +8071,8 @@ const WORDS = [
     "unit": 6,
     "id": 897,
     "zh": "大量的；巨大的",
-    "example": "",
-    "exampleZh": ""
+    "example": "A massive earthquake struck the coastal region destroying hundreds of buildings and homes.",
+    "exampleZh": "一场巨大的地震袭击了沿海地区，摧毁了数百栋建筑和房屋。"
   },
   {
     "en": "manufacture",
@@ -8080,8 +8080,8 @@ const WORDS = [
     "unit": 6,
     "id": 898,
     "zh": "制造；生产",
-    "example": "",
-    "exampleZh": ""
+    "example": "The company manufactures high-quality electronic components for the automotive industry.",
+    "exampleZh": "公司为汽车工业制造高质量的电子元件。"
   },
   {
     "en": "affection",
@@ -8089,8 +8089,8 @@ const WORDS = [
     "unit": 6,
     "id": 899,
     "zh": "喜爱；感情",
-    "example": "",
-    "exampleZh": ""
+    "example": "She has a deep affection for her grandmother who raised her from a very young age.",
+    "exampleZh": "她对从很小就把她抚养长大的祖母有着深厚的感情。"
   },
   {
     "en": "advance",
@@ -8098,8 +8098,8 @@ const WORDS = [
     "unit": 6,
     "id": 900,
     "zh": "前进；推进；进步",
-    "example": "",
-    "exampleZh": ""
+    "example": "Scientific research continues to advance our understanding of the origins of the universe.",
+    "exampleZh": "科学研究不断推进我们对宇宙起源的理解。"
   },
   {
     "en": "flaw",
