@@ -32,6 +32,7 @@ function buildFlashcardPool() {
     var d = getWordData(w.id);
     if (d.status === 'known' || d.status === 'mastered') {
       if (!d.nextReview || d.nextReview <= today) dueWords.push(w);
+      else queuedWords.push(w);
     } else {
       if (!d.nextReview || d.nextReview <= today) newWords.push(w);
       else queuedWords.push(w);
