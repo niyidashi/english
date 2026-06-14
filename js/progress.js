@@ -37,9 +37,11 @@ function loadProgress() {
     var raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return createDefaultProgress();
     var data = JSON.parse(raw);
+    if (!data.words) data.words = {};
     WORDS.forEach(function(w) {
       if (!(w.id in data.words)) data.words[w.id] = 'unknown';
     });
+    if (!data.settings) data.settings = { fontSize: 'medium', defaultMode: 'learning', dailyLimit: 100 };
     if (!data.currentWordIndex) data.currentWordIndex = 0;
     if (!data.flashcardIndex) data.flashcardIndex = 0;
     if (data.completionDays === undefined) data.completionDays = 0;
@@ -124,10 +126,9 @@ function incrementDailyStat(category, wordId) {
   var progress = loadProgress();
   progress.dailyStats[category] = (progress.dailyStats[category] || 0) + 1;
   var idKey = category + 'Ids';
-  if (progress.dailyStats[idKey] && wordId !== undefined) {
-    if (progress.dailyStats[idKey].indexOf(wordId) === -1) {
-      progress.dailyStats[idKey].push(wordId);
-    }
+  if (!progress.dailyStats[idKey]) progress.dailyStats[idKey] = [];
+  if (wordId !== undefined && progress.dailyStats[idKey].indexOf(wordId) === -1) {
+    progress.dailyStats[idKey].push(wordId);
   }
   saveProgress(progress);
 }
