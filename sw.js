@@ -1,4 +1,4 @@
-const CACHE_NAME = 'meowvocab-v4';
+const CACHE_NAME = 'meowvocab-v5';
 
 const PRECACHE_URLS = [
   '.',

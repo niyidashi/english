@@ -3,8 +3,11 @@ var fcWords = [];
 var fcIndex = 0;
 var fcFlipped = false;
 var fcPoolReady = false;
+var fcUndoStack = [];
+var fcBrowseOnly = false;
 
 function buildFlashcardPool() {
+  fcBrowseOnly = false;
   var progress = loadProgress();
   var today = new Date().toISOString().split('T')[0];
   var daily = getDailyStats();
@@ -57,6 +60,7 @@ function refreshFlashcardPanel() {
     document.getElementById('flashcard-count').textContent = '0/0';
     document.getElementById('flashcard').classList.remove('flipped');
     fcFlipped = false;
+    setFlashcardButtonsDisabled(true);
     return;
   }
 
@@ -65,6 +69,18 @@ function refreshFlashcardPanel() {
   updateFlashcardCount();
   document.getElementById('flashcard').classList.remove('flipped');
   fcFlipped = false;
+  setFlashcardButtonsDisabled(fcBrowseOnly);
+}
+
+function setFlashcardButtonsDisabled(disabled) {
+  var btns = ['btn-fc-unknown', 'btn-fc-fuzzy', 'btn-fc-known'];
+  btns.forEach(function(id) {
+    var btn = document.getElementById(id);
+    if (btn) {
+      btn.disabled = disabled;
+      btn.style.opacity = disabled ? '0.5' : '1';
+    }
+  });
 }
 
 function showFlashcardWord(word) {
@@ -89,9 +105,21 @@ document.getElementById('flashcard').addEventListener('click', function() {
 
 // 掌握 → mastered, 7天后复习, 移出今日队列
 document.getElementById('btn-fc-known').addEventListener('click', function() {
-  if (fcWords.length === 0) return;
+  if (fcWords.length === 0 || fcBrowseOnly) return;
   var word = fcWords[fcIndex];
   var today = new Date().toISOString().split('T')[0];
+  var prevData = getWordData(word.id);
+
+  fcUndoStack.push({
+    wordId: word.id,
+    previousStatus: prevData.status,
+    previousNextReview: prevData.nextReview,
+    previousReviewInterval: prevData.reviewInterval || 0,
+    category: 'flashcardKnown',
+    fcIndex: fcIndex
+  });
+  if (fcUndoStack.length > 20) fcUndoStack.shift();
+
   updateWordStatus(word.id, 'mastered', dateAddDays(today, 7), 7);
   incrementDailyStat('flashcardKnown', word.id);
   showToast('🎀 已掌握！7天后复习');
@@ -104,9 +132,21 @@ document.getElementById('btn-fc-known').addEventListener('click', function() {
 
 // 模糊 → fuzzy, 3天后复习, 推回队尾
 document.getElementById('btn-fc-fuzzy').addEventListener('click', function() {
-  if (fcWords.length === 0) return;
+  if (fcWords.length === 0 || fcBrowseOnly) return;
   var word = fcWords[fcIndex];
   var today = new Date().toISOString().split('T')[0];
+  var prevData = getWordData(word.id);
+
+  fcUndoStack.push({
+    wordId: word.id,
+    previousStatus: prevData.status,
+    previousNextReview: prevData.nextReview,
+    previousReviewInterval: prevData.reviewInterval || 0,
+    category: 'flashcardFuzzy',
+    fcIndex: fcIndex
+  });
+  if (fcUndoStack.length > 20) fcUndoStack.shift();
+
   updateWordStatus(word.id, 'fuzzy', dateAddDays(today, 3), 3);
   incrementDailyStat('flashcardFuzzy', word.id);
   showToast('💗 标记模糊，放到后面再练');
@@ -119,8 +159,20 @@ document.getElementById('btn-fc-fuzzy').addEventListener('click', function() {
 
 // 不认识 → unknown, 放回队列末尾
 document.getElementById('btn-fc-unknown').addEventListener('click', function() {
-  if (fcWords.length === 0) return;
+  if (fcWords.length === 0 || fcBrowseOnly) return;
   var word = fcWords[fcIndex];
+  var prevData = getWordData(word.id);
+
+  fcUndoStack.push({
+    wordId: word.id,
+    previousStatus: prevData.status,
+    previousNextReview: prevData.nextReview,
+    previousReviewInterval: prevData.reviewInterval || 0,
+    category: 'flashcardUnknown',
+    fcIndex: fcIndex
+  });
+  if (fcUndoStack.length > 20) fcUndoStack.shift();
+
   updateWordStatus(word.id, 'unknown');
   incrementDailyStat('flashcardUnknown', word.id);
   showToast('🤍 不认识，放到最后再练');
@@ -132,6 +184,16 @@ document.getElementById('btn-fc-unknown').addEventListener('click', function() {
 });
 
 function finishFlashcard() {
+  // Build browse pool from all today's flashcard-marked words
+  var daily = getDailyStats();
+  var browseIds = (daily.flashcardKnownIds || [])
+    .concat(daily.flashcardFuzzyIds || [])
+    .concat(daily.flashcardUnknownIds || []);
+  if (browseIds.length > 0) {
+    fcWords = getWordsByIds(browseIds);
+    fcBrowseOnly = true;
+    fcIndex = 0;
+  }
   refreshFlashcardPanel();
   var stats = getDailyStats();
   var totalLearned = (stats.flashcardKnown || 0) + (stats.flashcardFuzzy || 0) + (stats.flashcardUnknown || 0);
@@ -144,3 +206,31 @@ function dateAddDays(dateStr, days) {
   d.setDate(d.getDate() + days);
   return d.toISOString().split('T')[0];
 }
+
+document.getElementById('btn-fc-prev').addEventListener('click', function() {
+  if (fcUndoStack.length > 0) {
+    var undoEntry = fcUndoStack.pop();
+    // Restore word status
+    if (undoEntry.previousNextReview) {
+      updateWordStatus(undoEntry.wordId, undoEntry.previousStatus, undoEntry.previousNextReview, undoEntry.previousReviewInterval);
+    } else {
+      updateWordStatus(undoEntry.wordId, undoEntry.previousStatus);
+    }
+    // Remove from daily stat
+    undoDailyStat(undoEntry.category, undoEntry.wordId);
+    // Put word back at original position
+    var word = WORDS.filter(function(w) { return w.id === undoEntry.wordId; })[0];
+    if (word) {
+      var insertPos = Math.min(undoEntry.fcIndex, fcWords.length);
+      fcWords.splice(insertPos, 0, word);
+      fcIndex = insertPos;
+      fcBrowseOnly = false;
+    }
+    savePosition('flashcard', fcIndex);
+    refreshFlashcardPanel();
+    return;
+  }
+  if (fcWords.length === 0) return;
+  if (fcIndex > 0) { fcIndex--; savePosition('flashcard', fcIndex); }
+  refreshFlashcardPanel();
+});

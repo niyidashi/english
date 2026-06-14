@@ -2,6 +2,7 @@
 var currentWordIndex = 0;
 var learningQueue = [];
 var learningQueueReady = false;
+var learnUndoStack = [];
 
 var panels = {
   learning: document.getElementById('panel-learning'),
@@ -83,10 +84,11 @@ function refreshLearningPanel() {
 
   var dailyCount = getTodayLearningCount();
   var limitDisplay = getDailyLimitDisplay();
+  var limitReached = isDailyLimitReached();
 
   document.getElementById('learning-progress-text').textContent = '今日: ' + dailyCount + '/' + limitDisplay;
 
-  if (learningQueue.length === 0 || isDailyLimitReached()) {
+  if (learningQueue.length === 0) {
     document.getElementById('word-en').textContent = '✨';
     document.getElementById('word-pos').textContent = '今日学习完成';
     document.getElementById('word-zh').textContent = '进入闪卡模式巩固吧~';
@@ -99,6 +101,27 @@ function refreshLearningPanel() {
 
   renderWordCard(learningQueue[currentWordIndex]);
   updateWordIndexDisplay();
+
+  // Enable/disable mark buttons based on daily limit
+  var btnUnknown = document.getElementById('btn-learn-unknown');
+  var btnKnown = document.getElementById('btn-learn-known');
+  var hintEl = document.querySelector('#panel-learning > div:last-child');
+  if (limitReached) {
+    btnUnknown.disabled = true;
+    btnKnown.disabled = true;
+    btnUnknown.textContent = '🎀 已完成';
+    btnKnown.textContent = '🎀 已完成';
+    if (hintEl) hintEl.innerHTML = '💡 今日任务完成！可浏览或手动进入闪卡巩固~';
+  } else {
+    btnUnknown.disabled = false;
+    btnKnown.disabled = false;
+    btnUnknown.textContent = '❌ 不认识';
+    btnKnown.textContent = '✅ 认识';
+    if (hintEl) hintEl.innerHTML = '💡 不认识会推到后面再练，任务完成后自动提示巩固';
+  }
+
+  // Update review button state
+  updateReviewButtonState();
 
   var progress = loadProgress();
   var unitLabel = document.getElementById('learning-unit-label');
@@ -137,6 +160,28 @@ function isDailyLimitReached() {
 
 // Prev/Next
 document.getElementById('btn-prev-word').addEventListener('click', function() {
+  // Try undo stack first
+  if (learnUndoStack.length > 0) {
+    var undoEntry = learnUndoStack.pop();
+    // Restore word status
+    if (undoEntry.previousNextReview) {
+      updateWordStatus(undoEntry.wordId, undoEntry.previousStatus, undoEntry.previousNextReview, undoEntry.previousReviewInterval);
+    } else {
+      updateWordStatus(undoEntry.wordId, undoEntry.previousStatus);
+    }
+    // Remove from daily stat
+    undoDailyStat(undoEntry.category, undoEntry.wordId);
+    // Put word back in queue at original position
+    var restored = WORDS.filter(function(w) { return w.id === undoEntry.wordId; })[0];
+    if (restored) {
+      var insertPos = Math.min(undoEntry.queueIndex, learningQueue.length);
+      learningQueue.splice(insertPos, 0, restored);
+      currentWordIndex = insertPos;
+    }
+    savePosition('learning', currentWordIndex);
+    refreshLearningPanel();
+    return;
+  }
   if (learningQueue.length === 0) return;
   if (currentWordIndex > 0) { currentWordIndex--; savePosition('learning', currentWordIndex); }
   refreshLearningPanel();
@@ -169,12 +214,25 @@ document.getElementById('btn-learn-known').addEventListener('click', function() 
 function markLearnWord(status) {
   if (learningQueue.length === 0) return;
   if (isDailyLimitReached()) {
-    completeLearningTask();
+    showToast('🎀 今日任务已完成，可浏览或手动进入闪卡巩固~');
     return;
   }
 
   var word = learningQueue[currentWordIndex];
   var today = new Date().toISOString().split('T')[0];
+  var prevData = getWordData(word.id);
+  var category = status === 'known' ? 'learningKnown' : 'learningUnknown';
+
+  // Push undo record
+  learnUndoStack.push({
+    wordId: word.id,
+    previousStatus: prevData.status,
+    previousNextReview: prevData.nextReview,
+    previousReviewInterval: prevData.reviewInterval || 0,
+    category: category,
+    queueIndex: currentWordIndex
+  });
+  if (learnUndoStack.length > 20) learnUndoStack.shift();
 
   if (status === 'known') {
     updateWordStatus(word.id, 'known', dateAddDays(today, 7), 7);
@@ -204,7 +262,61 @@ function completeLearningTask() {
   incrementCompletionDays();
   showToast('🎀 今日任务完成！真棒小宝宝，奖励十个亲亲');
   savePosition('learning', 0);
-  setTimeout(function() { switchPanel('flashcard'); }, 1500);
+}
+
+function addReviewWords() {
+  var daily = getDailyStats();
+  var progress = loadProgress();
+  var limit = progress.settings.dailyLimit || 100;
+
+  var allIds = (daily.learningKnownIds || []).concat(daily.learningUnknownIds || []);
+  var uniqueIds = [];
+  allIds.forEach(function(id) {
+    if (uniqueIds.indexOf(id) === -1) uniqueIds.push(id);
+  });
+
+  var queueIds = {};
+  learningQueue.forEach(function(w) { queueIds[w.id] = true; });
+  var freshIds = uniqueIds.filter(function(id) { return !queueIds[id]; });
+
+  if (freshIds.length === 0) {
+    showToast('📚 已加载全部复习词');
+    updateReviewButtonState();
+    return;
+  }
+
+  shuffleArray(freshIds);
+  var count = Math.min(freshIds.length, limit);
+  var picked = freshIds.slice(0, count);
+  var words = getWordsByIds(picked);
+
+  words.forEach(function(w) {
+    var maxPos = learningQueue.length;
+    var minPos = currentWordIndex + 1;
+    if (minPos > maxPos) minPos = maxPos;
+    var pos = minPos + Math.floor(Math.random() * (maxPos - minPos + 1));
+    learningQueue.splice(pos, 0, w);
+  });
+
+  showToast('📥 已载入 ' + count + ' 个复习词');
+  updateReviewButtonState();
+}
+
+function updateReviewButtonState() {
+  var btn = document.getElementById('btn-review-words');
+  if (!btn || btn.disabled) return;
+  var daily = getDailyStats();
+  var allIds = (daily.learningKnownIds || []).concat(daily.learningUnknownIds || []);
+  var queueIds = {};
+  learningQueue.forEach(function(w) { queueIds[w.id] = true; });
+  var hasFresh = allIds.some(function(id) { return !queueIds[id]; });
+  if (!hasFresh) {
+    btn.disabled = true;
+    btn.textContent = '已加载全部';
+  } else {
+    btn.disabled = false;
+    btn.textContent = '🔄 复习';
+  }
 }
 
 // ===== PROGRESS PANEL =====
@@ -330,6 +442,30 @@ document.addEventListener('keydown', function(e) {
     if (e.key === '2') markLearnWord('known');
   }
 });
+
+// ===== REVIEW BUTTON =====
+
+document.getElementById('btn-review-words').addEventListener('click', function() {
+  var btn = this;
+  if (btn.disabled) return;
+  addReviewWords();
+  btn.disabled = true;
+  btn.textContent = '⏳ 冷却中';
+  setTimeout(function() {
+    btn.disabled = false;
+    updateReviewButtonState();
+  }, 3000);
+});
+
+// ===== RESET =====
+
+function handleReset() {
+  var result = resetAllProgress();
+  if (result !== null) {
+    showToast('🔄 已重置全部进度');
+    setTimeout(function() { location.reload(); }, 1500);
+  }
+}
 
 // ===== INIT =====
 

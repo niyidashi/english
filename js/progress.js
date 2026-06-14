@@ -47,13 +47,14 @@ function loadProgress() {
     if (data.completionDays === undefined) data.completionDays = 0;
     var today = new Date().toISOString().split('T')[0];
     if (!data.dailyStats || data.dailyStats.date !== today) {
+      var oldDs = data.dailyStats;
       data.dailyStats = {
         date: today,
-        learningKnown: 0,      learningKnownIds: [],
-        learningUnknown: 0,    learningUnknownIds: [],
-        flashcardKnown: 0,     flashcardKnownIds: [],
-        flashcardFuzzy: 0,     flashcardFuzzyIds: [],
-        flashcardUnknown: 0,   flashcardUnknownIds: []
+        learningKnown: 0,      learningKnownIds: oldDs ? (oldDs.learningKnownIds || []) : [],
+        learningUnknown: 0,    learningUnknownIds: oldDs ? (oldDs.learningUnknownIds || []) : [],
+        flashcardKnown: 0,     flashcardKnownIds: oldDs ? (oldDs.flashcardKnownIds || []) : [],
+        flashcardFuzzy: 0,     flashcardFuzzyIds: oldDs ? (oldDs.flashcardFuzzyIds || []) : [],
+        flashcardUnknown: 0,   flashcardUnknownIds: oldDs ? (oldDs.flashcardUnknownIds || []) : []
       };
     } else {
       // ensure ID arrays exist (migration)
@@ -103,11 +104,11 @@ function updateWordStatus(wordId, status, nextReview, reviewInterval) {
     progress.lastOpened = today;
     progress.dailyStats = {
       date: today,
-      learningKnown: 0,      learningKnownIds: [],
-      learningUnknown: 0,    learningUnknownIds: [],
-      flashcardKnown: 0,     flashcardKnownIds: [],
-      flashcardFuzzy: 0,     flashcardFuzzyIds: [],
-      flashcardUnknown: 0,   flashcardUnknownIds: []
+      learningKnown: 0,      learningKnownIds: progress.dailyStats ? (progress.dailyStats.learningKnownIds || []) : [],
+      learningUnknown: 0,    learningUnknownIds: progress.dailyStats ? (progress.dailyStats.learningUnknownIds || []) : [],
+      flashcardKnown: 0,     flashcardKnownIds: progress.dailyStats ? (progress.dailyStats.flashcardKnownIds || []) : [],
+      flashcardFuzzy: 0,     flashcardFuzzyIds: progress.dailyStats ? (progress.dailyStats.flashcardFuzzyIds || []) : [],
+      flashcardUnknown: 0,   flashcardUnknownIds: progress.dailyStats ? (progress.dailyStats.flashcardUnknownIds || []) : []
     };
   }
   saveProgress(progress);
@@ -222,4 +223,17 @@ function resetAllProgress() {
     return createDefaultProgress();
   }
   return null;
+}
+
+function undoDailyStat(category, wordId) {
+  var progress = loadProgress();
+  if (progress.dailyStats[category] > 0) {
+    progress.dailyStats[category]--;
+  }
+  var idKey = category + 'Ids';
+  if (progress.dailyStats[idKey] && wordId !== undefined) {
+    var idx = progress.dailyStats[idKey].indexOf(wordId);
+    if (idx !== -1) progress.dailyStats[idKey].splice(idx, 1);
+  }
+  saveProgress(progress);
 }
