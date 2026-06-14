@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#E84060">
+  <meta name="description" content="Hello 单词 - Kitty 主题英语单词记忆器">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="img/icons/icon-192.png">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;500;600;700&family=Varela+Round&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Hello 单词</title>
+</head>
+<body>
+<div class="app-container">
+
+  <header class="app-header">
+    <img class="logo" src="assets/kitty/image3.png" alt="Hello Kitty Logo">
+    <div>
+      <div class="title">Hello 单词</div>
+      <div class="subtitle">Kitty 记忆伴侣</div>
+    </div>
+  </header>
+
+  <main class="app-content">
+
+    <!-- Panel 1: Learning Mode -->
+    <section id="panel-learning" class="panel active">
+      <div style="background:var(--white);border:1px solid var(--border-pink);border-radius:var(--radius-md);padding:10px 14px;margin-bottom:12px;display:flex;align-items:center;gap:8px;box-shadow:var(--shadow-progress)">
+        <span id="learning-unit-label" style="font-size:12px;font-weight:700;color:var(--text-deep)">Unit 1</span>
+        <span id="learning-filter" style="font-size:10px;color:var(--text-medium);margin-left:auto"></span>
+      </div>
+
+      <div id="word-card" class="word-card">
+        <div class="watermark"><img src="assets/kitty/image2.png" style="width:80px;height:80px;"></div>
+        <div id="word-en" class="word-en"></div>
+        <div id="word-pos" class="word-pos"></div>
+        <div id="word-zh" class="word-zh"></div>
+        <div id="word-example" class="word-example"></div>
+      </div>
+
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;gap:8px">
+        <button id="btn-prev-word" class="btn btn-outline" style="min-width:48px">←</button>
+        <span id="word-index" style="font-size:12px;color:var(--text-medium);font-weight:600"></span>
+        <button id="btn-next-word" class="btn btn-outline" style="min-width:48px">→</button>
+      </div>
+
+      <div class="btn-group">
+        <button id="btn-unknown" class="btn btn-ghost">🤍 不熟</button>
+        <button id="btn-fuzzy" class="btn btn-ghost">💗 模糊</button>
+        <button id="btn-mastered" class="btn btn-primary">🎀 掌握</button>
+      </div>
+    </section>
+
+    <!-- Panel 2: Flashcard Mode -->
+    <section id="panel-flashcard" class="panel">
+      <div style="display:flex;align-items:center;margin-bottom:12px;gap:8px">
+        <span style="font-size:13px;font-weight:700;color:var(--text-deep)">闪卡模式</span>
+        <span id="flashcard-count" style="margin-left:auto;font-size:10px;color:var(--text-medium)"></span>
+      </div>
+      <div id="flashcard-scene" class="flashcard-scene">
+        <div id="flashcard" class="flashcard">
+          <div class="flashcard-face flashcard-front">
+            <div id="fc-word-en" class="word-en" style="margin-bottom:6px"></div>
+            <div id="fc-word-pos" style="font-size:13px;color:var(--deep-pink);font-weight:600"></div>
+            <div style="font-size:11px;color:var(--text-medium);margin-top:12px">👆 点击翻转</div>
+          </div>
+          <div class="flashcard-face flashcard-back">
+            <div id="fc-word-zh" style="font-size:20px;font-weight:700;color:var(--text-deep);margin-bottom:8px"></div>
+            <div id="fc-word-example" class="word-example"></div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-group">
+        <button id="btn-fc-unknown" class="btn btn-outline">← 不认识</button>
+        <button id="btn-fc-known" class="btn btn-primary">认识 →</button>
+      </div>
+    </section>
+
+    <!-- Panel 3: Progress Page -->
+    <section id="panel-progress" class="panel">
+      <div style="margin-bottom:12px">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:4px">
+          <span style="font-size:12px;font-weight:700;color:var(--text-deep)">总计 <span id="stat-total"></span> 词</span>
+        </div>
+        <div class="progress-bar">
+          <div id="progress-fill" class="fill" style="width:0%"></div>
+        </div>
+        <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--text-medium);margin-top:4px">
+          <span>🎀 掌握: <span id="stat-mastered">0</span></span>
+          <span>💗 模糊: <span id="stat-fuzzy">0</span></span>
+          <span>🤍 未学: <span id="stat-unknown">0</span></span>
+        </div>
+      </div>
+
+      <div style="display:flex;gap:8px;margin-bottom:16px">
+        <div class="stat-card" style="flex:1">
+          <div class="stat-value" id="stat-unit">-</div>
+          <div class="stat-label">当前单元</div>
+        </div>
+        <div class="stat-card" style="flex:1">
+          <div class="stat-value" id="stat-rate">-</div>
+          <div class="stat-label">掌握率</div>
+        </div>
+        <div class="stat-card" style="flex:1">
+          <div class="stat-value" id="stat-streak">-</div>
+          <div class="stat-label">连续天数</div>
+        </div>
+      </div>
+
+      <div class="btn-group" style="margin-bottom:8px">
+        <button onclick="exportProgress()" class="btn btn-ghost">📥 导出</button>
+        <button onclick="triggerImport()" class="btn btn-ghost">📤 导入</button>
+      </div>
+      <button onclick="handleReset()" class="btn btn-outline" style="width:100%;color:var(--deep-pink)">🔄 重置进度</button>
+    </section>
+
+    <!-- Panel 4: Settings Page -->
+    <section id="panel-settings" class="panel">
+      <h3 style="color:var(--text-deep);margin-bottom:12px">⚙️ 设置</h3>
+
+      <div style="margin-bottom:16px">
+        <div style="font-size:12px;font-weight:700;color:var(--text-deep);margin-bottom:6px">学习单元</div>
+        <div id="unit-selector" class="unit-selector">
+        </div>
+      </div>
+
+      <div style="margin-bottom:16px">
+        <div style="font-size:12px;font-weight:700;color:var(--text-deep);margin-bottom:6px">字体大小</div>
+        <div class="btn-group">
+          <button class="btn btn-ghost font-size-btn" data-size="small">小</button>
+          <button class="btn btn-ghost font-size-btn active" data-size="medium">中</button>
+          <button class="btn btn-ghost font-size-btn" data-size="large">大</button>
+        </div>
+      </div>
+
+      <div style="margin-bottom:16px">
+        <div style="font-size:12px;font-weight:700;color:var(--text-deep);margin-bottom:6px">默认模式</div>
+        <div class="btn-group">
+          <button class="btn btn-ghost mode-btn active" data-mode="learning">📖 学习</button>
+          <button class="btn btn-ghost mode-btn" data-mode="flashcard">🃏 闪卡</button>
+        </div>
+      </div>
+
+      <button id="btn-about" class="btn btn-outline" style="width:100%;color:var(--deep-pink)">ℹ️ 关于信息</button>
+
+      <div id="about-modal" class="modal-overlay" style="display:none">
+        <div class="modal">
+          <h3>🎀 关于 Hello 单词</h3>
+          <p id="about-text">
+            Hello 单词是一款 Kitty 主题的英语单词记忆器。<br><br>
+            愿你在可爱的猫咪陪伴下，轻松快乐地掌握每一个单词 🐱💕
+          </p>
+          <button id="btn-close-about" class="btn btn-primary">知道了</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <nav class="bottom-nav">
+    <button class="nav-item active" data-panel="learning">
+      <img src="assets/kitty/image12.png" alt="学习">
+      <span>学习</span>
+    </button>
+    <button class="nav-item" data-panel="flashcard">
+      <img src="assets/kitty/image9.png" alt="闪卡">
+      <span>闪卡</span>
+    </button>
+    <button class="nav-item" data-panel="progress">
+      <img src="assets/kitty/image4.png" alt="进度">
+      <span>进度</span>
+    </button>
+    <button class="nav-item" data-panel="settings">
+      <img src="assets/kitty/image7.png" alt="设置">
+      <span>设置</span>
+    </button>
+  </nav>
+</div>
+
+<script src="js/words.js"></script>
+<script src="js/progress.js"></script>
+<script src="js/export.js"></script>
+<script src="js/flashcard.js"></script>
+<script src="js/app.js"></script>
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js')
+    .then(function(reg) { console.log('[SW] Registered:', reg.scope); })
+    .catch(function(err) { console.log('[SW] Registration failed:', err); });
+}
+</script>
+</body>
+</html>
