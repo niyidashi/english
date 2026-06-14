@@ -1,8 +1,7 @@
 // js/app.js
 var currentWordIndex = 0;
-var currentWords = [];
 var learningQueue = [];
-var learningDoneToday = 0;
+var learningQueueReady = false;
 
 var panels = {
   learning: document.getElementById('panel-learning'),
@@ -23,7 +22,7 @@ function switchPanel(panelName) {
     item.classList.toggle('active', item.dataset.panel === panelName);
   });
 
-  if (panelName === 'learning') refreshLearningPanel();
+  if (panelName === 'learning') { learningQueueReady = false; refreshLearningPanel(); }
   if (panelName === 'flashcard') refreshFlashcardPanel();
   if (panelName === 'progress') refreshProgressPanel();
   if (panelName === 'settings') refreshSettingsPanel();
@@ -35,37 +34,41 @@ navItems.forEach(function(item) {
 
 // ===== LEARNING MODE =====
 
-function refreshLearningPanel() {
+function buildLearningQueue() {
   var progress = loadProgress();
   var allWords = getCurrentWords();
   var today = new Date().toISOString().split('T')[0];
 
-  // Build learning queue: due words first, then new (unknown without nextReview), then unknown with future review
   var dueWords = [];
   var newWords = [];
-  var queuedUnknown = [];
+  var futureWords = [];
 
   allWords.forEach(function(w) {
     var d = getWordData(w.id);
     if (d.status === 'known' || d.status === 'mastered') {
-      // Already known/mastered, check if due for review
       if (d.nextReview && d.nextReview <= today) dueWords.push(w);
-    } else if (d.status === 'unknown' || d.status === 'fuzzy') {
-      if (!d.nextReview) {
-        newWords.push(w);
-      } else if (d.nextReview <= today) {
-        dueWords.push(w);
-      } else {
-        queuedUnknown.push(w);
-      }
+    } else {
+      if (!d.nextReview) newWords.push(w);
+      else if (d.nextReview <= today) dueWords.push(w);
+      else futureWords.push(w);
     }
   });
 
-  learningQueue = dueWords.concat(newWords).concat(queuedUnknown);
+  learningQueue = dueWords.concat(newWords).concat(futureWords);
+  learningQueueReady = true;
 
-  // Restore position
+  var progress = loadProgress();
   currentWordIndex = progress.currentWordIndex || 0;
-  learningDoneToday = getTodayLearningCount();
+  if (currentWordIndex >= learningQueue.length) currentWordIndex = 0;
+}
+
+function refreshLearningPanel() {
+  if (!learningQueueReady) buildLearningQueue();
+
+  var dailyCount = getTodayLearningCount();
+  var limitDisplay = getDailyLimitDisplay();
+
+  document.getElementById('learning-progress-text').textContent = '今日: ' + dailyCount + '/' + limitDisplay;
 
   if (learningQueue.length === 0 || isDailyLimitReached()) {
     document.getElementById('word-en').textContent = '✨';
@@ -73,7 +76,6 @@ function refreshLearningPanel() {
     document.getElementById('word-zh').textContent = '进入闪卡模式巩固吧~';
     document.getElementById('word-example').textContent = '';
     document.getElementById('word-index').textContent = '0/0';
-    document.getElementById('learning-progress-text').textContent = '今日: ' + learningDoneToday + '/' + getDailyLimitDisplay();
     return;
   }
 
@@ -82,26 +84,12 @@ function refreshLearningPanel() {
   renderWordCard(learningQueue[currentWordIndex]);
   updateWordIndexDisplay();
 
+  var progress = loadProgress();
   var unitLabel = document.getElementById('learning-unit-label');
   if (progress.mode === 'mixed') {
     unitLabel.textContent = '🔀 全部混合';
   } else {
     unitLabel.textContent = 'Unit ' + progress.currentUnit;
-  }
-
-  document.getElementById('learning-progress-text').textContent =
-    '今日: ' + learningDoneToday + '/' + getDailyLimitDisplay();
-
-  // Highlight current status
-  var currentWord = learningQueue[currentWordIndex];
-  var d = getWordData(currentWord.id);
-  var status = d.status || 'unknown';
-  if (status === 'known' || status === 'mastered') {
-    document.getElementById('btn-learn-unknown').style.opacity = '0.7';
-    document.getElementById('btn-learn-known').style.opacity = '1';
-  } else {
-    document.getElementById('btn-learn-unknown').style.opacity = '1';
-    document.getElementById('btn-learn-known').style.opacity = '1';
   }
 }
 
@@ -131,12 +119,23 @@ function isDailyLimitReached() {
   return getTodayLearningCount() >= limit;
 }
 
+// Prev/Next buttons
 document.getElementById('btn-prev-word').addEventListener('click', function() {
-  if (currentWordIndex > 0) { currentWordIndex--; savePosition('learning', currentWordIndex); refreshLearningPanel(); }
+  if (learningQueue.length === 0) return;
+  if (currentWordIndex > 0) {
+    currentWordIndex--;
+    savePosition('learning', currentWordIndex);
+  }
+  refreshLearningPanel();
 });
 
 document.getElementById('btn-next-word').addEventListener('click', function() {
-  if (currentWordIndex < learningQueue.length - 1) { currentWordIndex++; savePosition('learning', currentWordIndex); refreshLearningPanel(); }
+  if (learningQueue.length === 0) return;
+  if (currentWordIndex < learningQueue.length - 1) {
+    currentWordIndex++;
+    savePosition('learning', currentWordIndex);
+  }
+  refreshLearningPanel();
 });
 
 // Touch swipe
@@ -145,48 +144,62 @@ document.getElementById('word-card').addEventListener('touchstart', function(e) 
   touchStartX = e.touches[0].clientX;
 });
 document.getElementById('word-card').addEventListener('touchend', function(e) {
+  if (learningQueue.length === 0) return;
   var diff = touchStartX - e.changedTouches[0].clientX;
   if (Math.abs(diff) > 50) {
-    if (diff > 0 && currentWordIndex < learningQueue.length - 1) { currentWordIndex++; savePosition('learning', currentWordIndex); }
-    else if (diff < 0 && currentWordIndex > 0) { currentWordIndex--; savePosition('learning', currentWordIndex); }
+    if (diff > 0 && currentWordIndex < learningQueue.length - 1) {
+      currentWordIndex++;
+      savePosition('learning', currentWordIndex);
+    } else if (diff < 0 && currentWordIndex > 0) {
+      currentWordIndex--;
+      savePosition('learning', currentWordIndex);
+    }
     refreshLearningPanel();
   }
 });
 
+// Mark buttons
 document.getElementById('btn-learn-unknown').addEventListener('click', function() { markLearnWord('unknown'); });
 document.getElementById('btn-learn-known').addEventListener('click', function() { markLearnWord('known'); });
 
 function markLearnWord(status) {
   if (learningQueue.length === 0) return;
+  if (isDailyLimitReached()) {
+    showToast('🎀 今日学习任务完成！进入闪卡模式');
+    setTimeout(function() { switchPanel('flashcard'); }, 1000);
+    return;
+  }
+
   var word = learningQueue[currentWordIndex];
   var today = new Date().toISOString().split('T')[0];
 
   if (status === 'known') {
     updateWordStatus(word.id, 'known', dateAddDays(today, 7), 7);
     incrementDailyStat('learningKnown');
+    // Remove from in-memory queue
+    learningQueue.splice(currentWordIndex, 1);
+    if (learningQueue.length === 0) currentWordIndex = 0;
+    else if (currentWordIndex >= learningQueue.length) currentWordIndex = 0;
+    savePosition('learning', currentWordIndex);
   } else {
     updateWordStatus(word.id, 'unknown', dateAddDays(today, 1), 1);
     incrementDailyStat('learningUnknown');
-    // Move to end of queue for re-practice
-    var currentWord = learningQueue.splice(currentWordIndex, 1)[0];
-    learningQueue.push(currentWord);
+    // Move current word to end of queue
+    learningQueue.push(learningQueue.splice(currentWordIndex, 1)[0]);
+    // currentWordIndex stays the same — it now points to the next word
+    if (currentWordIndex >= learningQueue.length) currentWordIndex = 0;
     savePosition('learning', currentWordIndex);
-    refreshLearningPanel();
-    return;
   }
 
-  // Check if daily limit reached
+  // Check if daily limit reached after this mark
   if (isDailyLimitReached()) {
+    refreshLearningPanel();
     showToast('🎀 今日学习任务完成！进入闪卡模式');
     savePosition('learning', 0);
     setTimeout(function() { switchPanel('flashcard'); }, 1000);
     return;
   }
 
-  // Advance in queue
-  learningQueue.splice(currentWordIndex, 1);
-  if (currentWordIndex >= learningQueue.length) currentWordIndex = 0;
-  savePosition('learning', currentWordIndex);
   refreshLearningPanel();
 }
 
@@ -206,7 +219,6 @@ function refreshProgressPanel() {
   document.getElementById('stat-streak').textContent = progress.streakDays || 0;
   document.getElementById('progress-fill').style.width = rate + '%';
 
-  // Daily stats
   document.getElementById('stat-learn-known').textContent = daily.learningKnown || 0;
   document.getElementById('stat-learn-unknown').textContent = daily.learningUnknown || 0;
   document.getElementById('stat-fc-known').textContent = daily.flashcardKnown || 0;
@@ -226,17 +238,20 @@ function refreshSettingsPanel() {
       var tag = document.createElement('span');
       tag.className = 'unit-tag' + (progress.currentUnit === u && progress.mode === 'unit' ? ' active' : '');
       tag.textContent = 'Unit ' + u;
-      tag.addEventListener('click', function() { setUnit(u); setMode('unit'); refreshSettingsPanel(); switchPanel('learning'); });
+      tag.addEventListener('click', function() {
+        setUnit(u); setMode('unit'); learningQueueReady = false; refreshSettingsPanel(); switchPanel('learning');
+      });
       unitSelector.appendChild(tag);
     })(i);
   }
   var mixedTag = document.createElement('span');
   mixedTag.className = 'unit-tag' + (progress.mode === 'mixed' ? ' active' : '');
   mixedTag.textContent = '🔀 全部混合';
-  mixedTag.addEventListener('click', function() { setMode('mixed'); refreshSettingsPanel(); switchPanel('learning'); });
+  mixedTag.addEventListener('click', function() {
+    setMode('mixed'); learningQueueReady = false; refreshSettingsPanel(); switchPanel('learning');
+  });
   unitSelector.appendChild(mixedTag);
 
-  // Font size
   document.querySelectorAll('.font-size-btn').forEach(function(btn) {
     btn.classList.toggle('active', btn.dataset.size === progress.settings.fontSize);
     btn.onclick = function() {
@@ -246,7 +261,6 @@ function refreshSettingsPanel() {
     };
   });
 
-  // Default mode
   document.querySelectorAll('.mode-btn').forEach(function(btn) {
     btn.classList.toggle('active', btn.dataset.mode === progress.settings.defaultMode);
     btn.onclick = function() {
@@ -255,7 +269,6 @@ function refreshSettingsPanel() {
     };
   });
 
-  // Daily limit
   document.querySelectorAll('.daily-limit-btn').forEach(function(btn) {
     var limit = parseInt(btn.dataset.limit);
     var current = progress.settings.dailyLimit || 100;
@@ -286,7 +299,7 @@ document.getElementById('completion-modal').addEventListener('click', function(e
   if (e.target === e.currentTarget) document.getElementById('completion-modal').style.display = 'none';
 });
 
-// ===== KEYBOARD SHORTCUTS =====
+// ===== KEYBOARD =====
 
 document.addEventListener('keydown', function(e) {
   if (panels.learning.classList.contains('active')) {
