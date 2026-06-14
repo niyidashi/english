@@ -9,10 +9,28 @@ var fcBrowseOnly = false;
 function buildFlashcardPool() {
   fcBrowseOnly = false;
   var progress = loadProgress();
-  var daily = getDailyStats();
+  var today = new Date().toISOString().split('T')[0];
 
-  var knownIds = daily.learningKnownIds || [];
-  var unknownIds = daily.learningUnknownIds || [];
+  // Source 1: dailyStats ID arrays
+  var ds = progress.dailyStats || {};
+  var knownIds = (ds.learningKnownIds || []).slice();
+  var unknownIds = (ds.learningUnknownIds || []).slice();
+
+  // Source 2: scan all words' progress for ones marked in learning mode today
+  // (nextReview set and > today), catches any missed by ID arrays
+  var wordsMap = progress.words || {};
+  WORDS.forEach(function(w) {
+    var raw = wordsMap[w.id];
+    if (!raw) return;
+    var d = typeof raw === 'string' ? { status: raw } : raw;
+    if (d.nextReview && d.nextReview > today) {
+      if (d.status === 'known' && knownIds.indexOf(w.id) === -1) {
+        knownIds.push(w.id);
+      } else if (d.status === 'unknown' && unknownIds.indexOf(w.id) === -1) {
+        unknownIds.push(w.id);
+      }
+    }
+  });
 
   if (knownIds.length === 0 && unknownIds.length === 0) {
     fcWords = [];
@@ -44,12 +62,8 @@ function refreshFlashcardPanel() {
   if (!fcPoolReady) buildFlashcardPool();
 
   if (fcWords.length === 0) {
-    var daily = getDailyStats();
-    var learnedIds = (daily.learningKnownIds || []).concat(daily.learningUnknownIds || []);
     document.getElementById('fc-word-en').textContent = '🐱';
-    document.getElementById('fc-word-pos').textContent = learnedIds.length === 0
-      ? '当前没有学习的单词，请先学习小宝宝~'
-      : '没有需要复习的单词了';
+    document.getElementById('fc-word-pos').textContent = '当前没有学习的单词，请先学习小宝宝~';
     document.getElementById('fc-word-zh').textContent = '';
     document.getElementById('fc-word-example').textContent = '';
     document.getElementById('flashcard-count').textContent = '0/0';
