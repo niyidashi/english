@@ -98,20 +98,17 @@ document.getElementById('btn-fc-known').addEventListener('click', function() {
   refreshFlashcardPanel();
 });
 
-// 模糊 → fuzzy, 3天后复习, 移出今日队列
+// 模糊 → fuzzy, 3天后复习, 推回队尾今日再练
 document.getElementById('btn-fc-fuzzy').addEventListener('click', function() {
   if (fcWords.length === 0) return;
   var word = fcWords[fcIndex];
   var today = new Date().toISOString().split('T')[0];
   updateWordStatus(word.id, 'fuzzy', dateAddDays(today, 3), 3);
   incrementDailyStat('flashcardFuzzy');
-  showToast('💗 标记模糊，3天后复习');
-  fcWords.splice(fcIndex, 1);
-  if (fcWords.length === 0) {
-    fcIndex = 0;
-    finishFlashcard();
-    return;
-  }
+  showToast('💗 标记模糊，放到后面再练');
+  // Move to end of queue
+  var moved = fcWords.splice(fcIndex, 1)[0];
+  fcWords.push(moved);
   if (fcIndex >= fcWords.length) fcIndex = 0;
   savePosition('flashcard', fcIndex);
   refreshFlashcardPanel();
