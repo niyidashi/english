@@ -23,7 +23,7 @@ function switchPanel(panelName) {
   });
 
   if (panelName === 'learning') { learningQueueReady = false; refreshLearningPanel(); }
-  if (panelName === 'flashcard') refreshFlashcardPanel();
+  if (panelName === 'flashcard') { fcPoolReady = false; refreshFlashcardPanel(); }
   if (panelName === 'progress') refreshProgressPanel();
   if (panelName === 'settings') refreshSettingsPanel();
 }
