@@ -1,0 +1,25 @@
+{
+  "name": "Hello 单词 - Kitty 记忆伴侣",
+  "short_name": "Hello 单词",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#FFF9FB",
+  "theme_color": "#E84060",
+  "description": "Kitty 主题英语单词记忆器",
+  "lang": "zh-CN",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "img/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "img/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

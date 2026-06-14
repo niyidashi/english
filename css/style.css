@@ -1,0 +1,421 @@
+/* css/style.css — Hello Kitty Word Memorizer */
+
+:root {
+  --red-bow: #FF2D55;
+  --deep-pink: #E84060;
+  --bg-pink: #FFF9FB;
+  --white: #FFFFFF;
+  --text-deep: #C4203B;
+  --border-pink: #F8D0D8;
+  --bg-light-pink: #FDE4E8;
+  --text-medium: #D65B6E;
+  --text-light: #8B1A2B;
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+  --radius-xl: 28px;
+  --font-heading: 'Varela Round', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-body: 'Nunito Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-word: Georgia, 'Times New Roman', serif;
+  --shadow-card: 0 6px 20px rgba(200,60,80,0.08);
+  --shadow-btn: 0 4px 14px rgba(232,64,96,0.3);
+  --shadow-progress: 0 2px 8px rgba(230,60,80,0.04);
+  --transition-fast: 150ms ease;
+  --transition-normal: 200ms ease-out;
+  --transition-flip: 400ms ease;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--bg-pink);
+  color: var(--text-deep);
+  min-height: 100dvh;
+  max-width: 480px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-heading);
+}
+
+.word-en {
+  font-family: var(--font-word);
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  padding: 16px 16px 8px;
+  gap: 10px;
+}
+
+.app-header .logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border-pink);
+}
+
+.app-header .title {
+  font-weight: 700;
+  font-size: 17px;
+  color: var(--text-deep);
+}
+
+.app-header .subtitle {
+  font-size: 10px;
+  color: #E8A0B0;
+}
+
+.app-content {
+  flex: 1;
+  padding: 8px 16px 80px;
+  overflow-y: auto;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0 env(safe-area-inset-bottom, 10px);
+  background: var(--white);
+  border-top: 2px solid var(--bg-light-pink);
+  z-index: 100;
+}
+
+.bottom-nav .nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  padding: 4px 12px;
+  border: none;
+  background: none;
+  color: var(--text-medium);
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  min-width: 44px;
+  min-height: 44px;
+  transition: color var(--transition-fast);
+}
+
+.bottom-nav .nav-item.active {
+  color: var(--red-bow);
+  font-weight: 700;
+}
+
+.bottom-nav .nav-item img {
+  width: 22px;
+  height: 22px;
+}
+
+.panel {
+  display: none;
+}
+.panel.active {
+  display: block;
+  animation: fadeIn var(--transition-normal);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.progress-bar {
+  height: 8px;
+  border-radius: 8px;
+  background: var(--bg-light-pink);
+  overflow: hidden;
+  border: 1px solid var(--border-pink);
+}
+
+.progress-bar .fill {
+  height: 100%;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #FF8DA1, var(--deep-pink));
+  transition: width 0.3s ease;
+}
+
+.word-card {
+  background: var(--white);
+  border: 3px solid var(--border-pink);
+  border-radius: var(--radius-lg);
+  padding: 28px 20px 20px;
+  text-align: center;
+  box-shadow: var(--shadow-card);
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 16px;
+}
+
+.word-card .watermark {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
+.word-card .word-pos {
+  font-size: 13px;
+  color: var(--deep-pink);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.word-card .word-zh {
+  font-size: 16px;
+  color: var(--text-light);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.word-card .word-example {
+  padding: 10px 14px;
+  background: #FFF5F6;
+  border-radius: 14px;
+  font-size: 12px;
+  color: var(--text-medium);
+  font-style: italic;
+  border: 1px dashed var(--border-pink);
+}
+
+.btn {
+  padding: 14px 12px;
+  border-radius: var(--radius-md);
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  transition: all var(--transition-fast);
+  min-height: 44px;
+  min-width: 44px;
+  touch-action: manipulation;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn-outline {
+  border: 2px solid var(--border-pink);
+  background: var(--white);
+  color: var(--deep-pink);
+}
+
+.btn-outline:active {
+  background: var(--bg-light-pink);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #FF5E7A, var(--deep-pink));
+  color: var(--white);
+  box-shadow: var(--shadow-btn);
+}
+
+.btn-primary:active {
+  box-shadow: 0 2px 6px rgba(232,64,96,0.2);
+}
+
+.btn-ghost {
+  background: var(--white);
+  color: var(--text-medium);
+  border: 2px solid var(--border-pink);
+}
+
+.btn-group {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-group .btn {
+  flex: 1;
+}
+
+.flashcard-scene {
+  perspective: 800px;
+  width: 100%;
+  min-height: 200px;
+  margin-bottom: 16px;
+}
+
+.flashcard {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 200px;
+  transform-style: preserve-3d;
+  transition: transform var(--transition-flip);
+  cursor: pointer;
+}
+
+.flashcard.flipped {
+  transform: rotateY(180deg);
+}
+
+.flashcard-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: var(--radius-lg);
+  border: 3px solid var(--border-pink);
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  box-shadow: var(--shadow-card);
+}
+
+.flashcard-back {
+  transform: rotateY(180deg);
+}
+
+.stat-card {
+  background: var(--white);
+  border: 1px solid var(--border-pink);
+  border-radius: var(--radius-sm);
+  padding: 10px;
+  text-align: center;
+}
+
+.stat-card .stat-value {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--deep-pink);
+}
+
+.stat-card .stat-label {
+  font-size: 9px;
+  color: var(--text-medium);
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  animation: fadeIn var(--transition-normal);
+}
+
+.modal {
+  background: var(--white);
+  border-radius: var(--radius-lg);
+  padding: 24px 20px;
+  max-width: 90vw;
+  width: 340px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+  animation: modalIn var(--transition-normal);
+  border: 2px solid var(--border-pink);
+  text-align: center;
+}
+
+.modal h3 {
+  color: var(--text-deep);
+  margin-bottom: 12px;
+  font-family: var(--font-heading);
+}
+
+.modal p {
+  color: var(--text-light);
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+.modal .btn {
+  width: 100%;
+}
+
+@keyframes modalIn {
+  from { transform: scale(0.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.meow-toast {
+  font-family: var(--font-body);
+}
+
+@keyframes toastIn {
+  from { transform: translateX(-50%) translateY(20px); opacity: 0; }
+  to { transform: translateX(-50%) translateY(0); opacity: 1; }
+}
+
+.unit-selector {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.unit-tag {
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 2px solid var(--border-pink);
+  background: var(--white);
+  color: var(--text-medium);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.unit-tag.active {
+  background: var(--deep-pink);
+  color: var(--white);
+  border-color: var(--deep-pink);
+}
+
+.font-small { font-size: 14px; }
+.font-small .word-en { font-size: 22px; }
+.font-medium { font-size: 16px; }
+.font-medium .word-en { font-size: 28px; }
+.font-large { font-size: 18px; }
+.font-large .word-en { font-size: 34px; }
+
+@media (min-width: 480px) {
+  .app-container {
+    border-left: 1px solid var(--border-pink);
+    border-right: 1px solid var(--border-pink);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
