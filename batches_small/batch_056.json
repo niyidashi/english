@@ -1,0 +1,65 @@
+[
+  {
+    "en": "tune",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1651,
+    "zh": "曲调；旋律；调子；和谐",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "staff",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1652,
+    "zh": "员工；全体职员；工作人员",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "stuff",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1653,
+    "zh": "东西；物品；材料；事物",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "crew",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1654,
+    "zh": "全体船员；工作人员；团队",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "faculty",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1655,
+    "zh": "全体教员；能力；才能；系",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "hammer",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1656,
+    "zh": "锤子；榔头",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "kidnap",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1657,
+    "zh": "绑架；劫持；诱拐",
+    "example": "",
+    "exampleZh": ""
+  }
+]

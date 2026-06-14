@@ -1,0 +1,65 @@
+[
+  {
+    "en": "tune",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1651,
+    "zh": "曲调；调子",
+    "example": "She hummed a cheerful tune while walking to the bus stop on her way to work.",
+    "exampleZh": "她在去上班的公交车站路上哼着欢快的曲调。"
+  },
+  {
+    "en": "staff",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1652,
+    "zh": "员工；工作人员",
+    "example": "The hotel staff were very friendly and always willing to help their guests with a smile.",
+    "exampleZh": "酒店员工非常友好，总是面带微笑地愿意帮助客人。"
+  },
+  {
+    "en": "stuff",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1653,
+    "zh": "东西；物品",
+    "example": "We need to pack all of our stuff before the moving truck arrives tomorrow morning.",
+    "exampleZh": "我们需要在明天早上搬家卡车到达之前打包好所有的东西。"
+  },
+  {
+    "en": "crew",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1654,
+    "zh": "全体船员；一组工作人员",
+    "example": "The film crew worked tirelessly for twelve hours to shoot a single important scene.",
+    "exampleZh": "摄制组为拍摄一个重要的场景而不辞辛劳地工作了十二个小时。"
+  },
+  {
+    "en": "faculty",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1655,
+    "zh": "全体教员；能力",
+    "example": "The entire faculty gathered in the auditorium for the annual meeting with the university president.",
+    "exampleZh": "全体教员聚集在礼堂参加与大学校长的年度会议。"
+  },
+  {
+    "en": "hammer",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1656,
+    "zh": "锤子；榔头",
+    "example": "He used a hammer and some nails to fix the broken wooden frame on the wall.",
+    "exampleZh": "他用锤子和一些钉子修理了墙上那个坏掉的木框。"
+  },
+  {
+    "en": "kidnap",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1657,
+    "zh": "绑架；劫持",
+    "example": "The criminals planned to kidnap the wealthy businessman and demand a large ransom from his family.",
+    "exampleZh": "犯罪分子计划绑架那位富商，并向其家人索要巨额赎金。"
+  }
+]

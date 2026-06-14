@@ -1,0 +1,272 @@
+[
+  {
+    "en": "intensive",
+    "pos": "adj.",
+    "unit": 3,
+    "id": 361,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "intense",
+    "pos": "adj.",
+    "unit": 3,
+    "id": 362,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "sense",
+    "pos": "n.；v.",
+    "unit": 3,
+    "id": 363,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "sensitive",
+    "pos": "adj.",
+    "unit": 3,
+    "id": 364,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "senseless",
+    "pos": "adj.",
+    "unit": 3,
+    "id": 365,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "sensible",
+    "pos": "adj.",
+    "unit": 3,
+    "id": 366,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "commonsense",
+    "pos": "n.",
+    "unit": 3,
+    "id": 367,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "nonsense",
+    "pos": "n.",
+    "unit": 3,
+    "id": 368,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "sensation",
+    "pos": "n.",
+    "unit": 3,
+    "id": 369,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "harm",
+    "pos": "n.",
+    "unit": 3,
+    "id": 370,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "injure",
+    "pos": "v.",
+    "unit": 3,
+    "id": 371,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "rescue",
+    "pos": "v.",
+    "unit": 3,
+    "id": 372,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "shrink",
+    "pos": "v.",
+    "unit": 3,
+    "id": 373,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "fade",
+    "pos": "v.",
+    "unit": 3,
+    "id": 374,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "famine",
+    "pos": "n.",
+    "unit": 3,
+    "id": 375,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "puzzle",
+    "pos": "n.；v.",
+    "unit": 3,
+    "id": 376,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "particular",
+    "pos": "adj.",
+    "unit": 3,
+    "id": 377,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "specialize/-ise",
+    "pos": "v.",
+    "unit": 3,
+    "id": 378,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "specific",
+    "pos": "adj.",
+    "unit": 3,
+    "id": 379,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "peculiar",
+    "pos": "adj.",
+    "unit": 3,
+    "id": 380,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "site",
+    "pos": "n.",
+    "unit": 3,
+    "id": 381,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "cite",
+    "pos": "v.",
+    "unit": 3,
+    "id": 382,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "quote",
+    "pos": "v.；n.",
+    "unit": 3,
+    "id": 383,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "inferior",
+    "pos": "adj.；n.",
+    "unit": 3,
+    "id": 384,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "superior",
+    "pos": "adj.；n.",
+    "unit": 3,
+    "id": 385,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "superb",
+    "pos": "adj.",
+    "unit": 3,
+    "id": 386,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "supreme",
+    "pos": "adj.",
+    "unit": 3,
+    "id": 387,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "superiority",
+    "pos": "n.",
+    "unit": 3,
+    "id": 388,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "superstition",
+    "pos": "n.",
+    "unit": 3,
+    "id": 389,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "religion",
+    "pos": "n.",
+    "unit": 3,
+    "id": 390,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "en": "action",
+    "pos": "n.",
+    "unit": 1,
+    "id": 1,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "activate",
+    "pos": "v.",
+    "unit": 1,
+    "id": 2,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "react",
+    "pos": "v.",
+    "unit": 1,
+    "id": 3,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "exact",
+    "pos": "adj.",
+    "unit": 1,
+    "id": 4,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "actual",
+    "pos": "adj.",
+    "unit": 1,
+    "id": 5,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "interact",
+    "pos": "v.",
+    "unit": 1,
+    "id": 6,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "behavior",
+    "pos": "n.",
+    "unit": 1,
+    "id": 7,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "conduct",
+    "pos": "v.",
+    "unit": 1,
+    "id": 8,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "ambition",
+    "pos": "n.",
+    "unit": 1,
+    "id": 9,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "ancient",
+    "pos": "adj.",
+    "unit": 1,
+    "id": 10,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "awe",
+    "pos": "n.",
+    "unit": 1,
+    "id": 11,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "awful",
+    "pos": "adj.",
+    "unit": 1,
+    "id": 12,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "award",
+    "pos": "n.；v.",
+    "unit": 1,
+    "id": 13,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "reward",
+    "pos": "n.；v.",
+    "unit": 1,
+    "id": 14,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "awkward",
+    "pos": "adj.",
+    "unit": 1,
+    "id": 15,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "amuse",
+    "pos": "v.",
+    "unit": 1,
+    "id": 16,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "amaze",
+    "pos": "v.",
+    "unit": 1,
+    "id": 17,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "loom",
+    "pos": "v.",
+    "unit": 1,
+    "id": 18,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "boom",
+    "pos": "n.",
+    "unit": 1,
+    "id": 19,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "bloom",
+    "pos": "n.",
+    "unit": 1,
+    "id": 20,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "gloom",
+    "pos": "n.",
+    "unit": 1,
+    "id": 21,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "boost",
+    "pos": "v.",
+    "unit": 1,
+    "id": 22,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "boast",
+    "pos": "v.",
+    "unit": 1,
+    "id": 23,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "toast",
+    "pos": "n.；v.",
+    "unit": 1,
+    "id": 24,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "exaggerate",
+    "pos": "v.",
+    "unit": 1,
+    "id": 25,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "balance",
+    "pos": "n.；v.",
+    "unit": 1,
+    "id": 26,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "blush",
+    "pos": "v.",
+    "unit": 1,
+    "id": 27,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "flush",
+    "pos": "v.",
+    "unit": 1,
+    "id": 28,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "splash",
+    "pos": "v.；n.",
+    "unit": 1,
+    "id": 29,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "trait",
+    "pos": "n.",
+    "unit": 1,
+    "id": 30,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  }
+]

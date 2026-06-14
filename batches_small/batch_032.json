@@ -1,0 +1,272 @@
+[
+  {
+    "en": "survive",
+    "pos": "v.",
+    "unit": 6,
+    "id": 931,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "revive",
+    "pos": "v.",
+    "unit": 6,
+    "id": 932,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "shelter",
+    "pos": "n.",
+    "unit": 6,
+    "id": 933,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "resident",
+    "pos": "n.",
+    "unit": 6,
+    "id": 934,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "preside",
+    "pos": "v.",
+    "unit": 6,
+    "id": 935,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "inhabit",
+    "pos": "v.",
+    "unit": 6,
+    "id": 936,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "habitat",
+    "pos": "n.",
+    "unit": 6,
+    "id": 937,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "collapse",
+    "pos": "v.",
+    "unit": 6,
+    "id": 938,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "elapse",
+    "pos": "v.",
+    "unit": 6,
+    "id": 939,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "hesitate",
+    "pos": "v.",
+    "unit": 6,
+    "id": 940,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "string",
+    "pos": "n.",
+    "unit": 6,
+    "id": 941,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "avenue",
+    "pos": "n.",
+    "unit": 6,
+    "id": 942,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "mourn",
+    "pos": "v.",
+    "unit": 7,
+    "id": 943,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "groan",
+    "pos": "v.",
+    "unit": 7,
+    "id": 944,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "grave",
+    "pos": "n.",
+    "unit": 7,
+    "id": 945,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "aggravate",
+    "pos": "v.",
+    "unit": 7,
+    "id": 946,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "grieve",
+    "pos": "v.",
+    "unit": 7,
+    "id": 947,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "relieve",
+    "pos": "v.",
+    "unit": 7,
+    "id": 948,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "alleviate",
+    "pos": "v.",
+    "unit": 7,
+    "id": 949,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "grateful",
+    "pos": "adj.",
+    "unit": 7,
+    "id": 950,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "grant",
+    "pos": "v.",
+    "unit": 7,
+    "id": 951,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "analogy",
+    "pos": "n.",
+    "unit": 7,
+    "id": 952,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "blend",
+    "pos": "v.",
+    "unit": 7,
+    "id": 953,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "bench",
+    "pos": "n.",
+    "unit": 7,
+    "id": 954,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "abound",
+    "pos": "v.",
+    "unit": 7,
+    "id": 955,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "bid",
+    "pos": "v.",
+    "unit": 7,
+    "id": 956,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "steep",
+    "pos": "adj.",
+    "unit": 7,
+    "id": 957,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "prey",
+    "pos": "n.",
+    "unit": 7,
+    "id": 958,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "eternal",
+    "pos": "adj.",
+    "unit": 7,
+    "id": 959,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "warrant",
+    "pos": "n.",
+    "unit": 7,
+    "id": 960,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  }
+]

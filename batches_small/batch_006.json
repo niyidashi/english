@@ -1,0 +1,272 @@
+[
+  {
+    "en": "clap",
+    "pos": "v.",
+    "unit": 1,
+    "id": 151,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "mortgage",
+    "pos": "n.",
+    "unit": 1,
+    "id": 152,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "scandal",
+    "pos": "n.",
+    "unit": 1,
+    "id": 153,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "immune",
+    "pos": "adj.",
+    "unit": 1,
+    "id": 154,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "scan",
+    "pos": "v.",
+    "unit": 1,
+    "id": 155,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "skim",
+    "pos": "v.",
+    "unit": 1,
+    "id": 156,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "glare",
+    "pos": "v.",
+    "unit": 1,
+    "id": 157,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "glimpse",
+    "pos": "n.",
+    "unit": 1,
+    "id": 158,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "glance",
+    "pos": "v.",
+    "unit": 1,
+    "id": 159,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "gaze",
+    "pos": "v.",
+    "unit": 1,
+    "id": 160,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "peep",
+    "pos": "v.",
+    "unit": 1,
+    "id": 161,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "browse",
+    "pos": "v.",
+    "unit": 1,
+    "id": 162,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "stare",
+    "pos": "v.",
+    "unit": 1,
+    "id": 163,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "crude",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 164,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "origin",
+    "pos": "n.",
+    "unit": 2,
+    "id": 165,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "stem",
+    "pos": "n.；v.",
+    "unit": 2,
+    "id": 166,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "cradle",
+    "pos": "n.",
+    "unit": 2,
+    "id": 167,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "region",
+    "pos": "n.",
+    "unit": 2,
+    "id": 168,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "source",
+    "pos": "n.",
+    "unit": 2,
+    "id": 169,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "resource",
+    "pos": "n.",
+    "unit": 2,
+    "id": 170,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "tutor",
+    "pos": "n.",
+    "unit": 2,
+    "id": 171,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "tuition",
+    "pos": "n.",
+    "unit": 2,
+    "id": 172,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "notion",
+    "pos": "n.",
+    "unit": 2,
+    "id": 173,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "plunge",
+    "pos": "v.",
+    "unit": 2,
+    "id": 174,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "nutrition",
+    "pos": "n.",
+    "unit": 2,
+    "id": 175,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "nurture",
+    "pos": "v.",
+    "unit": 2,
+    "id": 176,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "routine",
+    "pos": "n.；adj.",
+    "unit": 2,
+    "id": 177,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "schema",
+    "pos": "n.",
+    "unit": 2,
+    "id": 178,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "punctual",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 179,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "misery",
+    "pos": "n.",
+    "unit": 2,
+    "id": 180,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "en": "attend",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1201,
+    "zh": "参加；出席；注意；照料",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "intend",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1202,
+    "zh": "打算；想要；计划",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "pretend",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1203,
+    "zh": "假装；伪装；装作",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "compose",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1204,
+    "zh": "组成；构成；创作；作曲",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "impose",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1205,
+    "zh": "强加；施加；征税；把…强加于",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "dispose",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1206,
+    "zh": "处理；处置；安排；使倾向于",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "deposit",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1207,
+    "zh": "存款；押金；沉淀物；保证金",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "compress",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1208,
+    "zh": "压缩；压紧；精简",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "duplicate",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1209,
+    "zh": "复制；重复；复印",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "halt",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1210,
+    "zh": "停止；停下；暂停",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "inspiration",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1211,
+    "zh": "灵感；启发；鼓舞",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "proceed",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1212,
+    "zh": "继续进行；前进；行进",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "press",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1213,
+    "zh": "按；压；催促；印刷；新闻界",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "repress",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1214,
+    "zh": "压抑；压制；镇压",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "decisive",
+    "pos": "adj.",
+    "unit": 8,
+    "id": 1215,
+    "zh": "决定性的；果断的；坚定的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "profile",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1216,
+    "zh": "简介；概况；侧面；轮廓",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "aspire",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1217,
+    "zh": "渴望；有志于；追求",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "express",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1218,
+    "zh": "表达；表示；表现；快递",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "suppress",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1219,
+    "zh": "压制；抑制；镇压；忍住",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "decline",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1220,
+    "zh": "下降；衰退；拒绝；婉拒",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "propel",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1221,
+    "zh": "推进；推动；驱动",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "perspire",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1222,
+    "zh": "出汗；流汗；排汗",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "cease",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1223,
+    "zh": "停止；终止；结束",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "inspire",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1224,
+    "zh": "激励；鼓舞；启发；赋予灵感",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "revise",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1225,
+    "zh": "修订；修改；复习",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "vision",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1226,
+    "zh": "视力；视野；愿景；想象力",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "standpoint",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1227,
+    "zh": "立场；观点；角度",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "depress",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1228,
+    "zh": "使沮丧；使萧条；压低；压抑",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "declare",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1229,
+    "zh": "宣布；声明；申报；宣称",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "supervise",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1230,
+    "zh": "监督；管理；指导",
+    "example": "",
+    "exampleZh": ""
+  }
+]

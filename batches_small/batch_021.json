@@ -1,0 +1,272 @@
+[
+  {
+    "en": "reality",
+    "pos": "n.",
+    "unit": 4,
+    "id": 601,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "panic",
+    "pos": "n.",
+    "unit": 4,
+    "id": 602,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "demonstrate",
+    "pos": "v.",
+    "unit": 4,
+    "id": 603,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "indicate",
+    "pos": "v.",
+    "unit": 4,
+    "id": 604,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "imply",
+    "pos": "v.",
+    "unit": 4,
+    "id": 605,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "implicit",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 606,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "principal",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 607,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "principle",
+    "pos": "n.",
+    "unit": 4,
+    "id": 608,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "discipline",
+    "pos": "n.",
+    "unit": 4,
+    "id": 609,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "passion",
+    "pos": "n.",
+    "unit": 4,
+    "id": 610,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "negative",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 611,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "optimistic",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 612,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "pessimistic",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 613,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "passive",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 614,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "spoil",
+    "pos": "v.",
+    "unit": 4,
+    "id": 615,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "destroy",
+    "pos": "v.",
+    "unit": 4,
+    "id": 616,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "destruction",
+    "pos": "n.",
+    "unit": 4,
+    "id": 617,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "reluctant",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 618,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "reasonable",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 619,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "rational",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 620,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "joint",
+    "pos": "n.",
+    "unit": 4,
+    "id": 621,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "adjoin",
+    "pos": "v.",
+    "unit": 4,
+    "id": 622,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "pursue",
+    "pos": "v.",
+    "unit": 4,
+    "id": 623,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "absorb",
+    "pos": "v.",
+    "unit": 4,
+    "id": 624,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "abandon",
+    "pos": "v.",
+    "unit": 4,
+    "id": 625,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "abolish",
+    "pos": "v.",
+    "unit": 4,
+    "id": 626,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "abuse",
+    "pos": "v.",
+    "unit": 4,
+    "id": 627,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "indulge",
+    "pos": "v.",
+    "unit": 4,
+    "id": 628,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "dictate",
+    "pos": "v.",
+    "unit": 4,
+    "id": 629,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "addict",
+    "pos": "n.",
+    "unit": 4,
+    "id": 630,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  }
+]

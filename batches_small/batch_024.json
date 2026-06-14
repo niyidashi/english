@@ -1,0 +1,272 @@
+[
+  {
+    "en": "chronic",
+    "pos": "adj.",
+    "unit": 5,
+    "id": 691,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "surgery",
+    "pos": "n.",
+    "unit": 5,
+    "id": 692,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "therapy",
+    "pos": "n.",
+    "unit": 5,
+    "id": 693,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "heal",
+    "pos": "v.",
+    "unit": 5,
+    "id": 694,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "recovery",
+    "pos": "n.",
+    "unit": 5,
+    "id": 695,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "terminal",
+    "pos": "adj.",
+    "unit": 5,
+    "id": 696,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "grasp",
+    "pos": "v.",
+    "unit": 5,
+    "id": 697,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "grip",
+    "pos": "v.",
+    "unit": 5,
+    "id": 698,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "strip",
+    "pos": "v.",
+    "unit": 5,
+    "id": 699,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "stripe",
+    "pos": "n.",
+    "unit": 5,
+    "id": 700,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "stain",
+    "pos": "n.",
+    "unit": 5,
+    "id": 701,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "strain",
+    "pos": "n.",
+    "unit": 5,
+    "id": 702,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "restrain",
+    "pos": "v.",
+    "unit": 5,
+    "id": 703,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "constrain",
+    "pos": "v.",
+    "unit": 5,
+    "id": 704,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "refrain",
+    "pos": "v.",
+    "unit": 5,
+    "id": 705,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "polish",
+    "pos": "v.",
+    "unit": 5,
+    "id": 706,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "embody",
+    "pos": "v.",
+    "unit": 5,
+    "id": 707,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "irony",
+    "pos": "n.",
+    "unit": 5,
+    "id": 708,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "satire",
+    "pos": "n.",
+    "unit": 5,
+    "id": 709,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "mood",
+    "pos": "n.",
+    "unit": 5,
+    "id": 710,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "temper",
+    "pos": "n.",
+    "unit": 5,
+    "id": 711,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "personality",
+    "pos": "n.",
+    "unit": 5,
+    "id": 712,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "sympathy",
+    "pos": "n.",
+    "unit": 5,
+    "id": 713,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "pathetic",
+    "pos": "adj.",
+    "unit": 5,
+    "id": 714,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "mercy",
+    "pos": "n.",
+    "unit": 5,
+    "id": 715,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "host",
+    "pos": "n.",
+    "unit": 5,
+    "id": 716,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "symptom",
+    "pos": "n.",
+    "unit": 5,
+    "id": 717,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "symbol",
+    "pos": "n.",
+    "unit": 5,
+    "id": 718,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "brand",
+    "pos": "n.",
+    "unit": 5,
+    "id": 719,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "hostile",
+    "pos": "adj.",
+    "unit": 5,
+    "id": 720,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  }
+]

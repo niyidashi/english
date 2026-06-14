@@ -1,0 +1,272 @@
+[
+  {
+    "en": "considerate",
+    "pos": "adj.",
+    "unit": 7,
+    "id": 1111,
+    "zh": "体贴的；考虑周到的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "considerable",
+    "pos": "adj.",
+    "unit": 7,
+    "id": 1112,
+    "zh": "相当大的；重要的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "noticeable",
+    "pos": "adj.",
+    "unit": 7,
+    "id": 1113,
+    "zh": "显而易见的；显著的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "critic",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1114,
+    "zh": "批评家；评论家",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "criterion",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1115,
+    "zh": "标准；准则",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "concept",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1116,
+    "zh": "概念；观念",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "semester",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1117,
+    "zh": "学期",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "seminar",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1118,
+    "zh": "研讨会；研讨班",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "curriculum",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1119,
+    "zh": "课程",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "confront",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1120,
+    "zh": "面对；对抗",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "casual",
+    "pos": "adj.",
+    "unit": 8,
+    "id": 1121,
+    "zh": "随便的；非正式的；偶然的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "coincide",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1122,
+    "zh": "巧合；同时发生；一致",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "incident",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1123,
+    "zh": "事件；事变",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "character",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1124,
+    "zh": "性格；角色；字符；人物",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "feature",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1125,
+    "zh": "特征；特色；容貌",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "tempt",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1126,
+    "zh": "诱惑；吸引",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "attempt",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1127,
+    "zh": "试图；尝试",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "lure",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1128,
+    "zh": "引诱；诱惑",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "contempt",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1129,
+    "zh": "轻视；蔑视",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "contemplate",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1130,
+    "zh": "沉思；考虑；凝视",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "endeavor",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1131,
+    "zh": "努力；尽力",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "create",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1132,
+    "zh": "创造；创建；创作",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "creature",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1133,
+    "zh": "生物；动物",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "concrete",
+    "pos": "adj.",
+    "unit": 8,
+    "id": 1134,
+    "zh": "具体的；混凝土的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "being",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1135,
+    "zh": "生物；存在；人",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "comprehensive",
+    "pos": "adj.",
+    "unit": 8,
+    "id": 1136,
+    "zh": "全面的；综合的；理解的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "statute",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1137,
+    "zh": "法规；法令；章程",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "constitute",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1138,
+    "zh": "构成；组成；设立",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "institute",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1139,
+    "zh": "学院；研究所；机构",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "substitute",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1140,
+    "zh": "替代；代替",
+    "example": "",
+    "exampleZh": ""
+  }
+]

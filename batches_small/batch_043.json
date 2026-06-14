@@ -1,0 +1,272 @@
+[
+  {
+    "en": "predecessor",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1261,
+    "zh": "前任；前辈；前身",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "successor",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1262,
+    "zh": "继承者；继任者；接班人",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "process",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1263,
+    "zh": "过程；进程；工序；流程",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "succession",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1264,
+    "zh": "连续；继任；继承；一连串",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "recession",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1265,
+    "zh": "衰退；经济衰退；萧条",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "progress",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1266,
+    "zh": "进步；进展；前进；发展",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "aggressive",
+    "pos": "adj.",
+    "unit": 8,
+    "id": 1267,
+    "zh": "好斗的；侵略性的；激进的；积极进取的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "congress",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1268,
+    "zh": "国会；代表大会；议会",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "parliament",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1269,
+    "zh": "议会；国会",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "procession",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1270,
+    "zh": "队伍；行列；游行",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "ancestor",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1271,
+    "zh": "祖先；祖宗；原型",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "concede",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1272,
+    "zh": "承认；让步；退让；认输",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "procedure",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1273,
+    "zh": "程序；步骤；手续；流程",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "exceed",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1274,
+    "zh": "超过；超越；超出",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "fruitful",
+    "pos": "adj.",
+    "unit": 9,
+    "id": 1275,
+    "zh": "富有成效的；多产的；硕果累累的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "feasible",
+    "pos": "adj.",
+    "unit": 9,
+    "id": 1276,
+    "zh": "可行的；可能的；行得通的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "assemble",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1277,
+    "zh": "组装；集合；聚集",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "major",
+    "pos": "adj.",
+    "unit": 9,
+    "id": 1278,
+    "zh": "主要的；重要的；主修的；较大的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "lower",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1279,
+    "zh": "降低；减少；放下；降下",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "equal",
+    "pos": "adj.",
+    "unit": 9,
+    "id": 1280,
+    "zh": "相等的；平等的；相同的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "educate",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1281,
+    "zh": "教育；培养；教导",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "designate",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1282,
+    "zh": "指定；指派；标明；命名",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "strengthen",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1283,
+    "zh": "加强；增强；巩固",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "reinforce",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1284,
+    "zh": "加强；加固；增援；强化",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "width",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1285,
+    "zh": "宽度；广度",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "equivalent",
+    "pos": "adj.",
+    "unit": 9,
+    "id": 1286,
+    "zh": "等价的；相等的；等效的；相当的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "expedition",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1287,
+    "zh": "远征；探险队；考察",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "significant",
+    "pos": "adj.",
+    "unit": 9,
+    "id": 1288,
+    "zh": "重要的；显著的；有意义的；重大的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "exert",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1289,
+    "zh": "施加；发挥；运用；努力",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "retail",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1290,
+    "zh": "零售",
+    "example": "",
+    "exampleZh": ""
+  }
+]

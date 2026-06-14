@@ -1,0 +1,272 @@
+[
+  {
+    "en": "economy",
+    "pos": "n.",
+    "unit": 7,
+    "id": 1051,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "bonus",
+    "pos": "n.",
+    "unit": 7,
+    "id": 1052,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "thrift",
+    "pos": "n.",
+    "unit": 7,
+    "id": 1053,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "charity",
+    "pos": "n.",
+    "unit": 7,
+    "id": 1054,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "bless",
+    "pos": "v.",
+    "unit": 7,
+    "id": 1055,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "flock",
+    "pos": "n.",
+    "unit": 7,
+    "id": 1056,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "tactic",
+    "pos": "n.",
+    "unit": 7,
+    "id": 1057,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "strategy",
+    "pos": "n.",
+    "unit": 7,
+    "id": 1058,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "craft",
+    "pos": "n.",
+    "unit": 7,
+    "id": 1059,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "shrewd",
+    "pos": "adj.",
+    "unit": 7,
+    "id": 1060,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "aware",
+    "pos": "adj.",
+    "unit": 7,
+    "id": 1061,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "intermittent",
+    "pos": "adj.",
+    "unit": 7,
+    "id": 1062,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "coherent",
+    "pos": "adj.",
+    "unit": 7,
+    "id": 1063,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "accompany",
+    "pos": "v.",
+    "unit": 7,
+    "id": 1064,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "attribute",
+    "pos": "v.",
+    "unit": 7,
+    "id": 1065,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "accord",
+    "pos": "n.",
+    "unit": 7,
+    "id": 1066,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "accordingly",
+    "pos": "adv.",
+    "unit": 7,
+    "id": 1067,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "participate",
+    "pos": "v.",
+    "unit": 7,
+    "id": 1068,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "social",
+    "pos": "adj.",
+    "unit": 7,
+    "id": 1069,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "arrange",
+    "pos": "v.",
+    "unit": 7,
+    "id": 1070,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "appreciate",
+    "pos": "v.",
+    "unit": 7,
+    "id": 1071,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "desert",
+    "pos": "n.",
+    "unit": 7,
+    "id": 1072,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "insect",
+    "pos": "n.",
+    "unit": 7,
+    "id": 1073,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "worm",
+    "pos": "n.",
+    "unit": 7,
+    "id": 1074,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "attract",
+    "pos": "v.",
+    "unit": 7,
+    "id": 1075,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "distract",
+    "pos": "v.",
+    "unit": 7,
+    "id": 1076,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "committee",
+    "pos": "n.",
+    "unit": 7,
+    "id": 1077,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "sector",
+    "pos": "n.",
+    "unit": 7,
+    "id": 1078,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "session",
+    "pos": "n.",
+    "unit": 7,
+    "id": 1079,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "administer",
+    "pos": "v.",
+    "unit": 7,
+    "id": 1080,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  }
+]

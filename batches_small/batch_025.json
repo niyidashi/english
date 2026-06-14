@@ -1,0 +1,272 @@
+[
+  {
+    "en": "ghost",
+    "pos": "n.",
+    "unit": 5,
+    "id": 721,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "analyze/-yse",
+    "pos": "v.",
+    "unit": 5,
+    "id": 722,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "tolerate",
+    "pos": "v.",
+    "unit": 5,
+    "id": 723,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "undergo",
+    "pos": "v.",
+    "unit": 5,
+    "id": 724,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "endure",
+    "pos": "v.",
+    "unit": 5,
+    "id": 725,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "duration",
+    "pos": "n.",
+    "unit": 5,
+    "id": 726,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "pollute",
+    "pos": "v.",
+    "unit": 5,
+    "id": 727,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "contaminate",
+    "pos": "v.",
+    "unit": 5,
+    "id": 728,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "cultivate",
+    "pos": "v.",
+    "unit": 5,
+    "id": 729,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "breed",
+    "pos": "v.",
+    "unit": 5,
+    "id": 730,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "foster",
+    "pos": "v.",
+    "unit": 5,
+    "id": 731,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "tedious",
+    "pos": "adj.",
+    "unit": 5,
+    "id": 732,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "civil",
+    "pos": "adj.",
+    "unit": 5,
+    "id": 733,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "citizen",
+    "pos": "n.",
+    "unit": 5,
+    "id": 734,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "civilize/-ise",
+    "pos": "v.",
+    "unit": 5,
+    "id": 735,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "privilege",
+    "pos": "n.",
+    "unit": 5,
+    "id": 736,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "justice",
+    "pos": "n.",
+    "unit": 5,
+    "id": 737,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "justify",
+    "pos": "v.",
+    "unit": 5,
+    "id": 738,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "adjust",
+    "pos": "v.",
+    "unit": 5,
+    "id": 739,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "jury",
+    "pos": "n.",
+    "unit": 5,
+    "id": 740,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "testify",
+    "pos": "v.",
+    "unit": 5,
+    "id": 741,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "testimony",
+    "pos": "n.",
+    "unit": 5,
+    "id": 742,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "verify",
+    "pos": "v.",
+    "unit": 5,
+    "id": 743,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "simplify",
+    "pos": "v.",
+    "unit": 5,
+    "id": 744,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "penalty",
+    "pos": "n.",
+    "unit": 5,
+    "id": 745,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "panel",
+    "pos": "n.",
+    "unit": 5,
+    "id": 746,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "gross",
+    "pos": "adj.",
+    "unit": 5,
+    "id": 747,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "notable",
+    "pos": "adj.",
+    "unit": 5,
+    "id": 748,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "noble",
+    "pos": "adj.",
+    "unit": 5,
+    "id": 749,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "holy",
+    "pos": "adj.",
+    "unit": 5,
+    "id": 750,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  }
+]

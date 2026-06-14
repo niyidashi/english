@@ -1,0 +1,272 @@
+[
+  {
+    "en": "restrict",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1171,
+    "zh": "限制；约束；限定",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "constant",
+    "pos": "adj.",
+    "unit": 8,
+    "id": 1172,
+    "zh": "不断的；持续的；不变的；恒定的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "instant",
+    "pos": "adj.",
+    "unit": 8,
+    "id": 1173,
+    "zh": "立即的；即时的；速溶的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "distant",
+    "pos": "adj.",
+    "unit": 8,
+    "id": 1174,
+    "zh": "遥远的；远处的；疏远的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "stadium",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1175,
+    "zh": "体育场；运动场；体育馆",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "withstand",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1176,
+    "zh": "承受；经受；抵挡",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "withhold",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1177,
+    "zh": "扣留；拒绝给予；抑制",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "substance",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1178,
+    "zh": "物质；实质；内容；财力",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "consent",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1179,
+    "zh": "同意；许可；赞成",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "resent",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1180,
+    "zh": "怨恨；憎恶；愤恨",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "present",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1181,
+    "zh": "呈现；展示；提交；赠送",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "represent",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1182,
+    "zh": "代表；表示；象征；描述",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "absent",
+    "pos": "adj.",
+    "unit": 8,
+    "id": 1183,
+    "zh": "缺席的；不在的；心不在焉的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "census",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1184,
+    "zh": "人口普查；统计调查",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "consensus",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1185,
+    "zh": "共识；一致意见；舆论",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "compromise",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1186,
+    "zh": "妥协；折中；让步",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "comprise",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1187,
+    "zh": "包含；包括；由…组成",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "premise",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1188,
+    "zh": "前提；假定；房产",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "cooperate",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1189,
+    "zh": "合作；协作；配合",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "collaborate",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1190,
+    "zh": "合作；协作；勾结",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "elaborate",
+    "pos": "adj.",
+    "unit": 8,
+    "id": 1191,
+    "zh": "精心制作的；详尽的；复杂的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "context",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1192,
+    "zh": "上下文；背景；语境；环境",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "capture",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1193,
+    "zh": "捕获；俘获；捕捉；夺取",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "capacity",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1194,
+    "zh": "能力；容量；生产力",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "snatch",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1195,
+    "zh": "夺取；抢夺；抓住",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "stretch",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1196,
+    "zh": "伸展；延伸；拉伸；拉长",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "extend",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1197,
+    "zh": "扩展；延伸；延长；扩大",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "tend",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1198,
+    "zh": "倾向于；往往会；照顾；趋向",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "tendency",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1199,
+    "zh": "趋势；倾向；偏好",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "trend",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1200,
+    "zh": "趋势；潮流；趋向",
+    "example": "",
+    "exampleZh": ""
+  }
+]

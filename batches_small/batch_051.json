@@ -1,0 +1,272 @@
+[
+  {
+    "en": "assist",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1501,
+    "zh": "帮助；协助；援助",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "persist",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1502,
+    "zh": "坚持；持续；固执；执意",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "consist",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1503,
+    "zh": "由…组成；在于；符合",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "consistent",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1504,
+    "zh": "一致的；始终如一的；连贯的；坚持的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "resume",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1505,
+    "zh": "重新开始；恢复；继续",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "presume",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1506,
+    "zh": "假定；假设；推测；冒昧",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "assume",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1507,
+    "zh": "假设；认为；承担；采取",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "consume",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1508,
+    "zh": "消费；消耗；消耗（时间/精力）；吃光",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "assure",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1509,
+    "zh": "使确信；保证；确保",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "insure",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1510,
+    "zh": "投保；给…保险；确保",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "ensure",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1511,
+    "zh": "确保；保证；担保",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "guarantee",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1512,
+    "zh": "保证；担保；保修单",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "premium",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1513,
+    "zh": "保险费；额外费用；溢价；优质",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "stock",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1514,
+    "zh": "股票；库存；存货；股份",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "bankrupt",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1515,
+    "zh": "破产的；倒闭的；完全缺乏的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "disrupt",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1516,
+    "zh": "扰乱；破坏；使中断；打乱",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "erupt",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1517,
+    "zh": "爆发；喷发；突然发生",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "interrupt",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1518,
+    "zh": "打断；中断；插嘴；打扰",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "corrupt",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1519,
+    "zh": "腐败的；贪污的；堕落的；损坏的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "bribe",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1520,
+    "zh": "贿赂；行贿物",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "claim",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1521,
+    "zh": "声称；要求；索赔；认领",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "proclaim",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1522,
+    "zh": "宣告；宣布；声明；表明",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "reclaim",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1523,
+    "zh": "收回；开垦；回收；改造",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "exclaim",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1524,
+    "zh": "呼喊；惊叫；大声说",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "acclaim",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1525,
+    "zh": "称赞；喝彩；赞誉",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "declaim",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1526,
+    "zh": "慷慨陈词；雄辩；朗诵；抨击",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "confess",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1527,
+    "zh": "坦白；承认；忏悔；供认",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "profession",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1528,
+    "zh": "职业；专业；行业；声明",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "occupy",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1529,
+    "zh": "占据；占领；占用；使忙碌",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "identify",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1530,
+    "zh": "识别；辨认；确认；认同",
+    "example": "",
+    "exampleZh": ""
+  }
+]

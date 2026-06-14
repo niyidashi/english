@@ -1,0 +1,272 @@
+[
+  {
+    "en": "peak",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1471,
+    "zh": "顶峰；最高点；峰值；山峰",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "disappear",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1472,
+    "zh": "消失；不见；失踪；绝迹",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "appearance",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1473,
+    "zh": "外貌；外观；出现；露面",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "discard",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1474,
+    "zh": "丢弃；抛弃；废弃",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "attain",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1475,
+    "zh": "达到；获得；实现",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "transmit",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1476,
+    "zh": "传输；传送；传播；传染",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "translate",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1477,
+    "zh": "翻译；转化；转换",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "transplant",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1478,
+    "zh": "移植；移栽；迁移",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "transport",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1479,
+    "zh": "运输；运送；输送",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "transaction",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1480,
+    "zh": "交易；事务；业务；办理",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "transparent",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1481,
+    "zh": "透明的；显而易见的；坦率的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "transit",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1482,
+    "zh": "运输；过境；通行；中转",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "transient",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1483,
+    "zh": "短暂的；转瞬即逝的；临时的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "opaque",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1484,
+    "zh": "不透明的；晦涩的；难懂的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "retain",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1485,
+    "zh": "保留；保持；留住；记住",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "sustain",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1486,
+    "zh": "维持；支撑；承受；供养",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "maintain",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1487,
+    "zh": "维持；保持；维修；坚持",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "entertain",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1488,
+    "zh": "娱乐；招待；款待；使快乐",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "obtain",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1489,
+    "zh": "获得；得到；获取",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "pertain",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1490,
+    "zh": "有关；涉及；属于；适合",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "detain",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1491,
+    "zh": "拘留；扣押；留住；耽搁",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "arrest",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1492,
+    "zh": "逮捕；拘留；阻止；吸引",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "chase",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1493,
+    "zh": "追逐；追赶；追求；追捕",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "purchase",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1494,
+    "zh": "购买；采购",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "trace",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1495,
+    "zh": "追踪；追溯；跟踪；查出",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "trail",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1496,
+    "zh": "小径；痕迹；踪迹；线索",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "acquire",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1497,
+    "zh": "获得；取得；习得；获取",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "require",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1498,
+    "zh": "需要；要求；命令",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "inquire",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1499,
+    "zh": "询问；打听；查询；调查",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "resist",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1500,
+    "zh": "抵抗；抗拒；抵制；反抗",
+    "example": "",
+    "exampleZh": ""
+  }
+]

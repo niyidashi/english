@@ -1,0 +1,1352 @@
+[
+  {
+    "en": "clap",
+    "pos": "v.",
+    "unit": 1,
+    "id": 151,
+    "zh": "鼓掌；拍手；轻拍",
+    "example": "The audience began to clap enthusiastically after the wonderful performance.",
+    "exampleZh": "精彩表演结束后，观众开始热情鼓掌。"
+  },
+  {
+    "en": "mortgage",
+    "pos": "n.",
+    "unit": 1,
+    "id": 152,
+    "zh": "抵押贷款；按揭",
+    "example": "They took out a mortgage to buy their first house last year.",
+    "exampleZh": "他们去年办了抵押贷款买下了他们的第一套房子。"
+  },
+  {
+    "en": "scandal",
+    "pos": "n.",
+    "unit": 1,
+    "id": 153,
+    "zh": "丑闻；流言蜚语；耻辱",
+    "example": "The political scandal shocked the entire nation and led to the resignation.",
+    "exampleZh": "这起政治丑闻震惊了全国，并导致部长辞职。"
+  },
+  {
+    "en": "immune",
+    "pos": "adj.",
+    "unit": 1,
+    "id": 154,
+    "zh": "免疫的；不受影响的；免除的",
+    "example": "A healthy diet can help strengthen your immune system naturally.",
+    "exampleZh": "健康的饮食有助于自然地增强你的免疫系统。"
+  },
+  {
+    "en": "scan",
+    "pos": "v.",
+    "unit": 1,
+    "id": 155,
+    "zh": "扫描；浏览；细看",
+    "example": "He quickly scanned the newspaper headlines while waiting for the bus.",
+    "exampleZh": "他在等公交车时快速浏览了报纸的头条新闻。"
+  },
+  {
+    "en": "skim",
+    "pos": "v.",
+    "unit": 1,
+    "id": 156,
+    "zh": "略读；掠过；撇去",
+    "example": "I only had time to skim the report before the important meeting.",
+    "exampleZh": "在重要会议之前，我只有时间略读这份报告。"
+  },
+  {
+    "en": "glare",
+    "pos": "v.",
+    "unit": 1,
+    "id": 157,
+    "zh": "怒视；发出刺眼的强光",
+    "example": "She gave him an angry glare when he interrupted her speech rudely.",
+    "exampleZh": "当他粗鲁地打断她的发言时，她愤怒地瞪了他一眼。"
+  },
+  {
+    "en": "glimpse",
+    "pos": "n.",
+    "unit": 1,
+    "id": 158,
+    "zh": "一瞥；匆匆一看；隐约的感觉",
+    "example": "I caught a brief glimpse of the celebrity as she entered the hotel lobby.",
+    "exampleZh": "当那位名人进入酒店大堂时，我匆匆瞥见她一眼。"
+  },
+  {
+    "en": "glance",
+    "pos": "v.",
+    "unit": 1,
+    "id": 159,
+    "zh": "扫视；瞥一眼；浏览",
+    "example": "He glanced at his watch and realized he was already late for work.",
+    "exampleZh": "他瞥了一眼手表，意识到上班已经迟到了。"
+  },
+  {
+    "en": "gaze",
+    "pos": "v.",
+    "unit": 1,
+    "id": 160,
+    "zh": "凝视；注视；盯着看",
+    "example": "She sat by the window and gazed at the stars in the night sky.",
+    "exampleZh": "她坐在窗边，凝视着夜空中的星星。"
+  },
+  {
+    "en": "peep",
+    "pos": "v.",
+    "unit": 1,
+    "id": 161,
+    "zh": "偷看；窥视；微微露出",
+    "example": "The curious child tried to peep through the keyhole into the locked room.",
+    "exampleZh": "那个好奇的孩子试图透过钥匙孔偷看锁着的房间。"
+  },
+  {
+    "en": "browse",
+    "pos": "v.",
+    "unit": 1,
+    "id": 162,
+    "zh": "浏览；随意翻阅；吃草",
+    "example": "I like to browse the shelves of bookstores without any particular plan.",
+    "exampleZh": "我喜欢漫无目的地在书店的书架间浏览。"
+  },
+  {
+    "en": "stare",
+    "pos": "v.",
+    "unit": 1,
+    "id": 163,
+    "zh": "盯着看；凝视；瞪视",
+    "example": "It is impolite to stare at strangers for a long time in public.",
+    "exampleZh": "在公共场合长时间盯着陌生人看是不礼貌的。"
+  },
+  {
+    "en": "crude",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 164,
+    "zh": "粗糙的；粗制的；天然的",
+    "example": "The crude oil must be processed at a refinery before it can be used.",
+    "exampleZh": "原油必须经过炼油厂加工后才能使用。"
+  },
+  {
+    "en": "origin",
+    "pos": "n.",
+    "unit": 2,
+    "id": 165,
+    "zh": "起源；出身；原点",
+    "example": "Scientists are still trying to determine the origin of this mysterious virus.",
+    "exampleZh": "科学家们仍在试图确定这种神秘病毒的起源。"
+  },
+  {
+    "en": "stem",
+    "pos": "n.；v.",
+    "unit": 2,
+    "id": 166,
+    "zh": "茎；干；起源于；阻止",
+    "example": "Most of his problems stem from a lack of proper communication with others.",
+    "exampleZh": "他的大部分问题源于与他人缺乏适当的沟通。"
+  },
+  {
+    "en": "cradle",
+    "pos": "n.",
+    "unit": 2,
+    "id": 167,
+    "zh": "摇篮；发源地；婴儿时期",
+    "example": "The mother gently rocked the cradle until the baby fell asleep peacefully.",
+    "exampleZh": "母亲轻轻摇动摇篮，直到婴儿安然入睡。"
+  },
+  {
+    "en": "region",
+    "pos": "n.",
+    "unit": 2,
+    "id": 168,
+    "zh": "地区；区域；范围",
+    "example": "This region is famous for its beautiful mountains and traditional cuisine.",
+    "exampleZh": "这个地区以其美丽的山脉和传统美食而闻名。"
+  },
+  {
+    "en": "source",
+    "pos": "n.",
+    "unit": 2,
+    "id": 169,
+    "zh": "来源；出处；源头",
+    "example": "We need to find a reliable source of information before writing the article.",
+    "exampleZh": "在写文章之前，我们需要找到一个可靠的信息来源。"
+  },
+  {
+    "en": "resource",
+    "pos": "n.",
+    "unit": 2,
+    "id": 170,
+    "zh": "资源；财力；资料",
+    "example": "Water is a precious natural resource that we must all learn to conserve.",
+    "exampleZh": "水是一种宝贵的自然资源，我们都必须学会节约。"
+  },
+  {
+    "en": "tutor",
+    "pos": "n.",
+    "unit": 2,
+    "id": 171,
+    "zh": "导师；家教；辅导员",
+    "example": "His parents hired a private tutor to help him improve his math grades.",
+    "exampleZh": "他的父母请了一位私人家教帮他提高数学成绩。"
+  },
+  {
+    "en": "tuition",
+    "pos": "n.",
+    "unit": 2,
+    "id": 172,
+    "zh": "学费；教学；讲授",
+    "example": "The tuition fees at private universities have increased dramatically in recent years.",
+    "exampleZh": "近年来私立大学的学费大幅上涨。"
+  },
+  {
+    "en": "notion",
+    "pos": "n.",
+    "unit": 2,
+    "id": 173,
+    "zh": "概念；想法；观点",
+    "example": "She had a strange notion that everyone was secretly watching her every move.",
+    "exampleZh": "她有一个奇怪的想法，认为每个人都在暗中监视她的一举一动。"
+  },
+  {
+    "en": "plunge",
+    "pos": "v.",
+    "unit": 2,
+    "id": 174,
+    "zh": "跳水；暴跌；投入",
+    "example": "Temperatures are expected to plunge below freezing by tomorrow morning.",
+    "exampleZh": "预计到明天早上气温将骤降至冰点以下。"
+  },
+  {
+    "en": "nutrition",
+    "pos": "n.",
+    "unit": 2,
+    "id": 175,
+    "zh": "营养；滋养；营养学",
+    "example": "Proper nutrition is essential for the healthy growth of young children.",
+    "exampleZh": "适当的营养对幼儿的健康成长至关重要。"
+  },
+  {
+    "en": "nurture",
+    "pos": "v.",
+    "unit": 2,
+    "id": 176,
+    "zh": "培养；养育；滋养",
+    "example": "It is important to nurture a child's natural curiosity and creativity.",
+    "exampleZh": "培养孩子天生的好奇心和创造力很重要。"
+  },
+  {
+    "en": "routine",
+    "pos": "n.；adj.",
+    "unit": 2,
+    "id": 177,
+    "zh": "常规；例行公事；日常的",
+    "example": "Establishing a daily routine can help you become more productive and organized.",
+    "exampleZh": "建立日常习惯可以帮助你更有条理、更高效。"
+  },
+  {
+    "en": "schema",
+    "pos": "n.",
+    "unit": 2,
+    "id": 178,
+    "zh": "模式；概要；图解",
+    "example": "The diagram shows the basic schema of the entire network system.",
+    "exampleZh": "该图表展示了整个网络系统的基本架构。"
+  },
+  {
+    "en": "punctual",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 179,
+    "zh": "准时的；守时的；精确的",
+    "example": "She is always punctual for appointments, never once arriving late.",
+    "exampleZh": "她赴约总是很准时，从未迟到过一次。"
+  },
+  {
+    "en": "misery",
+    "pos": "n.",
+    "unit": 2,
+    "id": 180,
+    "zh": "痛苦；悲惨；苦难",
+    "example": "The war brought nothing but misery to the innocent people of the region.",
+    "exampleZh": "战争给该地区无辜的人民带来的只有痛苦。"
+  },
+  {
+    "en": "nourish",
+    "pos": "v.",
+    "unit": 2,
+    "id": 181,
+    "zh": "滋养；养育；培育",
+    "example": "A good education can nourish a child's mind and prepare them for the future.",
+    "exampleZh": "良好的教育可以滋养孩子的心灵，为他们的未来做好准备。"
+  },
+  {
+    "en": "scheme",
+    "pos": "n.；v.",
+    "unit": 2,
+    "id": 182,
+    "zh": "计划；阴谋；方案；密谋",
+    "example": "The police uncovered a scheme to steal valuable paintings from the museum.",
+    "exampleZh": "警方发现了一个从博物馆盗窃名画的阴谋。"
+  },
+  {
+    "en": "forum",
+    "pos": "n.",
+    "unit": 2,
+    "id": 183,
+    "zh": "论坛；讨论会；公共集会场所",
+    "example": "The online forum allows users to discuss various topics and share ideas freely.",
+    "exampleZh": "这个在线论坛允许用户自由讨论各种话题并分享想法。"
+  },
+  {
+    "en": "haste",
+    "pos": "n.",
+    "unit": 2,
+    "id": 184,
+    "zh": "匆忙；仓促；急忙",
+    "example": "More haste, less speed — take your time and do the job properly.",
+    "exampleZh": "欲速则不达——慢慢来，把工作做好。"
+  },
+  {
+    "en": "keen",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 185,
+    "zh": "热切的；敏锐的；渴望的",
+    "example": "He has always been keen on learning about different cultures from around the world.",
+    "exampleZh": "他一直热衷于了解世界各地的不同文化。"
+  },
+  {
+    "en": "raw",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 186,
+    "zh": "生的；未加工的；原始的",
+    "example": "You should never eat raw meat because it may contain harmful bacteria.",
+    "exampleZh": "你绝不应该吃生肉，因为它可能含有有害细菌。"
+  },
+  {
+    "en": "agenda",
+    "pos": "n.",
+    "unit": 2,
+    "id": 187,
+    "zh": "议程；议事日程；目的",
+    "example": "The first item on the agenda is the annual budget review for next year.",
+    "exampleZh": "议程上的第一项是明年的年度预算审查。"
+  },
+  {
+    "en": "schedule",
+    "pos": "n.",
+    "unit": 2,
+    "id": 188,
+    "zh": "时间表；日程安排；计划",
+    "example": "I have a very busy schedule today with back-to-back meetings all afternoon.",
+    "exampleZh": "我今天的日程很满，整个下午会议一个接一个。"
+  },
+  {
+    "en": "oblige",
+    "pos": "v.",
+    "unit": 2,
+    "id": 189,
+    "zh": "迫使；责成；帮忙；施恩于",
+    "example": "The law obliges all citizens to pay taxes on their annual income.",
+    "exampleZh": "法律要求所有公民为其年收入纳税。"
+  },
+  {
+    "en": "loyal",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 190,
+    "zh": "忠诚的；忠心的；忠实的",
+    "example": "A loyal friend will always stand by your side no matter what happens.",
+    "exampleZh": "忠诚的朋友无论发生什么都会站在你身边。"
+  },
+  {
+    "en": "faithful",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 191,
+    "zh": "忠实的；忠诚的；如实的",
+    "example": "The dog remained faithful to its owner until the very end of its life.",
+    "exampleZh": "那条狗直到生命的尽头都对主人忠心耿耿。"
+  },
+  {
+    "en": "royal",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 192,
+    "zh": "皇家的；王室的；盛大的",
+    "example": "The royal family attended the grand opening of the new national museum.",
+    "exampleZh": "王室成员出席了新国家博物馆的盛大开幕式。"
+  },
+  {
+    "en": "obedient",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 193,
+    "zh": "顺从的；听话的；服从的",
+    "example": "The well-trained dog was very obedient and always followed his commands.",
+    "exampleZh": "那只训练有素的狗非常听话，总是服从他的命令。"
+  },
+  {
+    "en": "triumph",
+    "pos": "n.",
+    "unit": 2,
+    "id": 194,
+    "zh": "胜利；凯旋；巨大的成功",
+    "example": "Winning the championship after years of hard work was a true triumph for the team.",
+    "exampleZh": "经过多年努力赢得冠军对这支队伍来说是真正的胜利。"
+  },
+  {
+    "en": "integrate",
+    "pos": "v.",
+    "unit": 2,
+    "id": 195,
+    "zh": "整合；融合；使一体化",
+    "example": "The school aims to integrate students from different cultural backgrounds successfully.",
+    "exampleZh": "学校旨在成功地融合来自不同文化背景的学生。"
+  },
+  {
+    "en": "segregate",
+    "pos": "v.",
+    "unit": 2,
+    "id": 196,
+    "zh": "隔离；分开；分离",
+    "example": "It is illegal to segregate people based on their race or religion in most countries.",
+    "exampleZh": "在大多数国家，根据种族或宗教隔离他人是非法的。"
+  },
+  {
+    "en": "patience",
+    "pos": "n.",
+    "unit": 2,
+    "id": 197,
+    "zh": "耐心；忍耐力；容忍",
+    "example": "Teaching young children requires a great deal of patience and understanding.",
+    "exampleZh": "教小孩子需要极大的耐心和理解。"
+  },
+  {
+    "en": "pace",
+    "pos": "n.",
+    "unit": 2,
+    "id": 198,
+    "zh": "步伐；速度；节奏",
+    "example": "You should walk at a comfortable pace rather than trying to rush ahead.",
+    "exampleZh": "你应该以舒适的速度行走，而不是急着往前冲。"
+  },
+  {
+    "en": "patent",
+    "pos": "n.；adj.",
+    "unit": 2,
+    "id": 199,
+    "zh": "专利；专利权；专利的；明显的",
+    "example": "He filed a patent for his new invention to protect his intellectual property.",
+    "exampleZh": "他为他的新发明申请了专利以保护知识产权。"
+  },
+  {
+    "en": "invent",
+    "pos": "v.",
+    "unit": 2,
+    "id": 200,
+    "zh": "发明；创造；虚构",
+    "example": "Thomas Edison is famous for helping to invent the practical electric light bulb.",
+    "exampleZh": "托马斯·爱迪生因帮助发明实用的电灯泡而闻名。"
+  },
+  {
+    "en": "stride",
+    "pos": "v.",
+    "unit": 2,
+    "id": 201,
+    "zh": "大步走；迈进；跨过",
+    "example": "He began to stride confidently across the stage to deliver his speech.",
+    "exampleZh": "他开始自信地大步走过舞台发表演讲。"
+  },
+  {
+    "en": "swarm",
+    "pos": "n.；v.",
+    "unit": 2,
+    "id": 202,
+    "zh": "蜂群；一大群；云集；蜂拥",
+    "example": "A swarm of bees gathered around the hive in the warm spring sunshine.",
+    "exampleZh": "在温暖的春日阳光下，一群蜜蜂聚集在蜂巢周围。"
+  },
+  {
+    "en": "linger",
+    "pos": "v.",
+    "unit": 2,
+    "id": 203,
+    "zh": "徘徊；逗留；萦绕",
+    "example": "The smell of fresh coffee lingered in the kitchen for a long time.",
+    "exampleZh": "新鲜咖啡的香味在厨房里久久萦绕。"
+  },
+  {
+    "en": "wander",
+    "pos": "v.",
+    "unit": 2,
+    "id": 204,
+    "zh": "漫步；闲逛；走神；偏离",
+    "example": "We spent the afternoon wandering through the narrow streets of the old town.",
+    "exampleZh": "我们花了一下午在老城区狭窄的街道上漫步。"
+  },
+  {
+    "en": "stroll",
+    "pos": "v.",
+    "unit": 2,
+    "id": 205,
+    "zh": "散步；漫步；闲逛",
+    "example": "They took a leisurely stroll along the beach as the sun slowly set.",
+    "exampleZh": "日落时分，他们沿着海滩悠闲地散步。"
+  },
+  {
+    "en": "enrol(l",
+    "pos": "v.",
+    "unit": 2,
+    "id": 206,
+    "zh": "登记；注册；报名参加",
+    "example": "I decided to enrol in an online course to improve my programming skills.",
+    "exampleZh": "我决定报名参加一个在线课程来提高我的编程技能。"
+  },
+  {
+    "en": "recruit",
+    "pos": "v.；n.",
+    "unit": 2,
+    "id": 207,
+    "zh": "招募；征募；新成员；新兵",
+    "example": "The company is trying to recruit more experienced engineers for the new project.",
+    "exampleZh": "公司正在为新项目招募更多有经验的工程师。"
+  },
+  {
+    "en": "drag",
+    "pos": "v.",
+    "unit": 2,
+    "id": 208,
+    "zh": "拖；拉；拖拽；缓慢前进",
+    "example": "He had to drag his heavy suitcase up three flights of stairs.",
+    "exampleZh": "他不得不拖着沉重的行李箱爬上三层楼梯。"
+  },
+  {
+    "en": "quarrel",
+    "pos": "n.",
+    "unit": 2,
+    "id": 209,
+    "zh": "争吵；吵架；争执",
+    "example": "The couple had a bitter quarrel over money problems last night.",
+    "exampleZh": "那对夫妇昨晚因金钱问题发生了激烈的争吵。"
+  },
+  {
+    "en": "sovereign",
+    "pos": "n.；adj.",
+    "unit": 2,
+    "id": 210,
+    "zh": "君主；最高统治者；主权的",
+    "example": "Every nation has the sovereign right to govern its own internal affairs.",
+    "exampleZh": "每个国家都拥有管理本国内政的主权权利。"
+  },
+  {
+    "en": "lag",
+    "pos": "v.",
+    "unit": 2,
+    "id": 211,
+    "zh": "落后；滞后；延迟；缓慢",
+    "example": "The network connection began to lag during the important video conference call.",
+    "exampleZh": "网络连接在重要的视频会议通话期间开始出现延迟。"
+  },
+  {
+    "en": "agitate",
+    "pos": "v.",
+    "unit": 2,
+    "id": 212,
+    "zh": "煽动；鼓动；使焦虑；搅动",
+    "example": "The workers began to agitate for better wages and improved working conditions.",
+    "exampleZh": "工人们开始鼓动要求提高工资和改善工作条件。"
+  },
+  {
+    "en": "blame",
+    "pos": "v.",
+    "unit": 2,
+    "id": 213,
+    "zh": "责怪；指责；归咎于",
+    "example": "You should not always blame others for your own mistakes and failures.",
+    "exampleZh": "你不应该总是把自己的错误和失败归咎于他人。"
+  },
+  {
+    "en": "reign",
+    "pos": "n.",
+    "unit": 2,
+    "id": 214,
+    "zh": "统治时期；在位期；支配",
+    "example": "The king's reign was remembered as a period of peace and great prosperity.",
+    "exampleZh": "这位国王的统治时期被人们铭记为和平与繁荣的时代。"
+  },
+  {
+    "en": "tag",
+    "pos": "n.；v.",
+    "unit": 2,
+    "id": 215,
+    "zh": "标签；标牌；贴标签；标记",
+    "example": "Remember to attach a price tag to each item before putting it on display.",
+    "exampleZh": "记得在每件商品上贴价格标签再陈列出来。"
+  },
+  {
+    "en": "label",
+    "pos": "n.；v.",
+    "unit": 2,
+    "id": 216,
+    "zh": "标签；标记；标注；贴标签",
+    "example": "You should always read the label on food products before buying them.",
+    "exampleZh": "购买食品前你应该始终阅读产品上的标签。"
+  },
+  {
+    "en": "lame",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 217,
+    "zh": "跛的；瘸的；蹩脚的；站不住脚的",
+    "example": "He gave a rather lame excuse for not finishing his assignment on time.",
+    "exampleZh": "他为自己没有按时完成作业找了一个相当蹩脚的借口。"
+  },
+  {
+    "en": "melt",
+    "pos": "v.",
+    "unit": 2,
+    "id": 218,
+    "zh": "融化；熔化；消散",
+    "example": "The snow began to melt as the warm spring sun finally came out.",
+    "exampleZh": "随着温暖的春日终于出现，雪开始融化了。"
+  },
+  {
+    "en": "tame",
+    "pos": "adj.；v.",
+    "unit": 2,
+    "id": 219,
+    "zh": "驯服的；温顺的；驯服；制服",
+    "example": "The lion in the circus appeared surprisingly tame and well-trained.",
+    "exampleZh": "马戏团里的狮子出奇地温顺，训练有素。"
+  },
+  {
+    "en": "hinder",
+    "pos": "v.",
+    "unit": 2,
+    "id": 220,
+    "zh": "阻碍；妨碍；阻挡",
+    "example": "A lack of funding may hinder the progress of this important research project.",
+    "exampleZh": "缺乏资金可能会阻碍这个重要研究项目的进展。"
+  },
+  {
+    "en": "hamper",
+    "pos": "v.；n.",
+    "unit": 2,
+    "id": 221,
+    "zh": "阻碍；妨碍；篮子；洗衣篮",
+    "example": "Bad weather conditions continued to hamper rescue efforts in the disaster area.",
+    "exampleZh": "恶劣的天气条件继续阻碍灾区的救援工作。"
+  },
+  {
+    "en": "simulate",
+    "pos": "v.",
+    "unit": 2,
+    "id": 222,
+    "zh": "模拟；模仿；假装",
+    "example": "Pilots use flight simulators to simulate emergency situations during their training.",
+    "exampleZh": "飞行员在训练中使用飞行模拟器来模拟紧急情况。"
+  },
+  {
+    "en": "stimulate",
+    "pos": "v.",
+    "unit": 2,
+    "id": 223,
+    "zh": "刺激；激发；激励；促进",
+    "example": "Good teachers know how to stimulate their students' interest in learning new things.",
+    "exampleZh": "好老师知道如何激发学生学习新事物的兴趣。"
+  },
+  {
+    "en": "simultaneous",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 224,
+    "zh": "同时的；同步的；同时发生的",
+    "example": "The two explosions were almost simultaneous, occurring within seconds of each other.",
+    "exampleZh": "两次爆炸几乎是同时发生的，彼此相隔仅几秒钟。"
+  },
+  {
+    "en": "engage",
+    "pos": "v.",
+    "unit": 2,
+    "id": 225,
+    "zh": "参与；吸引；雇佣；交战",
+    "example": "We need to find new ways to engage young people in community service.",
+    "exampleZh": "我们需要找到新方法让年轻人参与社区服务。"
+  },
+  {
+    "en": "marital",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 226,
+    "zh": "婚姻的；夫妻的",
+    "example": "Seeking counseling can help couples resolve their marital problems and conflicts.",
+    "exampleZh": "寻求咨询可以帮助夫妻解决婚姻问题和冲突。"
+  },
+  {
+    "en": "pregnant",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 227,
+    "zh": "怀孕的；妊娠的；充满的",
+    "example": "She was three months pregnant when she first heard the wonderful news.",
+    "exampleZh": "当她第一次听到那个好消息时，已经怀孕三个月了。"
+  },
+  {
+    "en": "divorce",
+    "pos": "n.",
+    "unit": 2,
+    "id": 228,
+    "zh": "离婚；分离；脱离",
+    "example": "The divorce rate has been rising steadily in many countries around the world.",
+    "exampleZh": "世界上许多国家的离婚率一直在稳步上升。"
+  },
+  {
+    "en": "spouse",
+    "pos": "n.",
+    "unit": 2,
+    "id": 229,
+    "zh": "配偶；丈夫或妻子",
+    "example": "You should always discuss major financial decisions with your spouse beforehand.",
+    "exampleZh": "做重大财务决定前，你应该先与你的配偶商量。"
+  },
+  {
+    "en": "household",
+    "pos": "n.；adj.",
+    "unit": 2,
+    "id": 230,
+    "zh": "家庭；一家人；家庭的；家喻户晓的",
+    "example": "The average household in this city spends about thirty percent of income on housing.",
+    "exampleZh": "这个城市的普通家庭大约将收入的30%花在住房上。"
+  },
+  {
+    "en": "uphold",
+    "pos": "v.",
+    "unit": 2,
+    "id": 231,
+    "zh": "维护；支持；坚持；确认",
+    "example": "Judges have a duty to uphold the law and deliver fair justice to all.",
+    "exampleZh": "法官有责任维护法律，公正对待所有人。"
+  },
+  {
+    "en": "hoist",
+    "pos": "v.",
+    "unit": 2,
+    "id": 232,
+    "zh": "升起；吊起；举高；起重机",
+    "example": "The workers used a crane to hoist the heavy equipment onto the roof.",
+    "exampleZh": "工人们用起重机将重型设备吊到屋顶上。"
+  },
+  {
+    "en": "sane",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 233,
+    "zh": "理智的；心智健全的；合情合理的",
+    "example": "No sane person would drive a car without wearing a seatbelt these days.",
+    "exampleZh": "如今，没有一个理智的人会不系安全带开车。"
+  },
+  {
+    "en": "renaissance",
+    "pos": "n.",
+    "unit": 2,
+    "id": 234,
+    "zh": "文艺复兴；复兴；再生",
+    "example": "The Renaissance was a period of great cultural and artistic achievement in Europe.",
+    "exampleZh": "文艺复兴是欧洲文化和艺术成就辉煌的时期。"
+  },
+  {
+    "en": "heir",
+    "pos": "n.",
+    "unit": 2,
+    "id": 235,
+    "zh": "继承人；后嗣；接班入",
+    "example": "As the only son, he is the legal heir to his father's vast fortune.",
+    "exampleZh": "作为独生子，他是他父亲巨额财产的合法继承人。"
+  },
+  {
+    "en": "heritage",
+    "pos": "n.",
+    "unit": 2,
+    "id": 236,
+    "zh": "遗产；传统；继承物",
+    "example": "It is our duty and responsibility to preserve our cultural heritage for future generations.",
+    "exampleZh": "为后代保护我们的文化遗产是我们的责任和义务。"
+  },
+  {
+    "en": "inherit",
+    "pos": "v.",
+    "unit": 2,
+    "id": 237,
+    "zh": "继承；经遗传而获得",
+    "example": "She will inherit the family business after her father retires next year.",
+    "exampleZh": "父亲明年退休后，她将继承家族企业。"
+  },
+  {
+    "en": "inherent",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 238,
+    "zh": "固有的；内在的；天生的",
+    "example": "There are certain risks inherent in every kind of investment you make.",
+    "exampleZh": "你做的每一种投资都存在某些固有的风险。"
+  },
+  {
+    "en": "astonish",
+    "pos": "v.",
+    "unit": 2,
+    "id": 239,
+    "zh": "使惊讶；使大为惊奇",
+    "example": "The magician's final trick never fails to astonish audiences around the world.",
+    "exampleZh": "魔术师的最后一个魔术总是让世界各地的观众惊叹不已。"
+  },
+  {
+    "en": "absolute",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 240,
+    "zh": "绝对的；完全的；纯粹的",
+    "example": "We have absolute confidence in her ability to lead the team to success.",
+    "exampleZh": "我们有绝对的信心，相信她能带领团队取得成功。"
+  },
+  {
+    "en": "appeal",
+    "pos": "v.",
+    "unit": 2,
+    "id": 241,
+    "zh": "呼吁；上诉；吸引；恳求",
+    "example": "The charity launched a campaign to appeal for donations to help the flood victims.",
+    "exampleZh": "慈善机构发起了一项活动，呼吁捐款帮助洪水灾民。"
+  },
+  {
+    "en": "prosecute",
+    "pos": "v.",
+    "unit": 2,
+    "id": 242,
+    "zh": "起诉；控告；检举；继续从事",
+    "example": "The district attorney decided to prosecute the suspect for first-degree murder.",
+    "exampleZh": "地方检察官决定以一级谋杀罪起诉嫌疑人。"
+  },
+  {
+    "en": "flatter",
+    "pos": "v.",
+    "unit": 2,
+    "id": 243,
+    "zh": "奉承；恭维；使显得好看",
+    "example": "I felt flattered when my boss praised my work in front of the whole team.",
+    "exampleZh": "当老板在全队面前表扬我的工作时，我感到很受宠若惊。"
+  },
+  {
+    "en": "scatter",
+    "pos": "v.",
+    "unit": 2,
+    "id": 244,
+    "zh": "散开；撒；四散；驱散",
+    "example": "The wind began to scatter the fallen leaves across the entire garden.",
+    "exampleZh": "风开始把落叶吹散到整个花园。"
+  },
+  {
+    "en": "catalog(ue",
+    "pos": "n.；v.",
+    "unit": 2,
+    "id": 245,
+    "zh": "目录；一览表；编目；分类",
+    "example": "You can browse the library catalog to find the books you need quickly.",
+    "exampleZh": "你可以浏览图书馆目录以快速找到你需要的书。"
+  },
+  {
+    "en": "appetite",
+    "pos": "n.",
+    "unit": 2,
+    "id": 246,
+    "zh": "食欲；胃口；欲望；爱好",
+    "example": "The delicious smell from the kitchen really gave me a healthy appetite.",
+    "exampleZh": "厨房飘来的美味香气让我胃口大开。"
+  },
+  {
+    "en": "impetus",
+    "pos": "n.",
+    "unit": 2,
+    "id": 247,
+    "zh": "动力；推动力；促进；动量",
+    "example": "The recent crisis provided a strong impetus for reform in the entire industry.",
+    "exampleZh": "最近的危机为整个行业的改革提供了强大的推动力。"
+  },
+  {
+    "en": "ally",
+    "pos": "n.；v.",
+    "unit": 2,
+    "id": 248,
+    "zh": "盟友；同盟国；结盟；联合",
+    "example": "During the war, the two countries became close allies against a common enemy.",
+    "exampleZh": "战争期间，两国成为对抗共同敌人的亲密盟友。"
+  },
+  {
+    "en": "rely",
+    "pos": "v.",
+    "unit": 2,
+    "id": 249,
+    "zh": "依赖；依靠；信任",
+    "example": "You can always rely on her to keep her promises and meet deadlines on time.",
+    "exampleZh": "你始终可以信赖她遵守承诺并按时完成任务。"
+  },
+  {
+    "en": "liable",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 250,
+    "zh": "有责任的；有义务的；易……的",
+    "example": "The company is liable for any damage caused by its defective products sold.",
+    "exampleZh": "公司对其销售的缺陷产品造成的任何损害负有责任。"
+  },
+  {
+    "en": "absurd",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 251,
+    "zh": "荒谬的；荒唐的；可笑的",
+    "example": "It is completely absurd to think that money can buy you true happiness.",
+    "exampleZh": "认为金钱能买到真正的幸福完全是荒谬的。"
+  },
+  {
+    "en": "angle",
+    "pos": "n.",
+    "unit": 2,
+    "id": 252,
+    "zh": "角度；观点；角落",
+    "example": "Let us look at the problem from a completely different angle before deciding.",
+    "exampleZh": "在做决定之前，让我们从一个完全不同的角度来看这个问题。"
+  },
+  {
+    "en": "curse",
+    "pos": "n.",
+    "unit": 2,
+    "id": 253,
+    "zh": "诅咒；咒骂；祸根",
+    "example": "He believed that the ancient curse had brought misfortune to his whole family.",
+    "exampleZh": "他相信那个古老的诅咒给他的整个家庭带来了不幸。"
+  },
+  {
+    "en": "accuse",
+    "pos": "v.",
+    "unit": 2,
+    "id": 254,
+    "zh": "指控；指责；控告",
+    "example": "You should not accuse anyone without first having solid evidence to support your claim.",
+    "exampleZh": "在没有确凿证据之前，你不应该指责任何人。"
+  },
+  {
+    "en": "adore",
+    "pos": "v.",
+    "unit": 2,
+    "id": 255,
+    "zh": "崇拜；喜爱；爱慕",
+    "example": "I absolutely adore spending quiet weekends reading books at home with my cat.",
+    "exampleZh": "我非常喜欢在家里和我的猫一起安静地读书度过周末。"
+  },
+  {
+    "en": "accommodate",
+    "pos": "v.",
+    "unit": 2,
+    "id": 256,
+    "zh": "容纳；提供住宿；适应；满足",
+    "example": "The new stadium can accommodate up to eighty thousand spectators for major events.",
+    "exampleZh": "新体育场可容纳多达八万名观众观看大型赛事。"
+  },
+  {
+    "en": "aboard",
+    "pos": "adv.",
+    "unit": 2,
+    "id": 257,
+    "zh": "在船（飞机、火车）上；上船",
+    "example": "All passengers must be aboard the plane at least thirty minutes before departure.",
+    "exampleZh": "所有乘客必须在起飞前至少三十分钟登机。"
+  },
+  {
+    "en": "avail",
+    "pos": "v.；n.",
+    "unit": 2,
+    "id": 258,
+    "zh": "利用；有用；效用；帮助",
+    "example": "You should avail yourself of every opportunity to improve your professional skills.",
+    "exampleZh": "你应该利用一切机会提高你的专业技能。"
+  },
+  {
+    "en": "accumulate",
+    "pos": "v.",
+    "unit": 2,
+    "id": 259,
+    "zh": "积累；积聚；堆积",
+    "example": "Over the years, he managed to accumulate a vast collection of rare stamps.",
+    "exampleZh": "多年来，他设法积累了大量稀有邮票的收藏。"
+  },
+  {
+    "en": "alert",
+    "pos": "adj.；v.；n.",
+    "unit": 2,
+    "id": 260,
+    "zh": "警觉的；使警觉；警报；警戒",
+    "example": "The security guard remained alert throughout the night to ensure everyone's safety.",
+    "exampleZh": "保安整夜保持警觉以确保每个人的安全。"
+  },
+  {
+    "en": "advertise",
+    "pos": "v.",
+    "unit": 2,
+    "id": 261,
+    "zh": "做广告；宣传；征聘",
+    "example": "Many companies use social media platforms to advertise their new products these days.",
+    "exampleZh": "如今许多公司利用社交媒体平台来宣传他们的新产品。"
+  },
+  {
+    "en": "alarm",
+    "pos": "n.；v.",
+    "unit": 2,
+    "id": 262,
+    "zh": "警报；闹钟；使惊慌；使担心",
+    "example": "The fire alarm went off in the middle of the night, waking everyone up.",
+    "exampleZh": "火警在半夜响起，把所有人都吵醒了。"
+  },
+  {
+    "en": "slip",
+    "pos": "v.",
+    "unit": 2,
+    "id": 263,
+    "zh": "滑倒；溜走；疏忽；差错",
+    "example": "Be careful not to slip on the wet floor because it is very slippery right now.",
+    "exampleZh": "小心不要在湿地板上滑倒，现在非常滑。"
+  },
+  {
+    "en": "fabulous",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 264,
+    "zh": "极好的；绝妙的；神话般的",
+    "example": "We had a fabulous time at the beach, swimming and playing in the sun.",
+    "exampleZh": "我们在海滩上度过了美好的时光，在阳光下游泳玩耍。"
+  },
+  {
+    "en": "spectacular",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 265,
+    "zh": "壮观的；令人惊叹的；引人注目的",
+    "example": "The fireworks display on New Year's Eve was absolutely spectacular and breathtaking.",
+    "exampleZh": "除夕夜的烟花表演壮观得令人叹为观止。"
+  },
+  {
+    "en": "rent",
+    "pos": "n.；v.",
+    "unit": 2,
+    "id": 266,
+    "zh": "租金；出租；租用",
+    "example": "The rent for this apartment is quite affordable compared to other places in the city.",
+    "exampleZh": "与市内其他地方相比，这间公寓的租金相当实惠。"
+  },
+  {
+    "en": "lease",
+    "pos": "n.；v.",
+    "unit": 2,
+    "id": 267,
+    "zh": "租约；租赁；出租",
+    "example": "We signed a two-year lease for the commercial office space downtown.",
+    "exampleZh": "我们为市中心的商业办公空间签了两年租约。"
+  },
+  {
+    "en": "brilliant",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 268,
+    "zh": "杰出的；明亮的；才华横溢的",
+    "example": "She came up with a brilliant solution to the complex problem we faced.",
+    "exampleZh": "她为我们面临的复杂问题想出了一个绝妙的解决方案。"
+  },
+  {
+    "en": "terrific",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 269,
+    "zh": "极好的；了不起的；非常的",
+    "example": "You did a terrific job organizing the entire event; everything went perfectly.",
+    "exampleZh": "你组织整个活动做得非常好，一切进展顺利。"
+  },
+  {
+    "en": "rigorous",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 270,
+    "zh": "严格的；严密的；缜密的",
+    "example": "The candidates must go through a rigorous selection process before being accepted.",
+    "exampleZh": "候选人必须经过严格的筛选过程才能被录取。"
+  },
+  {
+    "en": "regime",
+    "pos": "n.",
+    "unit": 2,
+    "id": 271,
+    "zh": "政权；政体；管理体制",
+    "example": "The old regime was overthrown after months of widespread protests and demonstrations.",
+    "exampleZh": "经过数月的广泛抗议和示威，旧政权被推翻了。"
+  },
+  {
+    "en": "bare",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 272,
+    "zh": "光秃的；赤裸的；仅有的",
+    "example": "The trees stood bare against the gray winter sky without any leaves.",
+    "exampleZh": "光秃秃的树木在灰蒙蒙的冬日天空下矗立着。"
+  },
+  {
+    "en": "barren",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 273,
+    "zh": "贫瘠的；不毛的；不育的",
+    "example": "Nothing much can grow on this barren land without proper irrigation and care.",
+    "exampleZh": "没有适当的灌溉和照料，这片贫瘠的土地上长不出什么东西。"
+  },
+  {
+    "en": "lean",
+    "pos": "v.；adj.",
+    "unit": 2,
+    "id": 274,
+    "zh": "倾斜；倚靠；瘦的；精简的",
+    "example": "She leaned against the wall for support as she felt a bit dizzy.",
+    "exampleZh": "她靠在墙上寻求支撑，因为她感到有些头晕。"
+  },
+  {
+    "en": "rear",
+    "pos": "n.；v.",
+    "unit": 2,
+    "id": 275,
+    "zh": "后方；后部；抚养；饲养",
+    "example": "She managed to rear three successful children while working a full-time job.",
+    "exampleZh": "她在全职工作的同时成功抚养了三个孩子长大。"
+  },
+  {
+    "en": "bleak",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 276,
+    "zh": "荒凉的；黯淡的；无望的",
+    "example": "The future looked bleak for the company after its biggest client canceled the contract.",
+    "exampleZh": "在最大客户取消合同后，公司的前景看起来很黯淡。"
+  },
+  {
+    "en": "embarrass",
+    "pos": "v.",
+    "unit": 2,
+    "id": 277,
+    "zh": "使尴尬；使窘迫；使难堪",
+    "example": "I did not mean to embarrass you in front of your friends; I am very sorry.",
+    "exampleZh": "我不是故意在你朋友面前让你难堪，非常抱歉。"
+  },
+  {
+    "en": "insult",
+    "pos": "v.",
+    "unit": 2,
+    "id": 278,
+    "zh": "侮辱；辱骂；冒犯",
+    "example": "You should never insult someone based on their appearance, background, or beliefs.",
+    "exampleZh": "你绝不应该因他人的外貌、背景或信仰而侮辱他们。"
+  },
+  {
+    "en": "embassy",
+    "pos": "n.",
+    "unit": 2,
+    "id": 279,
+    "zh": "大使馆；使馆人员",
+    "example": "If you lose your passport abroad, you should contact your embassy immediately.",
+    "exampleZh": "如果你在国外丢失了护照，应立即联系你的大使馆。"
+  },
+  {
+    "en": "senator",
+    "pos": "n.",
+    "unit": 2,
+    "id": 280,
+    "zh": "参议员；上议员",
+    "example": "The senator delivered a passionate speech about the need for better healthcare.",
+    "exampleZh": "参议员就改善医疗保健的必要性发表了慷慨激昂的演讲。"
+  },
+  {
+    "en": "prudent",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 281,
+    "zh": "谨慎的；精明的；节俭的",
+    "example": "It would be prudent to save some money for unexpected emergencies in the future.",
+    "exampleZh": "为将来可能发生的意外紧急情况存一些钱是明智之举。"
+  },
+  {
+    "en": "accurate",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 282,
+    "zh": "准确的；精确的；正确无误的",
+    "example": "The weather forecast proved to be remarkably accurate for the entire week.",
+    "exampleZh": "事实证明，天气预报在整个星期都非常准确。"
+  },
+  {
+    "en": "magnificent",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 283,
+    "zh": "宏伟的；壮丽的；华丽的",
+    "example": "The view from the top of the mountain was absolutely magnificent and unforgettable.",
+    "exampleZh": "从山顶看到的景色壮丽无比，令人难忘。"
+  },
+  {
+    "en": "marvelous",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 284,
+    "zh": "了不起的；非凡的；令人惊奇的",
+    "example": "The chef prepared a marvelous dinner that impressed all the invited guests.",
+    "exampleZh": "厨师准备了一顿出色的晚餐，给所有受邀客人留下了深刻印象。"
+  },
+  {
+    "en": "approximate",
+    "pos": "adj.；v.",
+    "unit": 2,
+    "id": 285,
+    "zh": "大约的；近似的；接近",
+    "example": "Can you give me an approximate number of people who will attend the event?",
+    "exampleZh": "你能告诉我大约有多少人会参加这个活动吗？"
+  },
+  {
+    "en": "magnify",
+    "pos": "v.",
+    "unit": 2,
+    "id": 286,
+    "zh": "放大；扩大；夸大",
+    "example": "You can use a microscope to magnify tiny objects that are invisible to the naked eye.",
+    "exampleZh": "你可以用显微镜放大肉眼看不见的微小物体。"
+  },
+  {
+    "en": "barrier",
+    "pos": "n.",
+    "unit": 2,
+    "id": 287,
+    "zh": "障碍；壁垒；屏障",
+    "example": "Language is often the biggest barrier for people who move to a new country.",
+    "exampleZh": "语言往往是搬到新国家的人们面临的最大障碍。"
+  },
+  {
+    "en": "consult",
+    "pos": "v.",
+    "unit": 2,
+    "id": 288,
+    "zh": "咨询；查阅；请教；商议",
+    "example": "You should consult a doctor if the symptoms continue for more than a week.",
+    "exampleZh": "如果症状持续一周以上，你应该咨询医生。"
+  },
+  {
+    "en": "bargain",
+    "pos": "n.；v.",
+    "unit": 2,
+    "id": 289,
+    "zh": "便宜货；买卖；讨价还价；议价",
+    "example": "I found this beautiful dress at a real bargain price during the sale.",
+    "exampleZh": "我在打折期间以非常划算的价格买到了这条漂亮的裙子。"
+  },
+  {
+    "en": "comment",
+    "pos": "n.",
+    "unit": 2,
+    "id": 290,
+    "zh": "评论；意见；评价",
+    "example": "She made a positive comment about my presentation, which made me feel proud.",
+    "exampleZh": "她对我的演讲做了积极的评价，这让我感到很自豪。"
+  },
+  {
+    "en": "subordinate",
+    "pos": "adj.；n.",
+    "unit": 2,
+    "id": 291,
+    "zh": "下属的；次要的；下属；下级",
+    "example": "A good manager always listens to the opinions of his subordinates with respect.",
+    "exampleZh": "一个好的管理者总是尊重地听取下属的意见。"
+  },
+  {
+    "en": "caution",
+    "pos": "n.；v.",
+    "unit": 2,
+    "id": 292,
+    "zh": "谨慎；小心；警告；告诫",
+    "example": "You should exercise extreme caution when walking alone at night in unfamiliar areas.",
+    "exampleZh": "在不熟悉的地方夜间独自行走时，你应该格外小心。"
+  },
+  {
+    "en": "precaution",
+    "pos": "n.",
+    "unit": 2,
+    "id": 293,
+    "zh": "预防措施；防备；警惕",
+    "example": "As a safety precaution, please wear your seatbelt at all times in the car.",
+    "exampleZh": "作为安全预防措施，请在车内始终系好安全带。"
+  },
+  {
+    "en": "current",
+    "pos": "adj.；n.",
+    "unit": 2,
+    "id": 294,
+    "zh": "当前的；现在的；水流；电流",
+    "example": "The current situation requires us to make a quick and well-informed decision.",
+    "exampleZh": "当前形势要求我们做出快速而明智的决定。"
+  },
+  {
+    "en": "coordinate",
+    "pos": "v.；adj.",
+    "unit": 2,
+    "id": 295,
+    "zh": "协调；配合；同等的；坐标",
+    "example": "We need to coordinate our schedules to find a time that works for everyone.",
+    "exampleZh": "我们需要协调我们的日程，以找到一个对所有人都合适的时间。"
+  },
+  {
+    "en": "cancel",
+    "pos": "v.",
+    "unit": 2,
+    "id": 296,
+    "zh": "取消；撤销；终止",
+    "example": "They had to cancel the outdoor concert due to the sudden thunderstorm warning.",
+    "exampleZh": "由于突如其来的雷暴预警，他们不得不取消户外音乐会。"
+  },
+  {
+    "en": "console",
+    "pos": "v.；n.",
+    "unit": 2,
+    "id": 297,
+    "zh": "安慰；慰问；控制台；操纵台",
+    "example": "She tried her best to console her friend after the unexpected bad news arrived.",
+    "exampleZh": "在意外坏消息传来后，她尽力安慰她的朋友。"
+  },
+  {
+    "en": "counsel",
+    "pos": "n.",
+    "unit": 2,
+    "id": 298,
+    "zh": "劝告；商议；法律顾问；建议",
+    "example": "He sought legal counsel before making any decisions about the complicated contract.",
+    "exampleZh": "在对那份复杂的合同做出任何决定之前，他寻求了法律咨询。"
+  },
+  {
+    "en": "dazzle",
+    "pos": "v.",
+    "unit": 2,
+    "id": 299,
+    "zh": "使眼花缭乱；使倾倒；使赞叹",
+    "example": "The bright stage lights seemed to dazzle the performer as she walked on stage.",
+    "exampleZh": "当她走上舞台时，明亮的舞台灯光似乎让她眼花缭乱。"
+  },
+  {
+    "en": "charm",
+    "pos": "n.；v.",
+    "unit": 2,
+    "id": 300,
+    "zh": "魅力；吸引力；吸引；迷住",
+    "example": "The small village has a unique charm that attracts tourists from all over the world.",
+    "exampleZh": "这个小村庄有一种独特的魅力，吸引着来自世界各地的游客。"
+  }
+]

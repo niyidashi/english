@@ -1,0 +1,1352 @@
+[
+  {
+    "en": "scratch",
+    "pos": "v.；n.",
+    "unit": 3,
+    "id": 451,
+    "zh": "抓；刮；擦伤",
+    "example": "The cat will scratch the furniture if you do not provide it with a scratching post.",
+    "exampleZh": "如果你不给猫提供抓板，它就会抓家具。"
+  },
+  {
+    "en": "harness",
+    "pos": "v.；n.",
+    "unit": 3,
+    "id": 452,
+    "zh": "利用；马具",
+    "example": "Scientists are working to harness the power of the sun as a clean energy source.",
+    "exampleZh": "科学家们正在努力利用太阳能作为一种清洁能源。"
+  },
+  {
+    "en": "swing",
+    "pos": "v.；n.",
+    "unit": 3,
+    "id": 453,
+    "zh": "摇摆；秋千",
+    "example": "The children love to swing back and forth on the old wooden swing in the park.",
+    "exampleZh": "孩子们喜欢在公园里那架旧木秋千上来回摇摆。"
+  },
+  {
+    "en": "swell",
+    "pos": "v.",
+    "unit": 3,
+    "id": 454,
+    "zh": "膨胀；肿胀；增强",
+    "example": "His ankle began to swell shortly after he twisted it playing basketball with his friends.",
+    "exampleZh": "他和朋友打篮球扭伤脚踝后不久，脚踝开始肿胀。"
+  },
+  {
+    "en": "sweep",
+    "pos": "v.",
+    "unit": 3,
+    "id": 455,
+    "zh": "打扫；席卷",
+    "example": "She asked her son to sweep the kitchen floor before the guests arrived for dinner.",
+    "exampleZh": "她让儿子在客人来吃饭前把厨房地板打扫干净。"
+  },
+  {
+    "en": "swear",
+    "pos": "v.",
+    "unit": 3,
+    "id": 456,
+    "zh": "发誓；咒骂",
+    "example": "I swear that I did not tell anyone your secret, not even my closest friend.",
+    "exampleZh": "我发誓我没有把你的秘密告诉任何人，连我最亲密的朋友也没有。"
+  },
+  {
+    "en": "scream",
+    "pos": "v.",
+    "unit": 3,
+    "id": 457,
+    "zh": "尖叫",
+    "example": "The little girl screamed with excitement when she saw the puppy under the Christmas tree.",
+    "exampleZh": "小女孩看到圣诞树下的小狗时兴奋地尖叫起来。"
+  },
+  {
+    "en": "scold",
+    "pos": "v.",
+    "unit": 3,
+    "id": 458,
+    "zh": "责骂；训斥",
+    "example": "His mother scolded him for staying up too late playing video games on a school night.",
+    "exampleZh": "他的母亲因为他上学日晚上熬夜打游戏而责骂他。"
+  },
+  {
+    "en": "scare",
+    "pos": "v.",
+    "unit": 3,
+    "id": 459,
+    "zh": "使害怕；惊吓",
+    "example": "The sudden loud noise from the engine did scare everyone in the small car.",
+    "exampleZh": "发动机突然发出的巨响确实吓到了小车里的每个人。"
+  },
+  {
+    "en": "fearful",
+    "pos": "adj.",
+    "unit": 3,
+    "id": 460,
+    "zh": "害怕的；可怕的",
+    "example": "The child was fearful of the dark and always slept with a night light turned on.",
+    "exampleZh": "那个孩子害怕黑暗，总是开着夜灯睡觉。"
+  },
+  {
+    "en": "coward",
+    "pos": "n.",
+    "unit": 3,
+    "id": 461,
+    "zh": "懦夫；胆小鬼",
+    "example": "He was called a coward for running away instead of standing up for his friends.",
+    "exampleZh": "他因为逃跑而不是为朋友挺身而出而被叫做懦夫。"
+  },
+  {
+    "en": "timid",
+    "pos": "adj.",
+    "unit": 3,
+    "id": 462,
+    "zh": "胆小的；羞怯的",
+    "example": "The timid boy hid behind his mother when the stranger approached to ask for directions.",
+    "exampleZh": "当陌生人上前问路时，那个胆小的男孩躲到了母亲身后。"
+  },
+  {
+    "en": "intimidate",
+    "pos": "v.",
+    "unit": 3,
+    "id": 463,
+    "zh": "恐吓；威胁",
+    "example": "The older students tried to intimidate the newcomers, but the teacher quickly intervened.",
+    "exampleZh": "高年级学生试图恐吓新生，但老师很快介入制止了。"
+  },
+  {
+    "en": "secure",
+    "pos": "adj.；v.",
+    "unit": 3,
+    "id": 464,
+    "zh": "安全的；保护",
+    "example": "Please make sure to secure all the doors and windows before you leave the house.",
+    "exampleZh": "离开房子之前，请确保关好所有的门窗。"
+  },
+  {
+    "en": "hazard",
+    "pos": "n.",
+    "unit": 3,
+    "id": 465,
+    "zh": "危险；危害",
+    "example": "Wet floors in the shopping mall pose a serious safety hazard for elderly customers.",
+    "exampleZh": "商场里湿滑的地板对老年顾客构成严重的安全隐患。"
+  },
+  {
+    "en": "stake",
+    "pos": "n.",
+    "unit": 3,
+    "id": 466,
+    "zh": "赌注；利害关系；桩",
+    "example": "The future of the entire company is at stake if this business deal falls through.",
+    "exampleZh": "如果这笔交易失败，整个公司的未来都岌岌可危。"
+  },
+  {
+    "en": "sway",
+    "pos": "v.",
+    "unit": 3,
+    "id": 467,
+    "zh": "摇摆；影响",
+    "example": "The tall trees began to sway violently as the strong wind storm passed through the forest.",
+    "exampleZh": "当强烈的风暴穿过森林时，高大的树木开始剧烈摇晃。"
+  },
+  {
+    "en": "trap",
+    "pos": "n.；v.",
+    "unit": 3,
+    "id": 468,
+    "zh": "陷阱；诱捕",
+    "example": "The hunter set a trap deep in the woods to catch wild animals for research purposes.",
+    "exampleZh": "猎人在森林深处设下陷阱，为研究目的捕捉野生动物。"
+  },
+  {
+    "en": "strap",
+    "pos": "n.；v.",
+    "unit": 3,
+    "id": 469,
+    "zh": "带子；用带捆扎",
+    "example": "Make sure to strap your luggage securely to the roof rack before starting the trip.",
+    "exampleZh": "出发前一定要把行李牢固地绑在车顶行李架上。"
+  },
+  {
+    "en": "merit",
+    "pos": "n.",
+    "unit": 3,
+    "id": 470,
+    "zh": "优点；价值；功绩",
+    "example": "Each job application will be judged solely on its own merit, regardless of background.",
+    "exampleZh": "每份求职申请都将完全根据其自身的优点来评判，不论背景。"
+  },
+  {
+    "en": "virtue",
+    "pos": "n.",
+    "unit": 3,
+    "id": 471,
+    "zh": "美德；优点",
+    "example": "Patience is a virtue that can help you navigate many of life's most difficult challenges.",
+    "exampleZh": "耐心是一种美德，可以帮助你应对生活中许多最困难的挑战。"
+  },
+  {
+    "en": "vibrate",
+    "pos": "v.",
+    "unit": 3,
+    "id": 472,
+    "zh": "振动；颤动",
+    "example": "The phone began to vibrate loudly on the wooden desk, startling everyone in the room.",
+    "exampleZh": "手机在木桌上开始剧烈振动，吓了房间里所有人一跳。"
+  },
+  {
+    "en": "violent",
+    "pos": "adj.",
+    "unit": 3,
+    "id": 473,
+    "zh": "暴力的；猛烈的",
+    "example": "The violent storm destroyed dozens of houses and knocked down power lines across the town.",
+    "exampleZh": "猛烈的暴风雨摧毁了镇上几十所房屋并刮倒了电线。"
+  },
+  {
+    "en": "violate",
+    "pos": "v.",
+    "unit": 3,
+    "id": 474,
+    "zh": "违反；侵犯",
+    "example": "Any student who violates the school's code of conduct will face disciplinary action.",
+    "exampleZh": "任何违反学校行为规范的学生都将面临纪律处分。"
+  },
+  {
+    "en": "navigate",
+    "pos": "v.",
+    "unit": 3,
+    "id": 475,
+    "zh": "导航；航行",
+    "example": "The captain used the stars to navigate the ship safely across the vast open ocean.",
+    "exampleZh": "船长利用星星来引导船只安全穿过辽阔的海洋。"
+  },
+  {
+    "en": "summon",
+    "pos": "v.",
+    "unit": 3,
+    "id": 476,
+    "zh": "召唤；传唤",
+    "example": "The manager decided to summon an emergency meeting to address the sudden financial crisis.",
+    "exampleZh": "经理决定召集紧急会议来应对突发的财务危机。"
+  },
+  {
+    "en": "veteran",
+    "pos": "n.",
+    "unit": 3,
+    "id": 477,
+    "zh": "老兵；经验丰富的人",
+    "example": "The war veteran shared his incredible stories of courage and survival with the students.",
+    "exampleZh": "这位战争老兵与学生们分享了他关于勇气和生存的不可思议的故事。"
+  },
+  {
+    "en": "slight",
+    "pos": "adj.；v.",
+    "unit": 3,
+    "id": 478,
+    "zh": "轻微的；轻视",
+    "example": "There was a slight change in the schedule, so please check the updated timetable carefully.",
+    "exampleZh": "时间表有轻微变动，请仔细查看更新的时刻表。"
+  },
+  {
+    "en": "delight",
+    "pos": "n.；v.",
+    "unit": 3,
+    "id": 479,
+    "zh": "高兴；使高兴",
+    "example": "To the children's great delight, the circus came to their small town for the first time.",
+    "exampleZh": "让孩子们大为高兴的是，马戏团第一次来到他们的小镇。"
+  },
+  {
+    "en": "plight",
+    "pos": "n.",
+    "unit": 3,
+    "id": 480,
+    "zh": "困境；苦境",
+    "example": "The documentary highlighted the desperate plight of refugees fleeing the war-torn region.",
+    "exampleZh": "这部纪录片突出了逃离战乱地区的难民的绝望困境。"
+  },
+  {
+    "en": "blight",
+    "pos": "n.；v.",
+    "unit": 3,
+    "id": 481,
+    "zh": "枯萎病；破坏",
+    "example": "The potato blight destroyed the entire crop, leading to widespread famine in the region.",
+    "exampleZh": "马铃薯枯萎病摧毁了全部庄稼，导致该地区出现大范围饥荒。"
+  },
+  {
+    "en": "alight",
+    "pos": "v.；adj.",
+    "unit": 3,
+    "id": 482,
+    "zh": "降落；点燃的",
+    "example": "The passengers were asked to alight from the bus as it had developed a mechanical fault.",
+    "exampleZh": "乘客被要求下车，因为巴士出现了机械故障。"
+  },
+  {
+    "en": "ignite",
+    "pos": "v.",
+    "unit": 3,
+    "id": 483,
+    "zh": "点燃；引发",
+    "example": "A single spark from the campfire was enough to ignite the dry grass nearby.",
+    "exampleZh": "篝火的一粒火星就足以点燃附近的干草。"
+  },
+  {
+    "en": "highlight",
+    "pos": "v.；n.",
+    "unit": 3,
+    "id": 484,
+    "zh": "强调；亮点",
+    "example": "The report aims to highlight the most critical challenges facing the education system today.",
+    "exampleZh": "该报告旨在突出当今教育系统面临的最关键的挑战。"
+  },
+  {
+    "en": "setback",
+    "pos": "n.",
+    "unit": 3,
+    "id": 485,
+    "zh": "挫折；倒退",
+    "example": "Losing the major client was a serious setback, but the team refused to give up hope.",
+    "exampleZh": "失去这个大客户是一个严重的挫折，但团队拒绝放弃希望。"
+  },
+  {
+    "en": "frustrate",
+    "pos": "v.",
+    "unit": 3,
+    "id": 486,
+    "zh": "使沮丧；挫败",
+    "example": "The constant technical problems began to frustrate the entire software development team.",
+    "exampleZh": "不断出现的技术问题开始使整个软件开发团队感到沮丧。"
+  },
+  {
+    "en": "discourage",
+    "pos": "v.",
+    "unit": 3,
+    "id": 487,
+    "zh": "使气馁；劝阻",
+    "example": "Her parents tried to discourage her from dropping out of college in her final year.",
+    "exampleZh": "她的父母试图劝阻她在最后一年不要从大学退学。"
+  },
+  {
+    "en": "retreat",
+    "pos": "v.；n.",
+    "unit": 3,
+    "id": 488,
+    "zh": "撤退；退却",
+    "example": "The soldiers were ordered to retreat after realizing the enemy forces were far too strong.",
+    "exampleZh": "意识到敌军兵力过于强大后，士兵们奉命撤退。"
+  },
+  {
+    "en": "withdraw",
+    "pos": "v.",
+    "unit": 3,
+    "id": 489,
+    "zh": "撤回；退出；取款",
+    "example": "She decided to withdraw all her savings from the bank to invest in her new business.",
+    "exampleZh": "她决定从银行取出所有积蓄来投资她的新生意。"
+  },
+  {
+    "en": "replace",
+    "pos": "v.",
+    "unit": 3,
+    "id": 490,
+    "zh": "取代；替换",
+    "example": "The company plans to replace all the old computers with the latest models next month.",
+    "exampleZh": "公司计划下个月用最新型号替换所有旧电脑。"
+  },
+  {
+    "en": "displace",
+    "pos": "v.",
+    "unit": 3,
+    "id": 491,
+    "zh": "取代；使流离失所",
+    "example": "The flood displaced thousands of families from their homes along the river valley.",
+    "exampleZh": "洪水使河谷沿岸成千上万的家庭流离失所。"
+  },
+  {
+    "en": "cement",
+    "pos": "n.；v.",
+    "unit": 3,
+    "id": 492,
+    "zh": "水泥；巩固",
+    "example": "The agreement helped to cement the strong relationship between the two neighboring countries.",
+    "exampleZh": "该协议有助于巩固两个邻国之间的牢固关系。"
+  },
+  {
+    "en": "pierce",
+    "pos": "v.",
+    "unit": 3,
+    "id": 493,
+    "zh": "刺穿；穿透",
+    "example": "The sharp needle will pierce the thick fabric easily if you apply enough pressure.",
+    "exampleZh": "如果施加足够的压力，锋利的针很容易刺穿厚布料。"
+  },
+  {
+    "en": "qualify",
+    "pos": "v.",
+    "unit": 4,
+    "id": 494,
+    "zh": "使合格；限定",
+    "example": "You need at least three years of experience to qualify for this senior management position.",
+    "exampleZh": "你需要至少三年的经验才能有资格担任这个高级管理职位。"
+  },
+  {
+    "en": "compensate",
+    "pos": "v.",
+    "unit": 4,
+    "id": 495,
+    "zh": "补偿；赔偿",
+    "example": "The airline agreed to compensate all passengers for the ten-hour flight delay.",
+    "exampleZh": "航空公司同意对所有乘客的十小时航班延误进行补偿。"
+  },
+  {
+    "en": "extravagant",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 496,
+    "zh": "奢侈的；浪费的",
+    "example": "Buying a sports car was an extravagant purchase that he later deeply regretted making.",
+    "exampleZh": "买跑车是一次奢侈的消费，后来他对此深感后悔。"
+  },
+  {
+    "en": "luxury",
+    "pos": "n.",
+    "unit": 4,
+    "id": 497,
+    "zh": "奢侈；奢侈品",
+    "example": "Staying at a five-star resort was a luxury they could only afford once a year.",
+    "exampleZh": "住在五星级度假村是一种他们一年只能负担一次的奢侈。"
+  },
+  {
+    "en": "harmony",
+    "pos": "n.",
+    "unit": 4,
+    "id": 498,
+    "zh": "和谐；融洽",
+    "example": "The community lives together in perfect harmony despite their different cultural backgrounds.",
+    "exampleZh": "尽管有着不同的文化背景，这个社区的人们和睦共处。"
+  },
+  {
+    "en": "renovate",
+    "pos": "v.",
+    "unit": 4,
+    "id": 499,
+    "zh": "翻新；修复",
+    "example": "They decided to renovate the old farmhouse instead of tearing it down completely.",
+    "exampleZh": "他们决定翻新旧农舍而不是完全拆除它。"
+  },
+  {
+    "en": "decorate",
+    "pos": "v.",
+    "unit": 4,
+    "id": 500,
+    "zh": "装饰；装修",
+    "example": "The children helped their parents decorate the Christmas tree with lights and colorful ornaments.",
+    "exampleZh": "孩子们帮父母用灯和彩色的饰品装饰圣诞树。"
+  },
+  {
+    "en": "commodity",
+    "pos": "n.",
+    "unit": 4,
+    "id": 501,
+    "zh": "商品；货物",
+    "example": "Oil is one of the most valuable and widely traded commodities in the global market.",
+    "exampleZh": "石油是全球市场上最有价值且交易最广泛的商品之一。"
+  },
+  {
+    "en": "fake",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 502,
+    "zh": "假的；伪造的",
+    "example": "The bank detected that the passport was fake and immediately called the local police.",
+    "exampleZh": "银行发现护照是假的，立即报警通知了当地警方。"
+  },
+  {
+    "en": "pioneer",
+    "pos": "n.",
+    "unit": 4,
+    "id": 503,
+    "zh": "先驱；先锋",
+    "example": "She is widely recognized as a pioneer in the field of modern genetic engineering research.",
+    "exampleZh": "她被广泛认为是现代基因工程研究领域的先驱。"
+  },
+  {
+    "en": "spray",
+    "pos": "v.",
+    "unit": 4,
+    "id": 504,
+    "zh": "喷洒；喷射",
+    "example": "The gardener had to spray the roses with pesticide to protect them from harmful insects.",
+    "exampleZh": "园丁不得不给玫瑰喷洒杀虫剂，以保护它们免受害虫侵害。"
+  },
+  {
+    "en": "stale",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 505,
+    "zh": "不新鲜的；陈腐的",
+    "example": "The bread had gone stale after sitting on the kitchen counter for more than a week.",
+    "exampleZh": "面包在厨房台面上放了一个多星期后已经不新鲜了。"
+  },
+  {
+    "en": "peer",
+    "pos": "n.",
+    "unit": 4,
+    "id": 506,
+    "zh": "同龄人；同等地位的人",
+    "example": "Teenagers are often heavily influenced by the opinions and behavior of their peers at school.",
+    "exampleZh": "青少年常常受到学校同龄人的意见和行为的很大影响。"
+  },
+  {
+    "en": "besides",
+    "pos": "adv.",
+    "unit": 4,
+    "id": 507,
+    "zh": "此外；而且",
+    "example": "Besides English, she can also speak French and Japanese fluently in daily conversation.",
+    "exampleZh": "除了英语，她还能在日常对话中流利地说法语和日语。"
+  },
+  {
+    "en": "threat",
+    "pos": "n.",
+    "unit": 4,
+    "id": 508,
+    "zh": "威胁；恐吓",
+    "example": "The rising pollution levels pose a serious threat to the health of all city residents.",
+    "exampleZh": "不断上升的污染水平对全市居民的健康构成严重威胁。"
+  },
+  {
+    "en": "refresh",
+    "pos": "v.",
+    "unit": 4,
+    "id": 509,
+    "zh": "使恢复精力；刷新",
+    "example": "A short afternoon nap can help refresh your mind and improve your work productivity.",
+    "exampleZh": "短暂的午睡可以帮助你恢复精力，提高工作效率。"
+  },
+  {
+    "en": "storage",
+    "pos": "n.",
+    "unit": 4,
+    "id": 510,
+    "zh": "储存；仓库",
+    "example": "The company rented a large storage facility to keep all their extra inventory and equipment.",
+    "exampleZh": "公司租了一个大型仓储设施来存放所有额外的库存和设备。"
+  },
+  {
+    "en": "ornament",
+    "pos": "n.",
+    "unit": 4,
+    "id": 511,
+    "zh": "装饰品；点缀",
+    "example": "She hung a beautiful glass ornament on the highest branch of the Christmas tree.",
+    "exampleZh": "她把一个漂亮的玻璃饰品挂在圣诞树最高的树枝上。"
+  },
+  {
+    "en": "renew",
+    "pos": "v.",
+    "unit": 4,
+    "id": 512,
+    "zh": "更新；续期",
+    "example": "You must renew your passport at least three months before the expiration date approaches.",
+    "exampleZh": "你必须在护照到期前至少三个月更新护照。"
+  },
+  {
+    "en": "furthermore",
+    "pos": "adv.",
+    "unit": 4,
+    "id": 513,
+    "zh": "此外；而且",
+    "example": "The plan is too expensive; furthermore, it is unlikely to succeed in such a short time.",
+    "exampleZh": "这个计划太昂贵了；此外，在这么短的时间内不太可能成功。"
+  },
+  {
+    "en": "rid",
+    "pos": "v.",
+    "unit": 4,
+    "id": 514,
+    "zh": "摆脱；除去",
+    "example": "She wants to get rid of all the old clothes that she no longer wears anymore.",
+    "exampleZh": "她想处理掉所有不再穿的旧衣服。"
+  },
+  {
+    "en": "turnover",
+    "pos": "n.",
+    "unit": 4,
+    "id": 515,
+    "zh": "营业额；人员流动率",
+    "example": "The high employee turnover rate is a serious problem the company must address immediately.",
+    "exampleZh": "高员工流动率是公司必须立即解决的严重问题。"
+  },
+  {
+    "en": "court",
+    "pos": "n.",
+    "unit": 4,
+    "id": 516,
+    "zh": "法庭；球场；庭院",
+    "example": "The case will be heard in court next Monday before a jury of twelve citizens.",
+    "exampleZh": "此案将于下周一在法庭由十二名公民组成的陪审团审理。"
+  },
+  {
+    "en": "accomplish",
+    "pos": "v.",
+    "unit": 4,
+    "id": 517,
+    "zh": "完成；实现",
+    "example": "With determination and hard work, you can accomplish almost anything you set your mind to.",
+    "exampleZh": "有了决心和努力，你几乎可以完成任何你下定决心要做的事。"
+  },
+  {
+    "en": "achieve",
+    "pos": "v.",
+    "unit": 4,
+    "id": 518,
+    "zh": "达到；实现",
+    "example": "She finally achieved her lifelong dream of becoming a published author at the age of forty.",
+    "exampleZh": "她终于在四十岁时实现了成为出版作家的毕生梦想。"
+  },
+  {
+    "en": "fulfil(l",
+    "pos": "v.",
+    "unit": 4,
+    "id": 519,
+    "zh": "履行；实现；满足",
+    "example": "You must fulfill all the course requirements before you can receive your final certificate.",
+    "exampleZh": "你必须完成所有课程要求才能获得最终证书。"
+  },
+  {
+    "en": "lest",
+    "pos": "conj.",
+    "unit": 4,
+    "id": 520,
+    "zh": "以免；唯恐",
+    "example": "Speak softly in the library, lest you disturb the other people who are studying there.",
+    "exampleZh": "在图书馆里小声说话，以免打扰到其他在那里学习的人。"
+  },
+  {
+    "en": "pray",
+    "pos": "v.",
+    "unit": 4,
+    "id": 521,
+    "zh": "祈祷；恳求",
+    "example": "The villagers gathered in the temple to pray for rain during the long dry season.",
+    "exampleZh": "在漫长的旱季里，村民们聚集在庙里祈求降雨。"
+  },
+  {
+    "en": "array",
+    "pos": "n.",
+    "unit": 4,
+    "id": 522,
+    "zh": "阵列；大量",
+    "example": "The store offers a wide array of products, from fresh food to electronic appliances.",
+    "exampleZh": "这家商店提供种类繁多的产品，从新鲜食品到电子电器。"
+  },
+  {
+    "en": "property",
+    "pos": "n.",
+    "unit": 4,
+    "id": 523,
+    "zh": "财产；特性",
+    "example": "He invested most of his savings in property, hoping the market value would continue to rise.",
+    "exampleZh": "他把大部分积蓄投资于房地产，希望市场价值能继续上涨。"
+  },
+  {
+    "en": "estate",
+    "pos": "n.",
+    "unit": 4,
+    "id": 524,
+    "zh": "房产；庄园；遗产",
+    "example": "The wealthy businessman purchased a vast estate with a lake and private forest attached.",
+    "exampleZh": "这位富商购买了一座附带湖泊和私人森林的广阔庄园。"
+  },
+  {
+    "en": "restore",
+    "pos": "v.",
+    "unit": 4,
+    "id": 525,
+    "zh": "恢复；修复；归还",
+    "example": "The old painting was carefully restored by experts to its original beauty and condition.",
+    "exampleZh": "专家们小心地将这幅旧画恢复到其原有的美丽和状态。"
+  },
+  {
+    "en": "furnish",
+    "pos": "v.",
+    "unit": 4,
+    "id": 526,
+    "zh": "提供；布置家具",
+    "example": "The landlord agreed to fully furnish the apartment before the new tenants moved in.",
+    "exampleZh": "房东同意在新租客搬入前将公寓配置齐全家具。"
+  },
+  {
+    "en": "inevitable",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 527,
+    "zh": "不可避免的",
+    "example": "Change is an inevitable part of life that we must all learn to accept and embrace.",
+    "exampleZh": "变化是生活中不可避免的一部分，我们都必须学会接受和拥抱。"
+  },
+  {
+    "en": "nevertheless",
+    "pos": "adv.",
+    "unit": 4,
+    "id": 528,
+    "zh": "然而；尽管如此",
+    "example": "The journey was long and difficult; nevertheless, they reached the summit before sunset.",
+    "exampleZh": "旅途漫长而艰难；然而，他们在日落前到达了山顶。"
+  },
+  {
+    "en": "appropriate",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 529,
+    "zh": "适当的；合适的",
+    "example": "Jeans and a T-shirt are not appropriate attire for such a formal business meeting.",
+    "exampleZh": "牛仔裤和T恤对于这样正式的商务会议来说不是合适的着装。"
+  },
+  {
+    "en": "otherwise",
+    "pos": "adv.",
+    "unit": 4,
+    "id": 530,
+    "zh": "否则；另外",
+    "example": "You should leave now; otherwise, you will miss the last train back to the city center.",
+    "exampleZh": "你现在就该出发了；否则，你会错过回市中心的末班火车。"
+  },
+  {
+    "en": "handle",
+    "pos": "v.",
+    "unit": 4,
+    "id": 531,
+    "zh": "处理；操作；手柄",
+    "example": "She is fully capable of handling the pressure that comes with this demanding job position.",
+    "exampleZh": "她完全有能力应对这个高要求职位带来的压力。"
+  },
+  {
+    "en": "asset",
+    "pos": "n.",
+    "unit": 4,
+    "id": 532,
+    "zh": "资产；优点",
+    "example": "She is a valuable asset to the company because of her extensive knowledge and experience.",
+    "exampleZh": "她是公司的宝贵资产，因为她拥有丰富的知识和经验。"
+  },
+  {
+    "en": "settle",
+    "pos": "v.",
+    "unit": 4,
+    "id": 533,
+    "zh": "解决；定居；安定",
+    "example": "After years of traveling, they finally decided to settle down in a quiet coastal town.",
+    "exampleZh": "经过多年的旅行，他们最终决定在一个安静的沿海小镇定居。"
+  },
+  {
+    "en": "dwell",
+    "pos": "v.",
+    "unit": 4,
+    "id": 534,
+    "zh": "居住；详述",
+    "example": "Do not dwell on your past mistakes; instead, focus your energy on building a better future.",
+    "exampleZh": "不要纠缠于过去的错误；相反，把精力集中在建设更好的未来上。"
+  },
+  {
+    "en": "possess",
+    "pos": "v.",
+    "unit": 4,
+    "id": 535,
+    "zh": "拥有；具有",
+    "example": "She possesses a rare combination of intelligence, creativity, and exceptional leadership skills.",
+    "exampleZh": "她拥有智慧、创造力和卓越领导能力的罕见组合。"
+  },
+  {
+    "en": "commerce",
+    "pos": "n.",
+    "unit": 4,
+    "id": 536,
+    "zh": "商业；贸易",
+    "example": "The internet has completely transformed the world of commerce over the past two decades.",
+    "exampleZh": "在过去的二十年里，互联网彻底改变了商业世界。"
+  },
+  {
+    "en": "prone",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 537,
+    "zh": "倾向于；易于…的",
+    "example": "The region is prone to earthquakes, so all buildings must meet strict safety standards.",
+    "exampleZh": "该地区容易发生地震，因此所有建筑必须符合严格的安全标准。"
+  },
+  {
+    "en": "compatible",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 538,
+    "zh": "兼容的；能共处的",
+    "example": "Make sure the new software is compatible with your current computer operating system.",
+    "exampleZh": "确保新软件与你当前的计算机操作系统兼容。"
+  },
+  {
+    "en": "spite",
+    "pos": "n.",
+    "unit": 4,
+    "id": 539,
+    "zh": "恶意；怨恨",
+    "example": "She finished the entire project in spite of all the difficulties and obstacles she faced.",
+    "exampleZh": "尽管面临诸多困难和障碍，她还是完成了整个项目。"
+  },
+  {
+    "en": "tackle",
+    "pos": "v.",
+    "unit": 4,
+    "id": 540,
+    "zh": "处理； tackle",
+    "example": "The government introduced new measures to tackle the growing problem of air pollution.",
+    "exampleZh": "政府出台了新措施来应对日益严重的空气污染问题。"
+  },
+  {
+    "en": "cope",
+    "pos": "v.",
+    "unit": 4,
+    "id": 541,
+    "zh": "应对；处理",
+    "example": "She is learning how to cope with the stress that comes from her demanding new job.",
+    "exampleZh": "她正在学习如何应对来自高要求新工作的压力。"
+  },
+  {
+    "en": "solve",
+    "pos": "v.",
+    "unit": 4,
+    "id": 542,
+    "zh": "解决",
+    "example": "The detective carefully gathered all the clues to solve the mysterious disappearance case.",
+    "exampleZh": "侦探仔细收集了所有线索来解决这起神秘的失踪案。"
+  },
+  {
+    "en": "resolve",
+    "pos": "v.",
+    "unit": 4,
+    "id": 543,
+    "zh": "解决；决心",
+    "example": "The two nations agreed to resolve their long-standing border dispute through peaceful dialogue.",
+    "exampleZh": "两国同意通过和平对话解决长期的边界争端。"
+  },
+  {
+    "en": "upset",
+    "pos": "v.",
+    "unit": 4,
+    "id": 544,
+    "zh": "使不安；打乱",
+    "example": "The sudden change of plans seemed to upset everyone who had already made travel arrangements.",
+    "exampleZh": "计划的突然改变似乎使所有已经做好旅行安排的人感到不安。"
+  },
+  {
+    "en": "switch",
+    "pos": "v.",
+    "unit": 4,
+    "id": 545,
+    "zh": "转换；改变",
+    "example": "Can you switch off the lights when you leave the room to save some electricity?",
+    "exampleZh": "你离开房间的时候能关灯省电吗？"
+  },
+  {
+    "en": "calm",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 546,
+    "zh": "平静的；冷静的",
+    "example": "She took a deep breath and tried to remain calm despite the chaotic situation around her.",
+    "exampleZh": "尽管周围一片混乱，她深吸一口气，努力保持冷静。"
+  },
+  {
+    "en": "moral",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 547,
+    "zh": "道德的",
+    "example": "Every citizen has a moral obligation to help those who are less fortunate in society.",
+    "exampleZh": "每个公民都有道德义务去帮助社会上那些不幸的人。"
+  },
+  {
+    "en": "dissolve",
+    "pos": "v.",
+    "unit": 4,
+    "id": 548,
+    "zh": "溶解；解散",
+    "example": "The sugar will dissolve more quickly in hot water than in cold water, as you may expect.",
+    "exampleZh": "正如你可能预料的那样，糖在热水中比在冷水中溶解得更快。"
+  },
+  {
+    "en": "scope",
+    "pos": "n.",
+    "unit": 4,
+    "id": 549,
+    "zh": "范围；领域",
+    "example": "The scope of the research project has been expanded to include several additional case studies.",
+    "exampleZh": "该研究项目的范围已经扩大到包括几个额外的案例研究。"
+  },
+  {
+    "en": "classic",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 550,
+    "zh": "经典的；典型的",
+    "example": "Pride and Prejudice is considered a classic novel that has been loved for many generations.",
+    "exampleZh": "《傲慢与偏见》被认为是一部世代喜爱的经典小说。"
+  },
+  {
+    "en": "item",
+    "pos": "n.",
+    "unit": 4,
+    "id": 551,
+    "zh": "物品；项目；条款",
+    "example": "Please check each item on the list carefully before you sign the delivery receipt.",
+    "exampleZh": "在签收之前，请仔细检查清单上的每一项。"
+  },
+  {
+    "en": "mortal",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 552,
+    "zh": "凡人的；致命的",
+    "example": "All human beings are mortal, so we should make the most of every single day we have.",
+    "exampleZh": "凡人终有一死，所以我们应当充分利用我们所拥有的每一天。"
+  },
+  {
+    "en": "ethic",
+    "pos": "n.",
+    "unit": 4,
+    "id": 553,
+    "zh": "伦理；道德标准",
+    "example": "The company's strict work ethic has earned it a strong reputation in the global market.",
+    "exampleZh": "该公司严格的职业道德为其在全球市场赢得了良好的声誉。"
+  },
+  {
+    "en": "realm",
+    "pos": "n.",
+    "unit": 4,
+    "id": 554,
+    "zh": "领域；王国",
+    "example": "Her research lies entirely within the realm of theoretical physics and advanced mathematics.",
+    "exampleZh": "她的研究完全属于理论物理学和高等数学的领域。"
+  },
+  {
+    "en": "span",
+    "pos": "n.",
+    "unit": 4,
+    "id": 555,
+    "zh": "跨度；一段时间",
+    "example": "Over a span of just ten years, the small village transformed into a bustling modern city.",
+    "exampleZh": "在短短十年的时间里，这个小村庄变成了一座繁华的现代城市。"
+  },
+  {
+    "en": "dismay",
+    "pos": "n.",
+    "unit": 4,
+    "id": 556,
+    "zh": "惊恐；沮丧",
+    "example": "To her great dismay, she discovered that all her files had been accidentally deleted.",
+    "exampleZh": "令她大为沮丧的是，她发现所有的文件都被意外删除了。"
+  },
+  {
+    "en": "typical",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 557,
+    "zh": "典型的；有代表性的",
+    "example": "Hot and humid weather is typical during the summer months in this coastal region.",
+    "exampleZh": "在这个沿海地区，夏季几个月里炎热潮湿的天气是典型的。"
+  },
+  {
+    "en": "sketch",
+    "pos": "n.",
+    "unit": 4,
+    "id": 558,
+    "zh": "素描；草图；概述",
+    "example": "The artist drew a quick sketch of the beautiful landscape before starting the actual painting.",
+    "exampleZh": "艺术家在开始正式绘画之前，先绘制了这幅美丽风景的快速草图。"
+  },
+  {
+    "en": "image",
+    "pos": "n.",
+    "unit": 4,
+    "id": 559,
+    "zh": "形象；图像；影像",
+    "example": "The company is working hard to improve its public image after the recent product scandal.",
+    "exampleZh": "在最近的产品丑闻之后，公司正在努力改善其公众形象。"
+  },
+  {
+    "en": "recommend",
+    "pos": "v.",
+    "unit": 4,
+    "id": 560,
+    "zh": "推荐；建议",
+    "example": "I highly recommend this restaurant to anyone who enjoys authentic Italian cuisine and atmosphere.",
+    "exampleZh": "我强烈推荐这家餐厅给任何喜欢正宗意大利美食和氛围的人。"
+  },
+  {
+    "en": "receipt",
+    "pos": "n.",
+    "unit": 4,
+    "id": 561,
+    "zh": "收据；收到",
+    "example": "You must keep the receipt as proof of purchase if you want to return the item later.",
+    "exampleZh": "如果你想以后退货，就必须保留收据作为购买凭证。"
+  },
+  {
+    "en": "recipe",
+    "pos": "n.",
+    "unit": 4,
+    "id": 562,
+    "zh": "食谱；秘诀",
+    "example": "My grandmother shared her secret recipe for the delicious homemade chicken soup with me.",
+    "exampleZh": "我的祖母与我分享了她那道美味家常鸡汤的秘方。"
+  },
+  {
+    "en": "reciprocal",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 563,
+    "zh": "相互的；互惠的",
+    "example": "The two countries signed a reciprocal trade agreement to benefit both of their national economies.",
+    "exampleZh": "两国签署了一项互惠贸易协定，以造福两国的经济。"
+  },
+  {
+    "en": "independent",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 564,
+    "zh": "独立的；自主的",
+    "example": "She moved out of her parents' house at eighteen, determined to be financially independent.",
+    "exampleZh": "她十八岁搬出父母家，决心在经济上独立。"
+  },
+  {
+    "en": "flourish",
+    "pos": "v.",
+    "unit": 4,
+    "id": 565,
+    "zh": "繁荣；兴旺；挥舞",
+    "example": "The arts and culture scene began to flourish in the city after the new museum opened.",
+    "exampleZh": "新博物馆开放后，这座城市的艺术和文化景象开始繁荣起来。"
+  },
+  {
+    "en": "flour",
+    "pos": "n.",
+    "unit": 4,
+    "id": 566,
+    "zh": "面粉",
+    "example": "You need two cups of flour, one egg, and some milk to make the pancake batter.",
+    "exampleZh": "你需要两杯面粉、一个鸡蛋和一些牛奶来做煎饼面糊。"
+  },
+  {
+    "en": "rate",
+    "pos": "n.",
+    "unit": 4,
+    "id": 567,
+    "zh": "比率；率；价格",
+    "example": "The unemployment rate in the region dropped to its lowest level in over twenty years.",
+    "exampleZh": "该地区的失业率降至二十多年来的最低水平。"
+  },
+  {
+    "en": "percentage",
+    "pos": "n.",
+    "unit": 4,
+    "id": 568,
+    "zh": "百分比",
+    "example": "A large percentage of the students passed the final exam with very high scores this year.",
+    "exampleZh": "今年有很大比例的期末考试成绩非常高。"
+  },
+  {
+    "en": "percent",
+    "pos": "n.",
+    "unit": 4,
+    "id": 569,
+    "zh": "百分之…",
+    "example": "Nearly eighty percent of the respondents agreed that the new policy was beneficial overall.",
+    "exampleZh": "近百分之八十的受访者认为新政策总体是有益的。"
+  },
+  {
+    "en": "launch",
+    "pos": "v.",
+    "unit": 4,
+    "id": 570,
+    "zh": "发射；发起；推出",
+    "example": "The company plans to launch its newest smartphone model at the international tech conference next month.",
+    "exampleZh": "公司计划在下个月的国际科技大会上推出其最新的智能手机型号。"
+  },
+  {
+    "en": "profit",
+    "pos": "n.",
+    "unit": 4,
+    "id": 571,
+    "zh": "利润；收益",
+    "example": "The small bakery made a modest profit in its first year of business despite fierce competition.",
+    "exampleZh": "尽管竞争激烈，这家小面包店在开业第一年就取得了微薄的利润。"
+  },
+  {
+    "en": "benefit",
+    "pos": "n.",
+    "unit": 4,
+    "id": 572,
+    "zh": "利益；好处",
+    "example": "Regular exercise brings both physical and mental benefits that can greatly improve your life.",
+    "exampleZh": "经常锻炼能带来身体和心理上的双重好处，可以极大地改善你的生活。"
+  },
+  {
+    "en": "understanding",
+    "pos": "n.",
+    "unit": 4,
+    "id": 573,
+    "zh": "理解；谅解",
+    "example": "Mutual understanding is the key to building a strong and lasting friendship between two people.",
+    "exampleZh": "相互理解是建立两个人之间牢固持久友谊的关键。"
+  },
+  {
+    "en": "fierce",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 574,
+    "zh": "凶猛的；激烈的",
+    "example": "The fierce competition among the top candidates made the interview process extremely challenging.",
+    "exampleZh": "顶尖候选人之间的激烈竞争使面试过程极具挑战性。"
+  },
+  {
+    "en": "credible",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 575,
+    "zh": "可信的；可靠的",
+    "example": "The witness provided a credible account of what had happened on the night of the incident.",
+    "exampleZh": "目击者对事发当晚发生的情况提供了可信的叙述。"
+  },
+  {
+    "en": "display",
+    "pos": "v.",
+    "unit": 4,
+    "id": 576,
+    "zh": "展示；显示",
+    "example": "The museum plans to display the ancient artifacts in a special exhibition starting next month.",
+    "exampleZh": "博物馆计划从下个月起在一个特别展览中展示这些古代文物。"
+  },
+  {
+    "en": "forbid",
+    "pos": "v.",
+    "unit": 4,
+    "id": 577,
+    "zh": "禁止；阻止",
+    "example": "The school rules strictly forbid students from using their mobile phones during class hours.",
+    "exampleZh": "学校规定严格禁止学生在课堂上使用手机。"
+  },
+  {
+    "en": "strike",
+    "pos": "v.",
+    "unit": 4,
+    "id": 578,
+    "zh": "打击；罢工；撞击",
+    "example": "The workers decided to strike for better wages and improved working conditions at the factory.",
+    "exampleZh": "工人们决定罢工，要求工厂提高工资和改善工作条件。"
+  },
+  {
+    "en": "striking",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 579,
+    "zh": "显著的；引人注目的",
+    "example": "There is a striking resemblance between the two sisters, even though they are years apart.",
+    "exampleZh": "这两姐妹之间有着惊人的相似之处，尽管她们年龄相差好几岁。"
+  },
+  {
+    "en": "proof",
+    "pos": "n.",
+    "unit": 4,
+    "id": 580,
+    "zh": "证据；证明",
+    "example": "The police could not make an arrest because they lacked sufficient proof against the suspect.",
+    "exampleZh": "警方无法实施逮捕，因为他们缺乏针对嫌疑人的充分证据。"
+  },
+  {
+    "en": "utmost",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 581,
+    "zh": "极度的；最大的",
+    "example": "The matter is of the utmost importance and must be dealt with immediately without any delay.",
+    "exampleZh": "这件事极其重要，必须毫不拖延地立即处理。"
+  },
+  {
+    "en": "performance",
+    "pos": "n.",
+    "unit": 4,
+    "id": 582,
+    "zh": "表现；表演；性能",
+    "example": "Her outstanding performance in the final exam earned her a full scholarship to the university.",
+    "exampleZh": "她在期末考试中的出色表现使她获得了该大学的奖学金。"
+  },
+  {
+    "en": "radical",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 583,
+    "zh": "根本的；激进的",
+    "example": "The new CEO proposed a radical restructuring plan to save the struggling company from bankruptcy.",
+    "exampleZh": "新任CEO提出了一个激进的重组计划，以挽救这家陷入困境的公司免于破产。"
+  },
+  {
+    "en": "racial",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 584,
+    "zh": "种族的",
+    "example": "The organization works tirelessly to promote racial equality and eliminate discrimination in society.",
+    "exampleZh": "该组织不懈努力地促进种族平等并消除社会上的歧视。"
+  },
+  {
+    "en": "ethnic",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 585,
+    "zh": "民族的；种族的",
+    "example": "The city is famous for its diverse ethnic communities and rich multicultural heritage.",
+    "exampleZh": "这座城市以其多样化的民族社区和丰富的多元文化遗产而闻名。"
+  },
+  {
+    "en": "illustrate",
+    "pos": "v.",
+    "unit": 4,
+    "id": 586,
+    "zh": "说明；阐明；插图",
+    "example": "The professor used several real-world examples to illustrate the key points of his complex theory.",
+    "exampleZh": "教授用了几个现实世界的例子来说明他复杂理论的关键点。"
+  },
+  {
+    "en": "hint",
+    "pos": "n.",
+    "unit": 4,
+    "id": 587,
+    "zh": "提示；暗示",
+    "example": "She dropped a subtle hint about what she wanted for her birthday without directly saying it.",
+    "exampleZh": "她没有直接说，而是微妙地暗示了她想要的生日礼物。"
+  },
+  {
+    "en": "manifest",
+    "pos": "v.",
+    "unit": 4,
+    "id": 588,
+    "zh": "显示；表明",
+    "example": "The symptoms of the disease may take several weeks to manifest after the initial infection occurs.",
+    "exampleZh": "该疾病的症状可能在初次感染发生几周后才会显现出来。"
+  },
+  {
+    "en": "primary",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 589,
+    "zh": "主要的；初级的",
+    "example": "The primary goal of this project is to reduce carbon emissions by at least thirty percent.",
+    "exampleZh": "这个项目的主要目标是将碳排放减少至少百分之三十。"
+  },
+  {
+    "en": "incredible",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 590,
+    "zh": "难以置信的",
+    "example": "It was an incredible experience to watch the sunrise from the top of the mountain.",
+    "exampleZh": "从山顶看日出是一次难以置信的经历。"
+  },
+  {
+    "en": "explicit",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 591,
+    "zh": "明确的；直言的",
+    "example": "The teacher gave explicit instructions on how to complete the science experiment safely.",
+    "exampleZh": "老师对如何安全地完成科学实验给出了明确的指示。"
+  },
+  {
+    "en": "exemplify",
+    "pos": "v.",
+    "unit": 4,
+    "id": 592,
+    "zh": "举例说明；是…的典范",
+    "example": "Her dedication to public service exemplifies the true spirit of selfless community leadership.",
+    "exampleZh": "她对公共服务的奉献体现了无私社区领导力的真正精神。"
+  },
+  {
+    "en": "mostly",
+    "pos": "adv.",
+    "unit": 4,
+    "id": 593,
+    "zh": "主要地；大部分",
+    "example": "The audience consisted mostly of young students who were eager to learn about the topic.",
+    "exampleZh": "观众主要由渴望了解该主题的年轻学生组成。"
+  },
+  {
+    "en": "primitive",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 594,
+    "zh": "原始的；简陋的",
+    "example": "The primitive tools found at the archaeological site date back over ten thousand years.",
+    "exampleZh": "考古遗址发现的原始工具可追溯到一万多年前。"
+  },
+  {
+    "en": "plausible",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 595,
+    "zh": "似乎合理的；貌似可信的",
+    "example": "The scientist offered a plausible explanation for the strange phenomenon observed in the experiment.",
+    "exampleZh": "科学家为实验中观察到的奇怪现象提供了一个貌似合理的解释。"
+  },
+  {
+    "en": "exhibit",
+    "pos": "v.",
+    "unit": 4,
+    "id": 596,
+    "zh": "展示；展览",
+    "example": "The gallery will exhibit the famous artist's latest paintings throughout the entire month of May.",
+    "exampleZh": "画廊将在整个五月份展出这位著名艺术家的最新画作。"
+  },
+  {
+    "en": "prohibit",
+    "pos": "v.",
+    "unit": 4,
+    "id": 597,
+    "zh": "禁止；阻止",
+    "example": "The law prohibits smoking in all enclosed public spaces, including restaurants and shopping malls.",
+    "exampleZh": "法律禁止在所有封闭的公共场所吸烟，包括餐馆和购物中心。"
+  },
+  {
+    "en": "ban",
+    "pos": "v.",
+    "unit": 4,
+    "id": 598,
+    "zh": "禁止；取缔",
+    "example": "The government decided to ban single-use plastic bags to reduce environmental pollution nationwide.",
+    "exampleZh": "政府决定禁止使用一次性塑料袋，以减少全国范围内的环境污染。"
+  },
+  {
+    "en": "formidable",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 599,
+    "zh": "可怕的；令人敬畏的；强大的",
+    "example": "Climbing Mount Everest is a formidable challenge that requires months of preparation and training.",
+    "exampleZh": "攀登珠穆朗玛峰是一项需要数月准备和训练的艰巨挑战。"
+  },
+  {
+    "en": "evident",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 600,
+    "zh": "明显的；显然的",
+    "example": "It became evident that the company was in serious financial trouble after reviewing the quarterly report.",
+    "exampleZh": "在审查季度报告后，公司陷入严重财务困境的情况变得明显。"
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "en": "diverse",
+    "pos": "adj.",
+    "unit": 9,
+    "id": 1381,
+    "zh": "多样的；不同的；各种各样的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "reverse",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1382,
+    "zh": "逆转；颠倒；倒转；撤销",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "invert",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1383,
+    "zh": "使倒置；使反转；颠倒",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "avert",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1384,
+    "zh": "避免；防止；转移（目光等）",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "annual",
+    "pos": "adj.",
+    "unit": 9,
+    "id": 1385,
+    "zh": "每年的；年度的；一年一次的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "anniversary",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1386,
+    "zh": "周年纪念日",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "controversy",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1387,
+    "zh": "争议；争论；辩论",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "versus",
+    "pos": "prep.",
+    "unit": 9,
+    "id": 1388,
+    "zh": "对；与…相对；对抗；相比",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "versatile",
+    "pos": "adj.",
+    "unit": 9,
+    "id": 1389,
+    "zh": "多才多艺的；多功能的；通用的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "audience",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1390,
+    "zh": "观众；听众；受众",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "auditorium",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1391,
+    "zh": "礼堂；会堂；音乐厅",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "aspect",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1392,
+    "zh": "方面；层面；外观",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "spy",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1393,
+    "zh": "间谍；密探",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "suspect",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1394,
+    "zh": "怀疑；猜测；疑有",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "inspect",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1395,
+    "zh": "检查；视察；检验",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "respect",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1396,
+    "zh": "尊重；尊敬；方面",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "respective",
+    "pos": "adj.",
+    "unit": 9,
+    "id": 1397,
+    "zh": "各自的；分别的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "prospect",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1398,
+    "zh": "前景；展望；可能性；前途",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "spectator",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1399,
+    "zh": "观众；旁观者",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "speculate",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1400,
+    "zh": "推测；猜测；投机",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "perspective",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1401,
+    "zh": "视角；观点；透视法；角度",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "prosper",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1402,
+    "zh": "繁荣；兴旺；成功",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "conspicuous",
+    "pos": "adj.",
+    "unit": 9,
+    "id": 1403,
+    "zh": "显眼的；明显的；引人注目的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "despise",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1404,
+    "zh": "鄙视；轻视；看不起",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "survey",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1405,
+    "zh": "调查；测量；概览",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "convey",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1406,
+    "zh": "传达；表达；传递；运送",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "deliver",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1407,
+    "zh": "递送；交付；发表；分娩",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "statistic",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1408,
+    "zh": "统计数据；统计数字",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "communicate",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1409,
+    "zh": "沟通；交流；传达；传播",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "grocery",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1410,
+    "zh": "杂货店；食品杂货",
+    "example": "",
+    "exampleZh": ""
+  }
+]

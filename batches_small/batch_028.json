@@ -1,0 +1,272 @@
+[
+  {
+    "en": "uniform",
+    "pos": "n.",
+    "unit": 6,
+    "id": 811,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "formulate",
+    "pos": "v.",
+    "unit": 6,
+    "id": 812,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "confirm",
+    "pos": "v.",
+    "unit": 6,
+    "id": 813,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "architect",
+    "pos": "n.",
+    "unit": 6,
+    "id": 814,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "architecture",
+    "pos": "n.",
+    "unit": 6,
+    "id": 815,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "ingredient",
+    "pos": "n.",
+    "unit": 6,
+    "id": 816,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "fiction",
+    "pos": "n.",
+    "unit": 6,
+    "id": 817,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "tangible",
+    "pos": "adj.",
+    "unit": 6,
+    "id": 818,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "relate",
+    "pos": "v.",
+    "unit": 6,
+    "id": 819,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "correlate",
+    "pos": "v.",
+    "unit": 6,
+    "id": 820,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "radiate",
+    "pos": "v.",
+    "unit": 6,
+    "id": 821,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "fraction",
+    "pos": "n.",
+    "unit": 6,
+    "id": 822,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "perplex",
+    "pos": "v.",
+    "unit": 6,
+    "id": 823,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "literary",
+    "pos": "adj.",
+    "unit": 6,
+    "id": 824,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "volunteer",
+    "pos": "n.",
+    "unit": 6,
+    "id": 825,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "treaty",
+    "pos": "n.",
+    "unit": 6,
+    "id": 826,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "defend",
+    "pos": "v.",
+    "unit": 6,
+    "id": 827,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "dignity",
+    "pos": "n.",
+    "unit": 6,
+    "id": 828,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "horizon",
+    "pos": "n.",
+    "unit": 6,
+    "id": 829,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "flash",
+    "pos": "v.",
+    "unit": 6,
+    "id": 830,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "friction",
+    "pos": "n.",
+    "unit": 6,
+    "id": 831,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "regular",
+    "pos": "adj.",
+    "unit": 6,
+    "id": 832,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "conform",
+    "pos": "v.",
+    "unit": 6,
+    "id": 833,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "offend",
+    "pos": "v.",
+    "unit": 6,
+    "id": 834,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "outrage",
+    "pos": "n.",
+    "unit": 6,
+    "id": 835,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "orient",
+    "pos": "v.",
+    "unit": 6,
+    "id": 836,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "flame",
+    "pos": "n.",
+    "unit": 6,
+    "id": 837,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "flare",
+    "pos": "v.",
+    "unit": 6,
+    "id": 838,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "novel",
+    "pos": "n.",
+    "unit": 6,
+    "id": 839,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "bubble",
+    "pos": "n.",
+    "unit": 6,
+    "id": 840,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  }
+]

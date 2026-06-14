@@ -1,0 +1,272 @@
+[
+  {
+    "en": "predict",
+    "pos": "v.",
+    "unit": 4,
+    "id": 631,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "abdicate",
+    "pos": "v.",
+    "unit": 4,
+    "id": 632,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "contradict",
+    "pos": "v.",
+    "unit": 4,
+    "id": 633,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "authentic",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 634,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "authority",
+    "pos": "n.",
+    "unit": 4,
+    "id": 635,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "relevant",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 636,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "genuine",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 637,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "nuisance",
+    "pos": "n.",
+    "unit": 4,
+    "id": 638,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "elite",
+    "pos": "n.",
+    "unit": 4,
+    "id": 639,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "genius",
+    "pos": "n.",
+    "unit": 4,
+    "id": 640,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "ingenious",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 641,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "forge",
+    "pos": "v.",
+    "unit": 4,
+    "id": 642,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "forth",
+    "pos": "adv.",
+    "unit": 4,
+    "id": 643,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "dawn",
+    "pos": "n.",
+    "unit": 4,
+    "id": 644,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "dusk",
+    "pos": "n.",
+    "unit": 4,
+    "id": 645,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "generate",
+    "pos": "v.",
+    "unit": 5,
+    "id": 646,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "neighborhood",
+    "pos": "n.",
+    "unit": 5,
+    "id": 647,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "plot",
+    "pos": "n.",
+    "unit": 5,
+    "id": 648,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "statement",
+    "pos": "n.",
+    "unit": 5,
+    "id": 649,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "occasion",
+    "pos": "n.",
+    "unit": 5,
+    "id": 650,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "frequent",
+    "pos": "adj.",
+    "unit": 5,
+    "id": 651,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "recur",
+    "pos": "v.",
+    "unit": 5,
+    "id": 652,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "curb",
+    "pos": "v.",
+    "unit": 5,
+    "id": 653,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "issue",
+    "pos": "n.",
+    "unit": 5,
+    "id": 654,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "tissue",
+    "pos": "n.",
+    "unit": 5,
+    "id": 655,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "phenomenon",
+    "pos": "n.",
+    "unit": 5,
+    "id": 656,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "vulgar",
+    "pos": "adj.",
+    "unit": 5,
+    "id": 657,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "upgrade",
+    "pos": "v.",
+    "unit": 5,
+    "id": 658,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "deteriorate",
+    "pos": "v.",
+    "unit": 5,
+    "id": 659,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "extinct",
+    "pos": "adj.",
+    "unit": 5,
+    "id": 660,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  }
+]

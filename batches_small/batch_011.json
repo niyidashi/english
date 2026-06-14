@@ -1,0 +1,272 @@
+[
+  {
+    "en": "elegant",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 301,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "grace",
+    "pos": "n.",
+    "unit": 2,
+    "id": 302,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "disgrace",
+    "pos": "n.；v.",
+    "unit": 2,
+    "id": 303,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "glitter",
+    "pos": "v.",
+    "unit": 2,
+    "id": 304,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "glow",
+    "pos": "v.",
+    "unit": 2,
+    "id": 305,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "diminish",
+    "pos": "v.",
+    "unit": 2,
+    "id": 306,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "miracle",
+    "pos": "n.",
+    "unit": 2,
+    "id": 307,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "obstacle",
+    "pos": "n.",
+    "unit": 2,
+    "id": 308,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "conflict",
+    "pos": "n.",
+    "unit": 2,
+    "id": 309,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "democratic",
+    "pos": "adj.",
+    "unit": 2,
+    "id": 310,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "rival",
+    "pos": "n.；v.",
+    "unit": 3,
+    "id": 311,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "dim",
+    "pos": "adj.；v.",
+    "unit": 3,
+    "id": 312,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "dilemma",
+    "pos": "n.",
+    "unit": 3,
+    "id": 313,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "dimension",
+    "pos": "n.",
+    "unit": 3,
+    "id": 314,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "distress",
+    "pos": "n.；v.",
+    "unit": 3,
+    "id": 315,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "stress",
+    "pos": "n.；v.",
+    "unit": 3,
+    "id": 316,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "derive",
+    "pos": "v.",
+    "unit": 3,
+    "id": 317,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "deprive",
+    "pos": "v.",
+    "unit": 3,
+    "id": 318,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "thrive",
+    "pos": "v.",
+    "unit": 3,
+    "id": 319,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "strive",
+    "pos": "v.",
+    "unit": 3,
+    "id": 320,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "contrive",
+    "pos": "v.",
+    "unit": 3,
+    "id": 321,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "ambiguous",
+    "pos": "adj.",
+    "unit": 3,
+    "id": 322,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "delete",
+    "pos": "v.",
+    "unit": 3,
+    "id": 323,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "discern",
+    "pos": "v.",
+    "unit": 3,
+    "id": 324,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "desirable",
+    "pos": "adj.",
+    "unit": 3,
+    "id": 325,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "donate",
+    "pos": "v.",
+    "unit": 3,
+    "id": 326,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "despair",
+    "pos": "n.",
+    "unit": 3,
+    "id": 327,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "desperate",
+    "pos": "adj.",
+    "unit": 3,
+    "id": 328,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "discharge",
+    "pos": "v.",
+    "unit": 3,
+    "id": 329,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "digest",
+    "pos": "v.；n.",
+    "unit": 3,
+    "id": 330,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  }
+]

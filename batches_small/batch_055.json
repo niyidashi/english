@@ -1,0 +1,272 @@
+[
+  {
+    "en": "arouse",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1621,
+    "zh": "唤起；引起；激发；唤醒",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "preserve",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1622,
+    "zh": "保护；保存；维护；保持",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "reservoir",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1623,
+    "zh": "水库；蓄水池；储藏",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "refuse",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1624,
+    "zh": "拒绝；回绝；不愿",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "diffuse",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1625,
+    "zh": "扩散；传播；散布；弥漫",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "influence",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1626,
+    "zh": "影响；作用；影响力",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "impact",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1627,
+    "zh": "影响；冲击；撞击；作用",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "misfortune",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1628,
+    "zh": "不幸；厄运；灾难",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "mischief",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1629,
+    "zh": "恶作剧；捣蛋；伤害；损害",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "undermine",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1630,
+    "zh": "破坏；削弱；暗中破坏",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "undertake",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1631,
+    "zh": "承担；从事；负责；承诺",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "outline",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1632,
+    "zh": "大纲；轮廓；概要；提纲",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "outbreak",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1633,
+    "zh": "爆发；突然发生",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "deadline",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1634,
+    "zh": "截止日期；最后期限",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "headline",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1635,
+    "zh": "标题；头条新闻",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "foresee",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1636,
+    "zh": "预见；预知；预料",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "forehead",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1637,
+    "zh": "前额；额头",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "straightforward",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1638,
+    "zh": "简单的；直接的；坦率的；明确的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "headquarters",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1639,
+    "zh": "总部；司令部；指挥部",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "portion",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1640,
+    "zh": "部分；份额；一份",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "proportion",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1641,
+    "zh": "比例；部分；均衡；份额",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "provision",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1642,
+    "zh": "供给；规定；条款；准备",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "consolidate",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1643,
+    "zh": "巩固；加强；合并；统一",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "witness",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1644,
+    "zh": "目击者；证人；见证人",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "adapt",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1645,
+    "zh": "适应；改编；改造",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "adept",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1646,
+    "zh": "熟练的；擅长的；精通的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "reckon",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1647,
+    "zh": "认为；估计；计算；料想",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "reckless",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1648,
+    "zh": "鲁莽的；不顾后果的；粗心的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "smash",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1649,
+    "zh": "粉碎；猛击；打碎；击溃",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "explode",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1650,
+    "zh": "爆炸；爆发；爆裂；激增",
+    "example": "",
+    "exampleZh": ""
+  }
+]

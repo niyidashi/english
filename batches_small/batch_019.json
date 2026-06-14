@@ -1,0 +1,272 @@
+[
+  {
+    "en": "cope",
+    "pos": "v.",
+    "unit": 4,
+    "id": 541,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "solve",
+    "pos": "v.",
+    "unit": 4,
+    "id": 542,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "resolve",
+    "pos": "v.",
+    "unit": 4,
+    "id": 543,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "upset",
+    "pos": "v.",
+    "unit": 4,
+    "id": 544,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "switch",
+    "pos": "v.",
+    "unit": 4,
+    "id": 545,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "calm",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 546,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "moral",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 547,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "dissolve",
+    "pos": "v.",
+    "unit": 4,
+    "id": 548,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "scope",
+    "pos": "n.",
+    "unit": 4,
+    "id": 549,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "classic",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 550,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "item",
+    "pos": "n.",
+    "unit": 4,
+    "id": 551,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "mortal",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 552,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "ethic",
+    "pos": "n.",
+    "unit": 4,
+    "id": 553,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "realm",
+    "pos": "n.",
+    "unit": 4,
+    "id": 554,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "span",
+    "pos": "n.",
+    "unit": 4,
+    "id": 555,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "dismay",
+    "pos": "n.",
+    "unit": 4,
+    "id": 556,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "typical",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 557,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "sketch",
+    "pos": "n.",
+    "unit": 4,
+    "id": 558,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "image",
+    "pos": "n.",
+    "unit": 4,
+    "id": 559,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "recommend",
+    "pos": "v.",
+    "unit": 4,
+    "id": 560,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "receipt",
+    "pos": "n.",
+    "unit": 4,
+    "id": 561,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "recipe",
+    "pos": "n.",
+    "unit": 4,
+    "id": 562,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "reciprocal",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 563,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "independent",
+    "pos": "adj.",
+    "unit": 4,
+    "id": 564,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "flourish",
+    "pos": "v.",
+    "unit": 4,
+    "id": 565,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "flour",
+    "pos": "n.",
+    "unit": 4,
+    "id": 566,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "rate",
+    "pos": "n.",
+    "unit": 4,
+    "id": 567,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "percentage",
+    "pos": "n.",
+    "unit": 4,
+    "id": 568,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "percent",
+    "pos": "n.",
+    "unit": 4,
+    "id": 569,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "launch",
+    "pos": "v.",
+    "unit": 4,
+    "id": 570,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  }
+]

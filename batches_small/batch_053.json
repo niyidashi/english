@@ -1,0 +1,272 @@
+[
+  {
+    "en": "multiply",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1561,
+    "zh": "乘；乘以；增加；繁殖",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "multitude",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1562,
+    "zh": "大量；众多；群众；人群",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "trivial",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1563,
+    "zh": "琐碎的；微不足道的；不重要的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "trial",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1564,
+    "zh": "审判；试验；试用；考验",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "product",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1565,
+    "zh": "产品；产物；乘积；成果",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "profound",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1566,
+    "zh": "深刻的；深奥的；意义深远的；渊博的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "overwhelm",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1567,
+    "zh": "压倒；淹没；使不知所措；征服",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "overall",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1568,
+    "zh": "全面的；总体的；整体的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "summary",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1569,
+    "zh": "摘要；总结；概要；概括",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "sum",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1570,
+    "zh": "总和；总数；金额；算术",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "overtime",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1571,
+    "zh": "加班；加班时间",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "steady",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1572,
+    "zh": "稳定的；平稳的；持续的；稳固的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "compound",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1573,
+    "zh": "化合物；复合物；复合词；大院",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "overcome",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1574,
+    "zh": "克服；战胜；解决；制服",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "stable",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1575,
+    "zh": "稳定的；牢固的；稳重的；安定的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "foundation",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1576,
+    "zh": "基础；地基；基金会；根据",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "overnight",
+    "pos": "adv.",
+    "unit": 10,
+    "id": 1577,
+    "zh": "一夜之间；突然；通宵",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "establish",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1578,
+    "zh": "建立；创立；设立；确定",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "complicate",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1579,
+    "zh": "使复杂化；使难以理解",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "reserve",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1580,
+    "zh": "保留；预订；储备；储存",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "observe",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1581,
+    "zh": "观察；遵守；注意到；庆祝",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "conserve",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1582,
+    "zh": "保存；保护；节约；节省",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "valid",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1583,
+    "zh": "有效的；合理的；有根据的；合法的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "arise",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1584,
+    "zh": "出现；产生；起因于；升起",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "collide",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1585,
+    "zh": "碰撞；冲突；相撞",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "bold",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1586,
+    "zh": "大胆的；勇敢的；粗体的；醒目的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "explore",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1587,
+    "zh": "探索；探究；勘探；考察",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "repay",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1588,
+    "zh": "偿还；归还；报答；回报",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "fluctuate",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1589,
+    "zh": "波动；起伏；变动；涨落",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "overtake",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1590,
+    "zh": "超过；赶上；超越；突然降临",
+    "example": "",
+    "exampleZh": ""
+  }
+]

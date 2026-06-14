@@ -1,0 +1,1352 @@
+[
+  {
+    "en": "assist",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1501,
+    "zh": "帮助；协助",
+    "example": "She was hired to assist the manager with daily administrative tasks.",
+    "exampleZh": "她被雇用来协助经理处理日常行政事务。"
+  },
+  {
+    "en": "persist",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1502,
+    "zh": "坚持；持续",
+    "example": "If the symptoms persist for more than a week, you should see a doctor.",
+    "exampleZh": "如果症状持续超过一周，你应该去看医生。"
+  },
+  {
+    "en": "consist",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1503,
+    "zh": "由...组成；在于",
+    "example": "The team consists of five experienced engineers and two designers.",
+    "exampleZh": "这个团队由五名经验丰富的工程师和两名设计师组成。"
+  },
+  {
+    "en": "consistent",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1504,
+    "zh": "一致的；始终如一的",
+    "example": "Her performance has been remarkably consistent throughout the entire season.",
+    "exampleZh": "她在整个赛季中的表现一直非常稳定一致。"
+  },
+  {
+    "en": "resume",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1505,
+    "zh": "重新开始；恢复",
+    "example": "The company plans to resume production after the safety inspection is completed.",
+    "exampleZh": "公司计划在安全检查完成后恢复生产。"
+  },
+  {
+    "en": "presume",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1506,
+    "zh": "假定；推测",
+    "example": "I presume you have already discussed this matter with your supervisor.",
+    "exampleZh": "我推测你已经和你的主管讨论过这件事了。"
+  },
+  {
+    "en": "assume",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1507,
+    "zh": "假设；承担",
+    "example": "We cannot assume that every customer will be satisfied with the new policy.",
+    "exampleZh": "我们不能假设每位客户都会对新政策感到满意。"
+  },
+  {
+    "en": "consume",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1508,
+    "zh": "消耗；消费",
+    "example": "This old air conditioner consumes a large amount of electricity every day.",
+    "exampleZh": "这台旧空调每天消耗大量的电力。"
+  },
+  {
+    "en": "assure",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1509,
+    "zh": "使确信；保证",
+    "example": "The manager came over to assure us that the project was on schedule.",
+    "exampleZh": "经理过来向我们保证项目正在按计划进行。"
+  },
+  {
+    "en": "insure",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1510,
+    "zh": "给...保险；确保",
+    "example": "You should insure your valuable belongings before moving to a new city.",
+    "exampleZh": "在搬到新城市之前，你应该给你的贵重物品投保。"
+  },
+  {
+    "en": "ensure",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1511,
+    "zh": "确保；保证",
+    "example": "Please check all the doors and windows to ensure the building is secure.",
+    "exampleZh": "请检查所有的门窗以确保大楼安全。"
+  },
+  {
+    "en": "guarantee",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1512,
+    "zh": "保证；担保",
+    "example": "The store offers a money-back guarantee if you are not fully satisfied.",
+    "exampleZh": "如果您不完全满意，本店提供退款保证。"
+  },
+  {
+    "en": "premium",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1513,
+    "zh": "保险费；额外费用",
+    "example": "The monthly insurance premium for the new car is about two hundred dollars.",
+    "exampleZh": "这辆新车的月保险费大约是两百美元。"
+  },
+  {
+    "en": "stock",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1514,
+    "zh": "股票；库存",
+    "example": "He invested a large portion of his savings in the stock market last year.",
+    "exampleZh": "他去年将大部分积蓄投资到了股票市场。"
+  },
+  {
+    "en": "bankrupt",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1515,
+    "zh": "破产的",
+    "example": "The company went bankrupt after failing to pay its debts for several months.",
+    "exampleZh": "这家公司在几个月未能偿还债务后宣告破产。"
+  },
+  {
+    "en": "disrupt",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1516,
+    "zh": "扰乱；使中断",
+    "example": "A sudden power failure disrupted the live broadcast of the important event.",
+    "exampleZh": "突然的停电中断了这一重要活动的现场直播。"
+  },
+  {
+    "en": "erupt",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1517,
+    "zh": "喷发；爆发",
+    "example": "The volcano could erupt at any moment, so residents were urgently evacuated.",
+    "exampleZh": "火山随时可能喷发，因此居民被紧急疏散。"
+  },
+  {
+    "en": "interrupt",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1518,
+    "zh": "打断；中断",
+    "example": "Please do not interrupt the speaker while she is presenting her research findings.",
+    "exampleZh": "在演讲者展示她的研究成果时，请不要打断她。"
+  },
+  {
+    "en": "corrupt",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1519,
+    "zh": "腐败的；贪污的",
+    "example": "The corrupt officials were eventually exposed by an investigative journalist.",
+    "exampleZh": "这些腐败官员最终被一名调查记者揭露。"
+  },
+  {
+    "en": "bribe",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1520,
+    "zh": "贿赂",
+    "example": "He was arrested for attempting to offer a bribe to the government inspector.",
+    "exampleZh": "他因试图向政府检查员行贿而被逮捕。"
+  },
+  {
+    "en": "claim",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1521,
+    "zh": "声称；要求",
+    "example": "Some researchers claim that this new drug can effectively treat the disease.",
+    "exampleZh": "一些研究人员声称这种新药可以有效治疗这种疾病。"
+  },
+  {
+    "en": "proclaim",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1522,
+    "zh": "宣布；宣告",
+    "example": "The president stood before the nation to proclaim a new era of economic reform.",
+    "exampleZh": "总统站在全国人民面前宣布经济改革的新时代。"
+  },
+  {
+    "en": "reclaim",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1523,
+    "zh": "回收；开垦",
+    "example": "They worked hard to reclaim the desert land and turn it into fertile farmland.",
+    "exampleZh": "他们努力开垦沙漠土地，将其变为肥沃的农田。"
+  },
+  {
+    "en": "exclaim",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1524,
+    "zh": "呼喊；惊叫",
+    "example": "The children could not help but exclaim with joy when they saw the presents.",
+    "exampleZh": "孩子们看到礼物时忍不住高兴地叫了起来。"
+  },
+  {
+    "en": "acclaim",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1525,
+    "zh": "称赞；喝彩",
+    "example": "The young author's debut novel received widespread critical acclaim around the world.",
+    "exampleZh": "这位年轻作家的处女作小说在世界各地获得了广泛的评论界赞誉。"
+  },
+  {
+    "en": "declaim",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1526,
+    "zh": "慷慨陈词；朗诵",
+    "example": "The actor stood on the stage and began to declaim a famous Shakespearean monologue.",
+    "exampleZh": "那位演员站在舞台上，开始朗诵一段著名的莎士比亚独白。"
+  },
+  {
+    "en": "confess",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1527,
+    "zh": "坦白；承认",
+    "example": "After hours of questioning, the suspect finally decided to confess to the crime.",
+    "exampleZh": "经过数小时的审问，嫌疑人终于决定坦白罪行。"
+  },
+  {
+    "en": "profession",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1528,
+    "zh": "职业；专业",
+    "example": "Teaching is a noble profession that requires great patience and dedication.",
+    "exampleZh": "教学是一项需要极大耐心和奉献精神的高尚职业。"
+  },
+  {
+    "en": "occupy",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1529,
+    "zh": "占据；占领",
+    "example": "Reading and gardening are the two hobbies that occupy most of her free time.",
+    "exampleZh": "阅读和园艺是占据她大部分空闲时间的两个爱好。"
+  },
+  {
+    "en": "identify",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1530,
+    "zh": "识别；确认",
+    "example": "The witness was able to identify the suspect from a series of photographs.",
+    "exampleZh": "目击者能够从一系列照片中辨认出嫌疑人。"
+  },
+  {
+    "en": "output",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1531,
+    "zh": "产量；输出",
+    "example": "The factory increased its monthly output by nearly twenty percent this quarter.",
+    "exampleZh": "这个季度工厂的月产量提高了近百分之二十。"
+  },
+  {
+    "en": "interview",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1532,
+    "zh": "面试；采访",
+    "example": "She prepared for the job interview by researching the company and practicing answers.",
+    "exampleZh": "她通过研究公司和练习回答来为工作面试做准备。"
+  },
+  {
+    "en": "punish",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1533,
+    "zh": "惩罚；处罚",
+    "example": "The school decided to punish the students who were caught cheating on the exam.",
+    "exampleZh": "学校决定惩罚那些在考试中被抓到作弊的学生。"
+  },
+  {
+    "en": "triple",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1534,
+    "zh": "三倍的；三重的",
+    "example": "The company reported a triple increase in profits compared to the previous year.",
+    "exampleZh": "该公司报告称利润比上一年增长了三倍。"
+  },
+  {
+    "en": "overlook",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1535,
+    "zh": "忽略；俯瞰",
+    "example": "It is easy to overlook small details when you are working under tight deadlines.",
+    "exampleZh": "在紧迫的截止日期下工作时，很容易忽略小细节。"
+  },
+  {
+    "en": "amateur",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1536,
+    "zh": "业余爱好者",
+    "example": "He may be an amateur photographer, but his pictures look highly professional.",
+    "exampleZh": "他可能是个业余摄影师，但他的照片看起来非常专业。"
+  },
+  {
+    "en": "elect",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1537,
+    "zh": "选举；选择",
+    "example": "The citizens gathered to elect a new mayor for their growing city.",
+    "exampleZh": "市民们聚集在一起，为他们日益发展的城市选举一位新市长。"
+  },
+  {
+    "en": "powerful",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1538,
+    "zh": "强大的；有力的",
+    "example": "The new computer processor is powerful enough to handle complex scientific calculations.",
+    "exampleZh": "这种新的计算机处理器足够强大，可以处理复杂的科学计算。"
+  },
+  {
+    "en": "gradual",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1539,
+    "zh": "逐渐的；渐进的",
+    "example": "There has been a gradual improvement in the patient's condition over the past week.",
+    "exampleZh": "在过去一周里，病人的状况有了逐步的改善。"
+  },
+  {
+    "en": "overflow",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1540,
+    "zh": "溢出；泛滥",
+    "example": "After the heavy rain, the river began to overflow and flooded nearby streets.",
+    "exampleZh": "大雨过后，河水开始泛滥，淹没了附近的街道。"
+  },
+  {
+    "en": "perish",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1541,
+    "zh": "死亡；毁灭",
+    "example": "Hundreds of people perished in the earthquake that struck the coastal region.",
+    "exampleZh": "数百人在袭击沿海地区的地震中丧生。"
+  },
+  {
+    "en": "overthrow",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1542,
+    "zh": "推翻；打倒",
+    "example": "The rebels plotted to overthrow the government and establish a new regime.",
+    "exampleZh": "叛乱分子密谋推翻政府并建立新政权。"
+  },
+  {
+    "en": "layman",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1543,
+    "zh": "外行；门外汉",
+    "example": "Can you explain this medical term in language that a layman can understand easily?",
+    "exampleZh": "你能用外行也能容易理解的语言解释这个医学术语吗？"
+  },
+  {
+    "en": "identical",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1544,
+    "zh": "完全相同的；同一的",
+    "example": "The two twins look almost identical, so it is hard to tell them apart.",
+    "exampleZh": "这两个双胞胎看起来几乎一模一样，所以很难区分他们。"
+  },
+  {
+    "en": "identity",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1545,
+    "zh": "身份；同一性",
+    "example": "The police are still trying to confirm the identity of the accident victim.",
+    "exampleZh": "警方仍在试图确认事故受害者的身份。"
+  },
+  {
+    "en": "intelligent",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1546,
+    "zh": "聪明的；智能的",
+    "example": "She is an intelligent student who always asks thoughtful questions during class discussions.",
+    "exampleZh": "她是一个聪明的学生，在课堂讨论中总是提出有深度的问题。"
+  },
+  {
+    "en": "intellectual",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1547,
+    "zh": "智力的；知识的",
+    "example": "Reading challenging books is a great way to stimulate your intellectual development.",
+    "exampleZh": "阅读具有挑战性的书籍是激发智力发展的好方法。"
+  },
+  {
+    "en": "lecture",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1548,
+    "zh": "讲座；演讲",
+    "example": "The professor delivered an engaging lecture on the history of ancient civilizations.",
+    "exampleZh": "教授就古代文明史做了一场引人入胜的讲座。"
+  },
+  {
+    "en": "collect",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1549,
+    "zh": "收集；收藏",
+    "example": "My grandfather used to collect rare stamps from many different countries around the world.",
+    "exampleZh": "我祖父过去常常收集来自世界许多不同国家的稀有邮票。"
+  },
+  {
+    "en": "dialect",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1550,
+    "zh": "方言；土语",
+    "example": "She speaks Mandarin fluently, but her parents still communicate in their local dialect.",
+    "exampleZh": "她的普通话说得很流利，但她的父母仍然用当地方言交流。"
+  },
+  {
+    "en": "yield",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1551,
+    "zh": "产出；屈服",
+    "example": "The negotiations did not yield any significant results after three long days of discussion.",
+    "exampleZh": "经过三天漫长的讨论，谈判没有产生任何重大结果。"
+  },
+  {
+    "en": "outlook",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1552,
+    "zh": "前景；观点",
+    "example": "Despite the current difficulties, the economic outlook for next year remains fairly positive.",
+    "exampleZh": "尽管目前存在困难，明年的经济前景仍然相当乐观。"
+  },
+  {
+    "en": "insight",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1553,
+    "zh": "洞察力；深刻见解",
+    "example": "Her book provides valuable insight into the challenges faced by working mothers today.",
+    "exampleZh": "她的书提供了关于当今职场母亲所面临挑战的宝贵见解。"
+  },
+  {
+    "en": "argument",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1554,
+    "zh": "争论；论点",
+    "example": "They had a heated argument about how to allocate the limited budget for the project.",
+    "exampleZh": "他们就如何分配项目有限的预算发生了激烈的争论。"
+  },
+  {
+    "en": "regard",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1555,
+    "zh": "看待；尊重",
+    "example": "Many critics regard this film as one of the greatest works of modern cinema.",
+    "exampleZh": "许多评论家将这部影片视为现代电影最伟大的作品之一。"
+  },
+  {
+    "en": "interfere",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1556,
+    "zh": "干涉；干扰",
+    "example": "The noise from the construction site began to interfere with our ability to concentrate.",
+    "exampleZh": "建筑工地的噪音开始干扰我们集中注意力的能力。"
+  },
+  {
+    "en": "intervene",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1557,
+    "zh": "干预；介入",
+    "example": "The teacher had to intervene when the argument between the two students escalated.",
+    "exampleZh": "当两个学生之间的争执升级时，老师不得不介入。"
+  },
+  {
+    "en": "interval",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1558,
+    "zh": "间隔；间歇",
+    "example": "There was a short interval between the two musical performances for stage preparation.",
+    "exampleZh": "两场音乐表演之间有一个短暂间隔用来准备舞台。"
+  },
+  {
+    "en": "interpret",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1559,
+    "zh": "解释；口译",
+    "example": "Can you help me interpret these complex data charts from the latest market survey?",
+    "exampleZh": "你能帮我解读这些来自最新市场调查的复杂数据图表吗？"
+  },
+  {
+    "en": "publish",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1560,
+    "zh": "出版；发表",
+    "example": "The scientist plans to publish her groundbreaking research in a leading medical journal.",
+    "exampleZh": "这位科学家计划在一本顶级医学期刊上发表她的突破性研究。"
+  },
+  {
+    "en": "multiply",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1561,
+    "zh": "乘；增加",
+    "example": "If you multiply the length by the width, you will get the total area of the room.",
+    "exampleZh": "如果你用长度乘以宽度，就能得到房间的总面积。"
+  },
+  {
+    "en": "multitude",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1562,
+    "zh": "大量；众多",
+    "example": "A multitude of fans gathered outside the stadium to cheer for their favorite team.",
+    "exampleZh": "大量球迷聚集在体育场外，为他们最喜欢的球队加油。"
+  },
+  {
+    "en": "trivial",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1563,
+    "zh": "琐碎的；微不足道的",
+    "example": "We should not waste time arguing about trivial matters that do not really matter.",
+    "exampleZh": "我们不应该浪费时间争论那些无关紧要的琐碎事情。"
+  },
+  {
+    "en": "trial",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1564,
+    "zh": "审判；试验",
+    "example": "The clinical trial showed that the new vaccine is safe and highly effective.",
+    "exampleZh": "临床试验表明，这种新疫苗安全且非常有效。"
+  },
+  {
+    "en": "product",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1565,
+    "zh": "产品；产物",
+    "example": "The company launched a new product that quickly became popular among young consumers.",
+    "exampleZh": "该公司推出了一款新产品，迅速在年轻消费者中流行起来。"
+  },
+  {
+    "en": "profound",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1566,
+    "zh": "深刻的；深远的",
+    "example": "The scientist's discovery had a profound impact on our understanding of the universe.",
+    "exampleZh": "这位科学家的发现对我们理解宇宙产生了深远的影响。"
+  },
+  {
+    "en": "overwhelm",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1567,
+    "zh": "压倒；使不知所措",
+    "example": "The amount of paperwork on her desk seemed to overwhelm the new employee completely.",
+    "exampleZh": "桌上的文件数量似乎让这位新员工完全不知所措。"
+  },
+  {
+    "en": "overall",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1568,
+    "zh": "总体的；全面的",
+    "example": "The overall performance of the team has been very impressive throughout the tournament.",
+    "exampleZh": "这支队伍在整个锦标赛中的总体表现令人印象深刻。"
+  },
+  {
+    "en": "summary",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1569,
+    "zh": "摘要；总结",
+    "example": "At the end of the meeting, the chairperson gave a brief summary of the key decisions.",
+    "exampleZh": "会议结束时，主席简要总结了关键决定。"
+  },
+  {
+    "en": "sum",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1570,
+    "zh": "总和；金额",
+    "example": "He donated a large sum of money to help rebuild the damaged school in the village.",
+    "exampleZh": "他捐了一大笔钱帮助重建村里受损的学校。"
+  },
+  {
+    "en": "overtime",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1571,
+    "zh": "加班；加班时间",
+    "example": "The employees were asked to work overtime to meet the approaching project deadline.",
+    "exampleZh": "员工们被要求加班以赶上即将到来的项目截止日期。"
+  },
+  {
+    "en": "steady",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1572,
+    "zh": "稳定的；平稳的",
+    "example": "The company has experienced steady growth over the past three consecutive years.",
+    "exampleZh": "该公司在过去连续三年中经历了稳定的增长。"
+  },
+  {
+    "en": "compound",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1573,
+    "zh": "化合物；复合物",
+    "example": "The chemist mixed two compounds together and observed a dramatic color change in the solution.",
+    "exampleZh": "化学家将两种化合物混合在一起，观察到溶液中发生了剧烈的颜色变化。"
+  },
+  {
+    "en": "overcome",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1574,
+    "zh": "克服；战胜",
+    "example": "She had to overcome many obstacles before finally achieving her dream of becoming a doctor.",
+    "exampleZh": "她必须克服许多障碍，才最终实现了成为一名医生的梦想。"
+  },
+  {
+    "en": "stable",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1575,
+    "zh": "稳定的；稳固的",
+    "example": "The patient is now in a stable condition after the successful emergency surgery.",
+    "exampleZh": "在成功的紧急手术之后，病人现在状况稳定。"
+  },
+  {
+    "en": "foundation",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1576,
+    "zh": "基础；基金",
+    "example": "A solid foundation in mathematics is essential for advanced studies in engineering.",
+    "exampleZh": "扎实的数学基础对于工程学的高级研究至关重要。"
+  },
+  {
+    "en": "overnight",
+    "pos": "adv.",
+    "unit": 10,
+    "id": 1577,
+    "zh": "一夜之间；突然",
+    "example": "The small startup became an overnight success after its product went viral online.",
+    "exampleZh": "这家小型创业公司在其产品在网上走红后一夜成名。"
+  },
+  {
+    "en": "establish",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1578,
+    "zh": "建立；设立",
+    "example": "They plan to establish a new research center to study renewable energy solutions.",
+    "exampleZh": "他们计划建立一个新的研究中心来研究可再生能源解决方案。"
+  },
+  {
+    "en": "complicate",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1579,
+    "zh": "使复杂化",
+    "example": "Adding too many unnecessary features will only complicate the design of the product.",
+    "exampleZh": "添加太多不必要的功能只会使产品的设计复杂化。"
+  },
+  {
+    "en": "reserve",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1580,
+    "zh": "保留；预订",
+    "example": "I suggest you reserve a table at the restaurant since it gets very busy on weekends.",
+    "exampleZh": "我建议你在餐厅预订一张桌子，因为那里周末非常繁忙。"
+  },
+  {
+    "en": "observe",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1581,
+    "zh": "观察；遵守",
+    "example": "The scientist spent hours observing the behavior of the animals in their natural habitat.",
+    "exampleZh": "这位科学家花了数小时观察动物在其自然栖息地的行为。"
+  },
+  {
+    "en": "conserve",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1582,
+    "zh": "节约；保护",
+    "example": "We should try to conserve water and electricity whenever possible to protect the environment.",
+    "exampleZh": "我们应该尽可能地节约用水和用电以保护环境。"
+  },
+  {
+    "en": "valid",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1583,
+    "zh": "有效的；合理的",
+    "example": "Your passport must be valid for at least six months before you travel abroad.",
+    "exampleZh": "在你出国旅行之前，你的护照必须至少有六个月的有效期。"
+  },
+  {
+    "en": "arise",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1584,
+    "zh": "出现；产生",
+    "example": "If any unexpected problems arise during the experiment, please notify the supervisor immediately.",
+    "exampleZh": "如果实验过程中出现任何意外问题，请立即通知主管。"
+  },
+  {
+    "en": "collide",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1585,
+    "zh": "碰撞；冲突",
+    "example": "The two cars collided at the intersection because one driver ran the red light.",
+    "exampleZh": "两辆车在十字路口相撞，因为其中一名司机闯了红灯。"
+  },
+  {
+    "en": "bold",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1586,
+    "zh": "大胆的；粗体的",
+    "example": "It was a bold decision to invest all of their savings in a completely new venture.",
+    "exampleZh": "将他们所有的积蓄投资于一个全新的项目是一个大胆的决定。"
+  },
+  {
+    "en": "explore",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1587,
+    "zh": "探索；探险",
+    "example": "The young couple decided to explore the ancient city on foot during their holiday.",
+    "exampleZh": "这对年轻夫妇决定在假期里徒步探索这座古城。"
+  },
+  {
+    "en": "repay",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1588,
+    "zh": "偿还；报答",
+    "example": "He promised to repay the loan within two years after starting his new business.",
+    "exampleZh": "他承诺在开始新生意后两年内还清贷款。"
+  },
+  {
+    "en": "fluctuate",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1589,
+    "zh": "波动；起伏",
+    "example": "The prices of fresh vegetables tend to fluctuate depending on the season and weather conditions.",
+    "exampleZh": "新鲜蔬菜的价格往往会根据季节和天气条件而波动。"
+  },
+  {
+    "en": "overtake",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1590,
+    "zh": "超过；赶上",
+    "example": "The young athlete managed to overtake his rivals in the final lap of the race.",
+    "exampleZh": "这位年轻运动员在比赛的最后一圈成功超越了他的对手。"
+  },
+  {
+    "en": "dominate",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1591,
+    "zh": "支配；主导",
+    "example": "The large corporation continues to dominate the global smartphone market this year.",
+    "exampleZh": "这家大型企业今年继续主导着全球智能手机市场。"
+  },
+  {
+    "en": "import",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1592,
+    "zh": "进口；输入",
+    "example": "The country has to import a large portion of its oil to meet domestic energy demands.",
+    "exampleZh": "该国不得不进口大量石油以满足国内能源需求。"
+  },
+  {
+    "en": "tone",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1593,
+    "zh": "语气；音调",
+    "example": "The teacher used a gentle but firm tone when speaking to the misbehaving student.",
+    "exampleZh": "老师用温和但坚定的语气对那个行为不端的学生说话。"
+  },
+  {
+    "en": "invalid",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1594,
+    "zh": "无效的；作废的",
+    "example": "The parking ticket was declared invalid because the officer had written the wrong date.",
+    "exampleZh": "这张停车罚单被宣布无效，因为警察写错了日期。"
+  },
+  {
+    "en": "adopt",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1595,
+    "zh": "采用；收养",
+    "example": "The committee decided to adopt a new strategy to address the growing environmental concerns.",
+    "exampleZh": "委员会决定采用一项新策略来应对日益增长的环境问题。"
+  },
+  {
+    "en": "clash",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1596,
+    "zh": "冲突；碰撞",
+    "example": "There was a violent clash between protesters and police in the city center yesterday.",
+    "exampleZh": "昨天市中心发生了抗议者与警察之间的激烈冲突。"
+  },
+  {
+    "en": "loan",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1597,
+    "zh": "贷款；借款",
+    "example": "The bank approved their loan application, so they can finally buy a new house.",
+    "exampleZh": "银行批准了他们的贷款申请，所以他们终于可以买新房了。"
+  },
+  {
+    "en": "crash",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1598,
+    "zh": "碰撞；崩溃",
+    "example": "The stock market crash of 2008 had serious consequences for the global economy.",
+    "exampleZh": "2008年的股市崩盘对全球经济产生了严重后果。"
+  },
+  {
+    "en": "confuse",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1599,
+    "zh": "使困惑；混淆",
+    "example": "The complicated instructions seemed to confuse most of the people in the room.",
+    "exampleZh": "复杂的指示似乎让房间里的大多数人感到困惑。"
+  },
+  {
+    "en": "mislead",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1600,
+    "zh": "误导；使误解",
+    "example": "The advertisement was designed to mislead consumers about the actual benefits of the product.",
+    "exampleZh": "该广告旨在误导消费者对产品实际功效的认识。"
+  },
+  {
+    "en": "deadly",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1601,
+    "zh": "致命的；极度的",
+    "example": "The snake's venom is highly deadly and can kill a human within just a few hours.",
+    "exampleZh": "这种蛇的毒液非常致命，可以在短短几小时内致人死亡。"
+  },
+  {
+    "en": "overpass",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1602,
+    "zh": "天桥；立交桥",
+    "example": "The city built a new pedestrian overpass to help people cross the busy highway safely.",
+    "exampleZh": "市政府新建了一座人行天桥，帮助人们安全地穿过繁忙的高速公路。"
+  },
+  {
+    "en": "domestic",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1603,
+    "zh": "国内的；家庭的",
+    "example": "The government introduced new policies to stimulate domestic consumption and economic growth.",
+    "exampleZh": "政府出台了新政策以刺激国内消费和经济增长。"
+  },
+  {
+    "en": "forecast",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1604,
+    "zh": "预测；预报",
+    "example": "According to the weather forecast, it will rain heavily throughout the entire weekend.",
+    "exampleZh": "根据天气预报，整个周末将会有大雨。"
+  },
+  {
+    "en": "export",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1605,
+    "zh": "出口；输出",
+    "example": "The country hopes to export more agricultural products to international markets this year.",
+    "exampleZh": "该国希望今年向国际市场出口更多的农产品。"
+  },
+  {
+    "en": "deserve",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1606,
+    "zh": "值得；应得",
+    "example": "You worked extremely hard on this project and truly deserve all the recognition you get.",
+    "exampleZh": "你在这个项目上努力工作了，完全值得你得到的所有认可。"
+  },
+  {
+    "en": "fluent",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1607,
+    "zh": "流利的；流畅的",
+    "example": "She became fluent in three foreign languages after studying abroad for several years.",
+    "exampleZh": "在国外留学几年后，她能够流利地使用三种外语。"
+  },
+  {
+    "en": "disaster",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1608,
+    "zh": "灾难；灾害",
+    "example": "The earthquake was the worst natural disaster the region had experienced in over a century.",
+    "exampleZh": "这场地震是该地区一个多世纪以来经历的最严重的自然灾害。"
+  },
+  {
+    "en": "outset",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1609,
+    "zh": "开始；开端",
+    "example": "We knew from the outset that this would be an extremely challenging and risky project.",
+    "exampleZh": "我们从一开始就知道这将是一个极具挑战性和风险的项目。"
+  },
+  {
+    "en": "foremost",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1610,
+    "zh": "最重要的；首要的",
+    "example": "She is widely regarded as one of the foremost experts in the field of genetics.",
+    "exampleZh": "她被广泛认为是遗传学领域最重要的专家之一。"
+  },
+  {
+    "en": "portable",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1611,
+    "zh": "便携的；手提的",
+    "example": "The new portable speaker is small enough to fit in your bag and take anywhere.",
+    "exampleZh": "这款新的便携式音箱小到可以放进包里随身携带。"
+  },
+  {
+    "en": "sue",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1612,
+    "zh": "起诉；控告",
+    "example": "The actor decided to sue the magazine for publishing false and damaging statements about him.",
+    "exampleZh": "这位演员决定起诉那家杂志，因为其发表了关于他的虚假和诽谤性言论。"
+  },
+  {
+    "en": "bald",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1613,
+    "zh": "秃头的；光秃的",
+    "example": "He started going bald in his early twenties, so he decided to shave his head completely.",
+    "exampleZh": "他二十出头就开始秃顶了，所以他决定把头发全部剃光。"
+  },
+  {
+    "en": "affluent",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1614,
+    "zh": "富裕的；丰富的",
+    "example": "She grew up in an affluent neighborhood where most families owned large houses and luxury cars.",
+    "exampleZh": "她在一个富裕的社区长大，那里大多数家庭都拥有大房子和豪车。"
+  },
+  {
+    "en": "outcome",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1615,
+    "zh": "结果；结局",
+    "example": "No one could predict the outcome of the election until the very last moment.",
+    "exampleZh": "直到最后一刻，没有人能预测选举的结果。"
+  },
+  {
+    "en": "portray",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1616,
+    "zh": "描绘；扮演",
+    "example": "The documentary aims to portray the daily struggles of farmers living in remote mountain villages.",
+    "exampleZh": "这部纪录片旨在描绘生活在偏远山村的农民们的日常挣扎。"
+  },
+  {
+    "en": "convict",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1617,
+    "zh": "定罪；宣判有罪",
+    "example": "The jury took only two hours to convict the defendant of all the charges.",
+    "exampleZh": "陪审团只用了两个小时就裁定被告所有罪名成立。"
+  },
+  {
+    "en": "exploit",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1618,
+    "zh": "剥削；利用",
+    "example": "Some factory owners were accused of trying to exploit workers by paying extremely low wages.",
+    "exampleZh": "一些工厂主被指控试图通过支付极低的工资来剥削工人。"
+  },
+  {
+    "en": "verdict",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1619,
+    "zh": "裁决；判决",
+    "example": "After three weeks of testimony, the jury finally reached a unanimous verdict in the case.",
+    "exampleZh": "经过三周的证词，陪审团最终就该案达成了一致裁决。"
+  },
+  {
+    "en": "legislation",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1620,
+    "zh": "立法；法规",
+    "example": "The government is working on new legislation to better protect consumer data and privacy.",
+    "exampleZh": "政府正在制定新的法规以更好地保护消费者数据和隐私。"
+  },
+  {
+    "en": "arouse",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1621,
+    "zh": "唤起；激起",
+    "example": "The mysterious story immediately aroused the curiosity of the children sitting in the room.",
+    "exampleZh": "这个神秘的故事立刻激起了坐在房间里孩子们的好奇心。"
+  },
+  {
+    "en": "preserve",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1622,
+    "zh": "保存；保护",
+    "example": "We must do everything we can to preserve these ancient historical sites for future generations.",
+    "exampleZh": "我们必须尽一切努力为子孙后代保护这些古代历史遗迹。"
+  },
+  {
+    "en": "reservoir",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1623,
+    "zh": "水库；蓄水池",
+    "example": "The reservoir provides drinking water for more than two million people in the surrounding area.",
+    "exampleZh": "这座水库为周边地区两百多万人提供饮用水。"
+  },
+  {
+    "en": "refuse",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1624,
+    "zh": "拒绝；回绝",
+    "example": "She had to refuse the job offer because it would require her to relocate overseas.",
+    "exampleZh": "她不得不拒绝了那份工作邀请，因为那需要她搬到海外。"
+  },
+  {
+    "en": "diffuse",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1625,
+    "zh": "扩散；传播",
+    "example": "The essential oil slowly began to diffuse throughout the room, creating a relaxing atmosphere.",
+    "exampleZh": "精油慢慢开始在整个房间扩散，营造出一种放松的氛围。"
+  },
+  {
+    "en": "influence",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1626,
+    "zh": "影响；影响力",
+    "example": "Social media has a huge influence on how young people form their opinions these days.",
+    "exampleZh": "如今，社交媒体对年轻人形成观点的方式有着巨大的影响。"
+  },
+  {
+    "en": "impact",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1627,
+    "zh": "影响；冲击",
+    "example": "The new policy had an immediate and positive impact on the local economy and employment.",
+    "exampleZh": "新政策对当地经济和就业产生了立竿见影的积极影响。"
+  },
+  {
+    "en": "misfortune",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1628,
+    "zh": "不幸；厄运",
+    "example": "He had the misfortune of losing his job just a few months after buying a new house.",
+    "exampleZh": "他很不幸地在买了新房几个月后就失去了工作。"
+  },
+  {
+    "en": "mischief",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1629,
+    "zh": "恶作剧；捣蛋",
+    "example": "The little boy was always getting into mischief when his mother was not watching him.",
+    "exampleZh": "这个小男孩总是在妈妈没注意的时候捣蛋。"
+  },
+  {
+    "en": "undermine",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1630,
+    "zh": "削弱；暗中破坏",
+    "example": "Constant criticism from colleagues can seriously undermine a person's self-confidence over time.",
+    "exampleZh": "来自同事的不断批评会随着时间的流逝严重削弱一个人的自信心。"
+  },
+  {
+    "en": "undertake",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1631,
+    "zh": "承担；从事",
+    "example": "The research team is about to undertake a comprehensive study on climate change effects.",
+    "exampleZh": "该研究团队即将开展一项关于气候变化影响的全面研究。"
+  },
+  {
+    "en": "outline",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1632,
+    "zh": "大纲；轮廓",
+    "example": "Before writing the essay, she created a clear outline to organize all her main ideas.",
+    "exampleZh": "在写文章之前，她创建了一个清晰的大纲来组织所有的主要想法。"
+  },
+  {
+    "en": "outbreak",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1633,
+    "zh": "爆发；暴发",
+    "example": "The sudden outbreak of the disease forced the government to declare a state of emergency.",
+    "exampleZh": "疾病的突然爆发迫使政府宣布进入紧急状态。"
+  },
+  {
+    "en": "deadline",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1634,
+    "zh": "截止日期；最后期限",
+    "example": "We need to work faster because the deadline for submitting the final report is next Friday.",
+    "exampleZh": "我们需要加快工作进度，因为提交最终报告的截止日期是下周五。"
+  },
+  {
+    "en": "headline",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1635,
+    "zh": "头条新闻；标题",
+    "example": "The shocking news story about the scandal made the front-page headline of every major newspaper.",
+    "exampleZh": "关于这起丑闻的惊人新闻故事登上了每家主要报纸的头版头条。"
+  },
+  {
+    "en": "foresee",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1636,
+    "zh": "预见；预知",
+    "example": "No one could foresee that such a small incident would lead to a major international crisis.",
+    "exampleZh": "没有人能预见到这样一件小事竟会酿成一场重大的国际危机。"
+  },
+  {
+    "en": "forehead",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1637,
+    "zh": "额头；前额",
+    "example": "She gently placed her hand on his forehead to check if he still had a fever.",
+    "exampleZh": "她轻轻地把手放在他的额头上，检查他是否还在发烧。"
+  },
+  {
+    "en": "straightforward",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1638,
+    "zh": "直截了当的；简单的",
+    "example": "The instructions for assembling the furniture were very clear and straightforward to follow.",
+    "exampleZh": "组装家具的说明非常清晰且简单易懂。"
+  },
+  {
+    "en": "headquarters",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1639,
+    "zh": "总部；司令部",
+    "example": "The international company moved its global headquarters from New York to London last year.",
+    "exampleZh": "这家国际公司去年将其全球总部从纽约迁至伦敦。"
+  },
+  {
+    "en": "portion",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1640,
+    "zh": "部分；一份",
+    "example": "A large portion of the budget was allocated to education and healthcare services this year.",
+    "exampleZh": "今年预算的很大一部分被分配给了教育和医疗服务。"
+  },
+  {
+    "en": "proportion",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1641,
+    "zh": "比例；部分",
+    "example": "The proportion of elderly people in the total population has been steadily increasing for decades.",
+    "exampleZh": "几十年来，老年人在总人口中的比例一直在稳步上升。"
+  },
+  {
+    "en": "provision",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1642,
+    "zh": "供应；规定",
+    "example": "The contract includes a provision that allows either party to cancel within thirty days.",
+    "exampleZh": "合同中包含一项规定，允许任何一方在三十天内取消。"
+  },
+  {
+    "en": "consolidate",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1643,
+    "zh": "巩固；合并",
+    "example": "The two companies decided to consolidate their operations to reduce costs and improve efficiency.",
+    "exampleZh": "这两家公司决定合并业务以降低成本并提高效率。"
+  },
+  {
+    "en": "witness",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1644,
+    "zh": "目击者；证人",
+    "example": "The witness provided crucial information that helped the police solve the case quickly.",
+    "exampleZh": "目击者提供了关键信息，帮助警方迅速破案。"
+  },
+  {
+    "en": "adapt",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1645,
+    "zh": "适应；改编",
+    "example": "It took her a few months to adapt to the new working environment and company culture.",
+    "exampleZh": "她花了几个月的时间来适应新的工作环境和公司文化。"
+  },
+  {
+    "en": "adept",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1646,
+    "zh": "熟练的；擅长的",
+    "example": "She is very adept at solving complex mathematical problems in a short amount of time.",
+    "exampleZh": "她非常擅长在短时间内解决复杂的数学问题。"
+  },
+  {
+    "en": "reckon",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1647,
+    "zh": "认为；估计",
+    "example": "I reckon it will take us about three hours to finish the remaining work today.",
+    "exampleZh": "我估计我们今天大约需要三个小时才能完成剩下的工作。"
+  },
+  {
+    "en": "reckless",
+    "pos": "adj.",
+    "unit": 10,
+    "id": 1648,
+    "zh": "鲁莽的；不计后果的",
+    "example": "His reckless driving on the wet road nearly caused a serious accident last night.",
+    "exampleZh": "他昨晚在湿滑路面上鲁莽驾驶，差点造成严重事故。"
+  },
+  {
+    "en": "smash",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1649,
+    "zh": "打碎；粉碎",
+    "example": "The angry customer threatened to smash the broken device against the wall in frustration.",
+    "exampleZh": "这位愤怒的顾客威胁要把坏掉的设备往墙上摔以泄愤。"
+  },
+  {
+    "en": "explode",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1650,
+    "zh": "爆炸；爆发",
+    "example": "The fireworks will explode in the night sky to celebrate the start of the new year.",
+    "exampleZh": "烟花将在夜空中绽放以庆祝新年的到来。"
+  }
+]

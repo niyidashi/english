@@ -1,0 +1,272 @@
+[
+  {
+    "en": "betray",
+    "pos": "v.",
+    "unit": 1,
+    "id": 31,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "traitor",
+    "pos": "n.",
+    "unit": 1,
+    "id": 32,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "convince",
+    "pos": "v.",
+    "unit": 1,
+    "id": 33,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "complain",
+    "pos": "v.",
+    "unit": 1,
+    "id": 34,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "calendar",
+    "pos": "n.",
+    "unit": 1,
+    "id": 35,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "veto",
+    "pos": "n.",
+    "unit": 1,
+    "id": 36,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "dose",
+    "pos": "n.",
+    "unit": 1,
+    "id": 37,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "fault",
+    "pos": "n.",
+    "unit": 1,
+    "id": 38,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "gigantic",
+    "pos": "adj.",
+    "unit": 1,
+    "id": 39,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "deputy",
+    "pos": "n.",
+    "unit": 1,
+    "id": 40,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "neglect",
+    "pos": "v.",
+    "unit": 1,
+    "id": 41,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "deny",
+    "pos": "v.",
+    "unit": 1,
+    "id": 42,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "exhaust",
+    "pos": "v.",
+    "unit": 1,
+    "id": 43,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "default",
+    "pos": "n.",
+    "unit": 1,
+    "id": 44,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "immense",
+    "pos": "adj.",
+    "unit": 1,
+    "id": 45,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "client",
+    "pos": "n.",
+    "unit": 1,
+    "id": 46,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "challenge",
+    "pos": "n.",
+    "unit": 1,
+    "id": 47,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "convention",
+    "pos": "n.",
+    "unit": 1,
+    "id": 48,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "convenience",
+    "pos": "n.",
+    "unit": 1,
+    "id": 49,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "continent",
+    "pos": "n.",
+    "unit": 1,
+    "id": 50,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "circulate",
+    "pos": "v.",
+    "unit": 1,
+    "id": 51,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "calculate",
+    "pos": "v.",
+    "unit": 1,
+    "id": 52,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "drift",
+    "pos": "v.",
+    "unit": 1,
+    "id": 53,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "draft",
+    "pos": "n.；v.",
+    "unit": 1,
+    "id": 54,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "float",
+    "pos": "v.",
+    "unit": 1,
+    "id": 55,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "compact",
+    "pos": "adj.；v.",
+    "unit": 1,
+    "id": 56,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "jealous",
+    "pos": "adj.",
+    "unit": 1,
+    "id": 57,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "moist",
+    "pos": "adj.",
+    "unit": 1,
+    "id": 58,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "blunder",
+    "pos": "n.；v.",
+    "unit": 1,
+    "id": 59,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "abnormal",
+    "pos": "adj.",
+    "unit": 1,
+    "id": 60,
+    "zh": "",
+    "example": "",
+    "exampleZh": ""
+  }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "en": "script",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1441,
+    "zh": "脚本；手稿；文字；笔迹",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "prescribe",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1442,
+    "zh": "开药方；规定；指示；嘱咐",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "manuscript",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1443,
+    "zh": "手稿；原稿；底稿",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "means",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1444,
+    "zh": "方法；手段；途径；财富",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "mean",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1445,
+    "zh": "意味着；意思是；打算；表示",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "graduate",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1446,
+    "zh": "毕业；获得学位；授予学位",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "undergraduate",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1447,
+    "zh": "本科生；大学生",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "postgraduate",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1448,
+    "zh": "研究生",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "sophomore",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1449,
+    "zh": "大学二年级学生",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "junior",
+    "pos": "adj.",
+    "unit": 9,
+    "id": 1450,
+    "zh": "低年级的；初级的；较年轻的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "senior",
+    "pos": "adj.",
+    "unit": 9,
+    "id": 1451,
+    "zh": "高级的；资深的；年长的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "private",
+    "pos": "adj.",
+    "unit": 9,
+    "id": 1452,
+    "zh": "私人的；私有的；私密的；私营的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "prolong",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1453,
+    "zh": "延长；拖长；拉长",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "motion",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1454,
+    "zh": "运动；动作；移动；提议",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "emotion",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1455,
+    "zh": "情感；情绪；感情",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "remote",
+    "pos": "adj.",
+    "unit": 9,
+    "id": 1456,
+    "zh": "遥远的；偏远的；远程的；冷淡的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "motive",
+    "pos": "n.",
+    "unit": 9,
+    "id": 1457,
+    "zh": "动机；目的；动因",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "motivate",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1458,
+    "zh": "激励；激发；鼓励；促进",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "prompt",
+    "pos": "adj.",
+    "unit": 9,
+    "id": 1459,
+    "zh": "迅速的；及时的；敏捷的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "promote",
+    "pos": "v.",
+    "unit": 9,
+    "id": 1460,
+    "zh": "促进；提升；推广；晋升",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "dismiss",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1461,
+    "zh": "解散；解雇；不予考虑；驳回",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "admit",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1462,
+    "zh": "承认；允许进入；接纳；招收",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "summit",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1463,
+    "zh": "顶点；峰会；最高点",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "submit",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1464,
+    "zh": "提交；递交；服从；屈服",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "missile",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1465,
+    "zh": "导弹；发射物",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "mission",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1466,
+    "zh": "使命；任务；使团；代表团",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "missionary",
+    "pos": "n.",
+    "unit": 10,
+    "id": 1467,
+    "zh": "传教士",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "emit",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1468,
+    "zh": "发出；排放；发射（光、热、气体等）",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "omit",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1469,
+    "zh": "省略；遗漏；忽略；删除",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "permit",
+    "pos": "v.",
+    "unit": 10,
+    "id": 1470,
+    "zh": "允许；许可；准许",
+    "example": "",
+    "exampleZh": ""
+  }
+]

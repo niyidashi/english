@@ -1,0 +1,272 @@
+[
+  {
+    "en": "species",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1141,
+    "zh": "物种；种类",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "existence",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1142,
+    "zh": "存在；生存",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "contact",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1143,
+    "zh": "接触；联系",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "intact",
+    "pos": "adj.",
+    "unit": 8,
+    "id": 1144,
+    "zh": "完好无损的；完整的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "consequently",
+    "pos": "adv.",
+    "unit": 8,
+    "id": 1145,
+    "zh": "因此；结果",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "sequence",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1146,
+    "zh": "顺序；连续；一系列",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "subsequent",
+    "pos": "adj.",
+    "unit": 8,
+    "id": 1147,
+    "zh": "随后的；后来的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "serial",
+    "pos": "adj.",
+    "unit": 8,
+    "id": 1148,
+    "zh": "连续的；连载的；一系列的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "series",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1149,
+    "zh": "系列；连续",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "counter",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1150,
+    "zh": "柜台；计数器；对立面",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "account",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1151,
+    "zh": "账户；账目；描述；解释",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "accountant",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1152,
+    "zh": "会计师；会计",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "counterpart",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1153,
+    "zh": "对应的人或物；对手",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "encounter",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1154,
+    "zh": "遭遇；遇到；邂逅",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "contrary",
+    "pos": "adj.",
+    "unit": 8,
+    "id": 1155,
+    "zh": "相反的；对立的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "discount",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1156,
+    "zh": "折扣；贴现",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "bulletin",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1157,
+    "zh": "公告；公报；简报",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "clarify",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1158,
+    "zh": "澄清；阐明；使清楚",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "isolate",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1159,
+    "zh": "隔离；孤立；分离",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "insulate",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1160,
+    "zh": "隔离；使绝缘；使隔热",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "combine",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1161,
+    "zh": "结合；组合；联合",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "combination",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1162,
+    "zh": "结合；组合；联合",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "compete",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1163,
+    "zh": "竞争；比赛；对抗",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "confine",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1164,
+    "zh": "限制；局限于；禁闭",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "competent",
+    "pos": "adj.",
+    "unit": 8,
+    "id": 1165,
+    "zh": "有能力的；胜任的；合格的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "connection",
+    "pos": "n.",
+    "unit": 8,
+    "id": 1166,
+    "zh": "连接；联系；关系",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "refine",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1167,
+    "zh": "精炼；改进；完善",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "define",
+    "pos": "v.",
+    "unit": 8,
+    "id": 1168,
+    "zh": "定义；界定；明确",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "infinite",
+    "pos": "adj.",
+    "unit": 8,
+    "id": 1169,
+    "zh": "无限的；无穷的；极大的",
+    "example": "",
+    "exampleZh": ""
+  },
+  {
+    "en": "limited",
+    "pos": "adj.",
+    "unit": 8,
+    "id": 1170,
+    "zh": "有限的；受限的",
+    "example": "",
+    "exampleZh": ""
+  }
+]
