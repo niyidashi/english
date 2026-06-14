@@ -39,27 +39,43 @@ function buildLearningQueue() {
   var allWords = getCurrentWords();
   var today = new Date().toISOString().split('T')[0];
 
-  var dueWords = [];
-  var newWords = [];
-  var futureWords = [];
+  var knownWords = [];
+  var unknownWords = [];
 
   allWords.forEach(function(w) {
     var d = getWordData(w.id);
     if (d.status === 'known' || d.status === 'mastered') {
-      if (d.nextReview && d.nextReview <= today) dueWords.push(w);
+      if (d.nextReview && d.nextReview <= today) knownWords.push(w);
+      else if (!d.nextReview) knownWords.push(w);
     } else {
-      if (!d.nextReview) newWords.push(w);
-      else if (d.nextReview <= today) dueWords.push(w);
-      else futureWords.push(w);
+      if (!d.nextReview || d.nextReview <= today) unknownWords.push(w);
     }
   });
 
-  learningQueue = dueWords.concat(newWords).concat(futureWords);
+  // Shuffle unknown words
+  shuffleArray(unknownWords);
+
+  // Build queue: known once + unknown twice, randomly interspersed
+  // Insert each unknown word twice at random positions in the known+unknown pool
+  var base = knownWords.concat(unknownWords); // each unknown appears once here
+  // Add second copy of unknown words at random positions
+  unknownWords.forEach(function(w) {
+    var pos = Math.floor(Math.random() * (base.length + 1));
+    base.splice(pos, 0, w);
+  });
+
+  learningQueue = base;
   learningQueueReady = true;
 
-  var progress = loadProgress();
   currentWordIndex = progress.currentWordIndex || 0;
   if (currentWordIndex >= learningQueue.length) currentWordIndex = 0;
+}
+
+function shuffleArray(arr) {
+  for (var i = arr.length - 1; i > 0; i--) {
+    var j = Math.floor(Math.random() * (i + 1));
+    var tmp = arr[i]; arr[i] = arr[j]; arr[j] = tmp;
+  }
 }
 
 function refreshLearningPanel() {
@@ -119,22 +135,15 @@ function isDailyLimitReached() {
   return getTodayLearningCount() >= limit;
 }
 
-// Prev/Next buttons
+// Prev/Next
 document.getElementById('btn-prev-word').addEventListener('click', function() {
   if (learningQueue.length === 0) return;
-  if (currentWordIndex > 0) {
-    currentWordIndex--;
-    savePosition('learning', currentWordIndex);
-  }
+  if (currentWordIndex > 0) { currentWordIndex--; savePosition('learning', currentWordIndex); }
   refreshLearningPanel();
 });
-
 document.getElementById('btn-next-word').addEventListener('click', function() {
   if (learningQueue.length === 0) return;
-  if (currentWordIndex < learningQueue.length - 1) {
-    currentWordIndex++;
-    savePosition('learning', currentWordIndex);
-  }
+  if (currentWordIndex < learningQueue.length - 1) { currentWordIndex++; savePosition('learning', currentWordIndex); }
   refreshLearningPanel();
 });
 
@@ -147,13 +156,8 @@ document.getElementById('word-card').addEventListener('touchend', function(e) {
   if (learningQueue.length === 0) return;
   var diff = touchStartX - e.changedTouches[0].clientX;
   if (Math.abs(diff) > 50) {
-    if (diff > 0 && currentWordIndex < learningQueue.length - 1) {
-      currentWordIndex++;
-      savePosition('learning', currentWordIndex);
-    } else if (diff < 0 && currentWordIndex > 0) {
-      currentWordIndex--;
-      savePosition('learning', currentWordIndex);
-    }
+    if (diff > 0 && currentWordIndex < learningQueue.length - 1) { currentWordIndex++; savePosition('learning', currentWordIndex); }
+    else if (diff < 0 && currentWordIndex > 0) { currentWordIndex--; savePosition('learning', currentWordIndex); }
     refreshLearningPanel();
   }
 });
@@ -165,8 +169,7 @@ document.getElementById('btn-learn-known').addEventListener('click', function() 
 function markLearnWord(status) {
   if (learningQueue.length === 0) return;
   if (isDailyLimitReached()) {
-    showToast('🎀 今日学习任务完成！进入闪卡模式');
-    setTimeout(function() { switchPanel('flashcard'); }, 1000);
+    completeLearningTask();
     return;
   }
 
@@ -176,7 +179,6 @@ function markLearnWord(status) {
   if (status === 'known') {
     updateWordStatus(word.id, 'known', dateAddDays(today, 7), 7);
     incrementDailyStat('learningKnown', word.id);
-    // Remove from in-memory queue
     learningQueue.splice(currentWordIndex, 1);
     if (learningQueue.length === 0) currentWordIndex = 0;
     else if (currentWordIndex >= learningQueue.length) currentWordIndex = 0;
@@ -184,23 +186,25 @@ function markLearnWord(status) {
   } else {
     updateWordStatus(word.id, 'unknown', dateAddDays(today, 1), 1);
     incrementDailyStat('learningUnknown', word.id);
-    // Move current word to end of queue
     learningQueue.push(learningQueue.splice(currentWordIndex, 1)[0]);
-    // currentWordIndex stays the same — it now points to the next word
     if (currentWordIndex >= learningQueue.length) currentWordIndex = 0;
     savePosition('learning', currentWordIndex);
   }
 
-  // Check if daily limit reached after this mark
   if (isDailyLimitReached()) {
     refreshLearningPanel();
-    showToast('🎀 今日学习任务完成！进入闪卡模式');
-    savePosition('learning', 0);
-    setTimeout(function() { switchPanel('flashcard'); }, 1000);
+    completeLearningTask();
     return;
   }
 
   refreshLearningPanel();
+}
+
+function completeLearningTask() {
+  incrementCompletionDays();
+  showToast('🎀 今日任务完成！真棒小宝宝，奖励十个亲亲');
+  savePosition('learning', 0);
+  setTimeout(function() { switchPanel('flashcard'); }, 1500);
 }
 
 // ===== PROGRESS PANEL =====
@@ -219,11 +223,28 @@ function refreshProgressPanel() {
   document.getElementById('stat-streak').textContent = progress.streakDays || 0;
   document.getElementById('progress-fill').style.width = rate + '%';
 
+  document.getElementById('completion-days').textContent = progress.completionDays || 0;
+
   document.getElementById('stat-learn-known').textContent = daily.learningKnown || 0;
   document.getElementById('stat-learn-unknown').textContent = daily.learningUnknown || 0;
   document.getElementById('stat-fc-known').textContent = daily.flashcardKnown || 0;
   document.getElementById('stat-fc-fuzzy').textContent = daily.flashcardFuzzy || 0;
   document.getElementById('stat-fc-unknown').textContent = daily.flashcardUnknown || 0;
+
+  // Key words: intersection of learning unknown + flashcard unknown
+  var keyIds = intersectArrays(
+    (daily.learningUnknownIds || []).concat(daily.flashcardUnknownIds || []),
+    (daily.learningUnknownIds || []).concat(daily.flashcardUnknownIds || [])
+  );
+  // Better: words that appear in BOTH learningUnknown AND flashcardUnknown
+  var keyWordIds = (daily.learningUnknownIds || []).filter(function(id) {
+    return (daily.flashcardUnknownIds || []).indexOf(id) !== -1;
+  });
+  document.getElementById('stat-keywords').textContent = keyWordIds.length;
+}
+
+function intersectArrays(a, b) {
+  return a.filter(function(v) { return b.indexOf(v) !== -1; });
 }
 
 // ===== SETTINGS PANEL =====

@@ -123,6 +123,15 @@
       </div>
 
       <div style="background:var(--white);border:1px solid var(--border-pink);border-radius:var(--radius-md);padding:12px;margin-bottom:12px">
+        <div style="font-size:12px;font-weight:700;color:var(--text-deep);margin-bottom:6px">🌟 今日重点记忆单词</div>
+        <div style="font-size:10px;color:var(--text-medium);margin-bottom:4px">学习模式「不认识」+ 闪卡模式「不熟悉」的交集</div>
+        <div class="stat-card" style="cursor:pointer" onclick="showKeyWords()">
+          <div class="stat-value" id="stat-keywords" style="color:#FF2D55">0</div>
+          <div class="stat-label">🔴 重点记忆（点击查看）</div>
+        </div>
+      </div>
+
+      <div style="background:var(--white);border:1px solid var(--border-pink);border-radius:var(--radius-md);padding:12px;margin-bottom:12px">
         <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
           <span style="font-size:12px;font-weight:700;color:var(--text-deep)">📦 总计 <span id="stat-total">0</span> 词</span>
           <span style="font-size:11px;color:var(--text-medium)">🎯 累计掌握: <span id="stat-mastered-total">0</span></span>
@@ -144,6 +153,10 @@
         <div class="stat-card" style="flex:1">
           <div class="stat-value" id="stat-streak">-</div>
           <div class="stat-label">连续天数</div>
+        </div>
+        <div class="stat-card" style="flex:1">
+          <div class="stat-value" id="completion-days">-</div>
+          <div class="stat-label">完成任务</div>
         </div>
       </div>
 
@@ -213,7 +226,7 @@
         <div class="modal">
           <h3>🎀 今日任务完成，宝宝真棒！</h3>
           <p id="completion-msg"></p>
-          <p style="font-size:12px;color:var(--text-medium)">明天继续加油哟~ 🐱</p>
+          <p style="font-size:12px;color:var(--text-medium)">🎀 今日任务完成！真棒小宝宝，奖励十个亲亲 💋💋💋💋💋💋💋💋💋💋</p>
           <button id="btn-close-completion" class="btn btn-primary">好的</button>
         </div>
       </div>
@@ -246,11 +259,16 @@
 <script src="js/flashcard.js"></script>
 <script src="js/app.js"></script>
 <script>
-function showWordList(category, title) {
+function showKeyWords() {
   var stats = getDailyStats();
-  var idKey = category + 'Ids';
-  var ids = stats[idKey] || [];
-  var words = getWordsByIds(ids);
+  var keyIds = (stats.learningUnknownIds || []).filter(function(id) {
+    return (stats.flashcardUnknownIds || []).indexOf(id) !== -1;
+  });
+  showWordListByIds(keyIds, '🌟 今日重点记忆单词');
+}
+
+function showWordListByIds(ids, title) {
+  var words = getWordsByIds(ids || []);
   var modal = document.getElementById('wordlist-modal');
   var titleEl = document.getElementById('wordlist-title');
   var contentEl = document.getElementById('wordlist-content');
@@ -266,14 +284,25 @@ function showWordList(category, title) {
   }
   modal.style.display = 'flex';
 }
+
+function showWordList(category, title) {
+  var stats = getDailyStats();
+  var idKey = category + 'Ids';
+  var ids = stats[idKey] || [];
+  showWordListByIds(ids, title);
+}
 document.getElementById('wordlist-modal').addEventListener('click', function(e) {
   if (e.target === e.currentTarget) this.style.display = 'none';
 });
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js')
-    .then(function(reg) { console.log('[SW] Registered:', reg.scope); })
-    .catch(function(err) { console.log('[SW] Registration failed:', err); });
+  navigator.serviceWorker.getRegistration().then(function(reg) {
+    if (reg) { return reg.unregister(); }
+  }).then(function() {
+    navigator.serviceWorker.register('sw.js')
+      .then(function(reg) { console.log('[SW] Registered:', reg.scope); })
+      .catch(function(err) { console.log('[SW] Registration failed:', err); });
+  });
 }
 </script>
 </body>

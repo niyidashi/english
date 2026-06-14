@@ -15,6 +15,7 @@ function createDefaultProgress() {
     streakDays: 0,
     currentWordIndex: 0,
     flashcardIndex: 0,
+    completionDays: 0,
     dailyStats: {
       date: today,
       learningKnown: 0,      learningKnownIds: [],
@@ -41,6 +42,7 @@ function loadProgress() {
     });
     if (!data.currentWordIndex) data.currentWordIndex = 0;
     if (!data.flashcardIndex) data.flashcardIndex = 0;
+    if (data.completionDays === undefined) data.completionDays = 0;
     var today = new Date().toISOString().split('T')[0];
     if (!data.dailyStats || data.dailyStats.date !== today) {
       data.dailyStats = {
@@ -204,6 +206,12 @@ function savePosition(type, index) {
   var progress = loadProgress();
   if (type === 'learning') progress.currentWordIndex = index;
   if (type === 'flashcard') progress.flashcardIndex = index;
+  saveProgress(progress);
+}
+
+function incrementCompletionDays() {
+  var progress = loadProgress();
+  progress.completionDays = (progress.completionDays || 0) + 1;
   saveProgress(progress);
 }
 
