@@ -1,4 +1,4 @@
-const CACHE_NAME = 'meowvocab-v3';
+const CACHE_NAME = 'meowvocab-v4';
 
 const PRECACHE_URLS = [
   '.',
@@ -35,20 +35,27 @@ self.addEventListener('activate', event => {
 });
 
 self.addEventListener('fetch', event => {
-  if (event.request.destination === 'document') {
+  var url = event.request.url;
+  var dest = event.request.destination;
+
+  // Network-first for HTML, JS, CSS — always get latest
+  if (dest === 'document' || dest === 'script' || dest === 'style') {
     event.respondWith(
       fetch(event.request)
-        .then(response => {
-          const clone = response.clone();
-          caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+        .then(function(response) {
+          var clone = response.clone();
+          caches.open(CACHE_NAME).then(function(cache) { cache.put(event.request, clone); });
           return response;
         })
-        .catch(() => caches.match(event.request))
+        .catch(function() {
+          return caches.match(event.request);
+        })
     );
   } else {
+    // Cache-first for images, fonts, etc.
     event.respondWith(
       caches.match(event.request)
-        .then(cached => cached || fetch(event.request))
+        .then(function(cached) { return cached || fetch(event.request); })
     );
   }
 });

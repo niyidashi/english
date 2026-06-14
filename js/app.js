@@ -175,7 +175,7 @@ function markLearnWord(status) {
 
   if (status === 'known') {
     updateWordStatus(word.id, 'known', dateAddDays(today, 7), 7);
-    incrementDailyStat('learningKnown');
+    incrementDailyStat('learningKnown', word.id);
     // Remove from in-memory queue
     learningQueue.splice(currentWordIndex, 1);
     if (learningQueue.length === 0) currentWordIndex = 0;
@@ -183,7 +183,7 @@ function markLearnWord(status) {
     savePosition('learning', currentWordIndex);
   } else {
     updateWordStatus(word.id, 'unknown', dateAddDays(today, 1), 1);
-    incrementDailyStat('learningUnknown');
+    incrementDailyStat('learningUnknown', word.id);
     // Move current word to end of queue
     learningQueue.push(learningQueue.splice(currentWordIndex, 1)[0]);
     // currentWordIndex stays the same — it now points to the next word

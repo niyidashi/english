@@ -82,13 +82,13 @@
     <!-- Panel 3: Progress Page -->
     <section id="panel-progress" class="panel">
       <div style="background:var(--white);border:1px solid var(--border-pink);border-radius:var(--radius-md);padding:12px;margin-bottom:12px">
-        <div style="font-size:12px;font-weight:700;color:var(--text-deep);margin-bottom:8px">📖 今日学习</div>
+        <div style="font-size:12px;font-weight:700;color:var(--text-deep);margin-bottom:8px">📖 今日学习（点击查看单词）</div>
         <div style="display:flex;gap:10px">
-          <div class="stat-card" style="flex:1">
+          <div class="stat-card" style="flex:1;cursor:pointer" onclick="showWordList('learningKnown', '✅ 认识')">
             <div class="stat-value" id="stat-learn-known" style="color:#059669">0</div>
             <div class="stat-label">✅ 认识</div>
           </div>
-          <div class="stat-card" style="flex:1">
+          <div class="stat-card" style="flex:1;cursor:pointer" onclick="showWordList('learningUnknown', '❌ 不认识')">
             <div class="stat-value" id="stat-learn-unknown" style="color:var(--deep-pink)">0</div>
             <div class="stat-label">❌ 不认识</div>
           </div>
@@ -96,20 +96,29 @@
       </div>
 
       <div style="background:var(--white);border:1px solid var(--border-pink);border-radius:var(--radius-md);padding:12px;margin-bottom:12px">
-        <div style="font-size:12px;font-weight:700;color:var(--text-deep);margin-bottom:8px">🃏 闪卡复习</div>
+        <div style="font-size:12px;font-weight:700;color:var(--text-deep);margin-bottom:8px">🃏 闪卡复习（点击查看单词）</div>
         <div style="display:flex;gap:10px">
-          <div class="stat-card" style="flex:1">
+          <div class="stat-card" style="flex:1;cursor:pointer" onclick="showWordList('flashcardKnown', '✅ 掌握')">
             <div class="stat-value" id="stat-fc-known" style="color:#059669">0</div>
             <div class="stat-label">✅ 掌握</div>
           </div>
-          <div class="stat-card" style="flex:1">
+          <div class="stat-card" style="flex:1;cursor:pointer" onclick="showWordList('flashcardFuzzy', '💗 模糊')">
             <div class="stat-value" id="stat-fc-fuzzy" style="color:#D97706">0</div>
             <div class="stat-label">💗 模糊</div>
           </div>
-          <div class="stat-card" style="flex:1">
+          <div class="stat-card" style="flex:1;cursor:pointer" onclick="showWordList('flashcardUnknown', '🤍 不熟')">
             <div class="stat-value" id="stat-fc-unknown" style="color:var(--deep-pink)">0</div>
             <div class="stat-label">🤍 不熟</div>
           </div>
+        </div>
+      </div>
+
+      <!-- Word List Modal -->
+      <div id="wordlist-modal" class="modal-overlay" style="display:none">
+        <div class="modal" style="max-height:70vh;overflow-y:auto;width:90vw">
+          <h3 id="wordlist-title">单词列表</h3>
+          <div id="wordlist-content" style="text-align:left;font-size:13px;line-height:2"></div>
+          <button onclick="document.getElementById('wordlist-modal').style.display='none'" class="btn btn-primary" style="margin-top:12px">关闭</button>
         </div>
       </div>
 
@@ -237,6 +246,30 @@
 <script src="js/flashcard.js"></script>
 <script src="js/app.js"></script>
 <script>
+function showWordList(category, title) {
+  var stats = getDailyStats();
+  var idKey = category + 'Ids';
+  var ids = stats[idKey] || [];
+  var words = getWordsByIds(ids);
+  var modal = document.getElementById('wordlist-modal');
+  var titleEl = document.getElementById('wordlist-title');
+  var contentEl = document.getElementById('wordlist-content');
+  titleEl.textContent = title + ' · ' + words.length + ' 词';
+  if (words.length === 0) {
+    contentEl.innerHTML = '<p style="text-align:center;color:var(--text-medium)">暂无单词</p>';
+  } else {
+    var html = '';
+    words.forEach(function(w) {
+      html += '<div style="padding:6px 0;border-bottom:1px solid var(--bg-light-pink)"><strong>' + w.en + '</strong> <span style="color:var(--deep-pink)">' + w.pos + '</span> <span style="color:var(--text-medium)">' + (w.zh || '') + '</span></div>';
+    });
+    contentEl.innerHTML = html;
+  }
+  modal.style.display = 'flex';
+}
+document.getElementById('wordlist-modal').addEventListener('click', function(e) {
+  if (e.target === e.currentTarget) this.style.display = 'none';
+});
+
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js')
     .then(function(reg) { console.log('[SW] Registered:', reg.scope); })

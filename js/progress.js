@@ -17,11 +17,11 @@ function createDefaultProgress() {
     flashcardIndex: 0,
     dailyStats: {
       date: today,
-      learningKnown: 0,
-      learningUnknown: 0,
-      flashcardKnown: 0,
-      flashcardFuzzy: 0,
-      flashcardUnknown: 0
+      learningKnown: 0,      learningKnownIds: [],
+      learningUnknown: 0,    learningUnknownIds: [],
+      flashcardKnown: 0,     flashcardKnownIds: [],
+      flashcardFuzzy: 0,     flashcardFuzzyIds: [],
+      flashcardUnknown: 0,   flashcardUnknownIds: []
     },
     settings: {
       fontSize: 'medium',
@@ -36,23 +36,29 @@ function loadProgress() {
     var raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return createDefaultProgress();
     var data = JSON.parse(raw);
-    // ensure all words exist
     WORDS.forEach(function(w) {
       if (!(w.id in data.words)) data.words[w.id] = 'unknown';
     });
-    // ensure new fields exist
     if (!data.currentWordIndex) data.currentWordIndex = 0;
     if (!data.flashcardIndex) data.flashcardIndex = 0;
     var today = new Date().toISOString().split('T')[0];
     if (!data.dailyStats || data.dailyStats.date !== today) {
       data.dailyStats = {
         date: today,
-        learningKnown: 0,
-        learningUnknown: 0,
-        flashcardKnown: 0,
-        flashcardFuzzy: 0,
-        flashcardUnknown: 0
+        learningKnown: 0,      learningKnownIds: [],
+        learningUnknown: 0,    learningUnknownIds: [],
+        flashcardKnown: 0,     flashcardKnownIds: [],
+        flashcardFuzzy: 0,     flashcardFuzzyIds: [],
+        flashcardUnknown: 0,   flashcardUnknownIds: []
       };
+    } else {
+      // ensure ID arrays exist (migration)
+      var ds = data.dailyStats;
+      if (!ds.learningKnownIds) ds.learningKnownIds = [];
+      if (!ds.learningUnknownIds) ds.learningUnknownIds = [];
+      if (!ds.flashcardKnownIds) ds.flashcardKnownIds = [];
+      if (!ds.flashcardFuzzyIds) ds.flashcardFuzzyIds = [];
+      if (!ds.flashcardUnknownIds) ds.flashcardUnknownIds = [];
     }
     if (!data.settings.dailyLimit) data.settings.dailyLimit = 100;
     return data;
@@ -91,7 +97,14 @@ function updateWordStatus(wordId, status, nextReview, reviewInterval) {
     var yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
     progress.streakDays = (progress.lastOpened === yesterday) ? progress.streakDays + 1 : 1;
     progress.lastOpened = today;
-    progress.dailyStats = { date: today, learningKnown: 0, learningUnknown: 0, flashcardKnown: 0, flashcardFuzzy: 0, flashcardUnknown: 0 };
+    progress.dailyStats = {
+      date: today,
+      learningKnown: 0,      learningKnownIds: [],
+      learningUnknown: 0,    learningUnknownIds: [],
+      flashcardKnown: 0,     flashcardKnownIds: [],
+      flashcardFuzzy: 0,     flashcardFuzzyIds: [],
+      flashcardUnknown: 0,   flashcardUnknownIds: []
+    };
   }
   saveProgress(progress);
   return progress;
@@ -105,14 +118,25 @@ function getWordData(wordId) {
   return { status: 'unknown', nextReview: null, reviewInterval: 0 };
 }
 
-function incrementDailyStat(category) {
+function incrementDailyStat(category, wordId) {
   var progress = loadProgress();
   progress.dailyStats[category] = (progress.dailyStats[category] || 0) + 1;
+  var idKey = category + 'Ids';
+  if (progress.dailyStats[idKey] && wordId !== undefined) {
+    if (progress.dailyStats[idKey].indexOf(wordId) === -1) {
+      progress.dailyStats[idKey].push(wordId);
+    }
+  }
   saveProgress(progress);
 }
 
 function getDailyStats() {
   return loadProgress().dailyStats;
+}
+
+function getWordsByIds(ids) {
+  if (!ids || ids.length === 0) return [];
+  return WORDS.filter(function(w) { return ids.indexOf(w.id) !== -1; });
 }
 
 function getTodayLearningCount() {

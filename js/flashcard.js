@@ -84,7 +84,7 @@ document.getElementById('btn-fc-known').addEventListener('click', function() {
   var word = fcWords[fcIndex];
   var today = new Date().toISOString().split('T')[0];
   updateWordStatus(word.id, 'mastered', dateAddDays(today, 7), 7);
-  incrementDailyStat('flashcardKnown');
+  incrementDailyStat('flashcardKnown', word.id);
   showToast('🎀 已掌握！7天后复习');
   // Remove from pool
   fcWords.splice(fcIndex, 1);
@@ -104,7 +104,7 @@ document.getElementById('btn-fc-fuzzy').addEventListener('click', function() {
   var word = fcWords[fcIndex];
   var today = new Date().toISOString().split('T')[0];
   updateWordStatus(word.id, 'fuzzy', dateAddDays(today, 3), 3);
-  incrementDailyStat('flashcardFuzzy');
+  incrementDailyStat('flashcardFuzzy', word.id);
   showToast('💗 标记模糊，放到后面再练');
   // Move to end of queue
   var moved = fcWords.splice(fcIndex, 1)[0];
@@ -119,7 +119,7 @@ document.getElementById('btn-fc-unknown').addEventListener('click', function() {
   if (fcWords.length === 0) return;
   var word = fcWords[fcIndex];
   updateWordStatus(word.id, 'unknown');
-  incrementDailyStat('flashcardUnknown');
+  incrementDailyStat('flashcardUnknown', word.id);
   showToast('🤍 不认识，放到最后再练');
   // Move to end of queue
   var moved = fcWords.splice(fcIndex, 1)[0];
